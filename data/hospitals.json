@@ -1,0 +1,2203 @@
+[
+  {
+    "hospital_name": "Abubakar Tafawa Balewa University Teaching Hospital",
+    "location": {
+      "address": "8RQ9+H43, Hospital Road off, Yandoka Rd, 740101, Bauchi",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [
+        "09043608006",
+        "07099975770",
+        "08033218730",
+        "08095962967",
+        "08099999999",
+        "07067076000",
+        "08166697912",
+        "08122334455",
+        "07032687719",
+        "08066274347",
+        "08032502560",
+        "08064888588",
+        "07037898681",
+        "08166180394",
+        "07067049070",
+        "09037383223",
+        "08067068973",
+        "08036787586",
+        "08035832180",
+        "08128430326",
+        "07089406101",
+        "09076352447",
+        "07084032557",
+        "08133214432",
+        "07038953903",
+        "07030077730",
+        "07069300113",
+        "09057291244"
+      ],
+      "email": [
+        "pro@atbuth.gov.ngpro",
+        "icu@atbuth.gov.ng",
+        "abubakar.m.jari@atbuth.gov.ng",
+        "usman.muhammed.nasir@atbuth.gov.ng",
+        "sani.suleiman.bara@atbuth.gov.ng",
+        "ibrahim.salim.abdullahi@atbuth.gov.ng",
+        "mohammed.bashar.rabiu@atbuth.gov.ng",
+        "yusuf.rayyan.rabiu@atbuth.gov.ng",
+        "isah.bashir.ibrahim@atbuth.gov.ng",
+        "aliyu.bashir.adamu@atbuth.gov.ng",
+        "aliyubashiradamu808@gmail.com",
+        "chemical.pathology@atbuth.gov.ng",
+        "maryam.haruna.zakari@atbuth.gov.ng",
+        "umar.dauda@atbuth.gov.ng",
+        "salisu.muhammad.ismail@atbuth.gov.ng",
+        "hamisu.abbas@atbuth.gov.ng",
+        "maryam.sani@atbuth.gov.ng",
+        "bawa.ibrahim.abubakar@atbuth.gov.ng",
+        "ominyianaegbu@gmail.com",
+        "harissalis@atbu.edu.ng",
+        "abubakarbawa22@gmail.com",
+        "community.medicine@atbuth.gov.ng",
+        "amina.mohammed@atbuth.gov.ng",
+        "abuhafsat0019@gmail.com",
+        "pauk.peter@atbuth.gov.ng",
+        "zainab.jibril@atbuth.gov.ng",
+        "aisha.umar.muhammad@atbuth.gov.ng",
+        "sadiq.abubakar@atbuth.gov.ng",
+        "sani.abudulkarim@atbuth.gov.ng",
+        "kamal27ahmed@gmail.com",
+        "aishayusuf351@gmail.com",
+        "aishaumarm7@gmail.com",
+        "saeedumardambam9@gmail.com",
+        "muazuzainab1990@gmail.com",
+        "tijjaniabdudambam@gmail.com",
+        "amina@atbu.edu.ng",
+        "zbjibrin@gmail.com",
+        "dental.maxilliofacal@atbuth.gov.ng",
+        "shahabuddeenibrahim1@gmail.com",
+        "taiye.izegaegbe@atbuth.gov.ng",
+        "boko.halidu@atbuth.gov.ng",
+        "safiyanu.muhammad@atbuth.gov.ng",
+        "chukwudi.nweke@atbuth.gov.ng",
+        "mohamed.haliru@atbuth.gov.ng",
+        "auwal.hassan@atbuth.gov.ng",
+        "mina@gmail.com",
+        "ahmadaminu2557@gmail.com",
+        "mssaidu32@gmail.com",
+        "hajarabm92@gmail.com",
+        "tizegs2@yahoo.com",
+        "ent@atbuth.gov.ng",
+        "second@gmail.com",
+        "weeknd@gmail.com",
+        "abdullahi.kirfi@atbuth.gov.ng",
+        "auwal.kirfi@atbuth.gov.ng",
+        "zainab.musa.a@atbuth.gov.ng",
+        "daharat.haseem@atbuth.gov.ng",
+        "daharathasheem@gmail.com"
+      ],
+      "website": "https://www.atbuth.gov.ng/",
+      "social_media": {
+        "youtube": "https://www.youtube.com/channel/UC24SX1SseH2CaiDwmK0iRPw"
+      }
+    },
+    "services": [
+      "Location Address",
+      "Anaesthesia"
+    ],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [
+        "ICU",
+        "Laboratory",
+        "Pharmacy",
+        "Radiology",
+        "Emergency"
+      ],
+      "insurance": [
+        "nhis"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "teaching",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "Ahmadu Bello University Teaching Hospital",
+    "location": {
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [
+        "08071455223",
+        "07081750333"
+      ],
+      "email": [
+        "info@abuth.gov.ng",
+        "cmd@abuth.gov.ng",
+        "cmac@abuth.gov.ng"
+      ],
+      "website": "https://abuth.gov.ng/",
+      "social_media": {
+        "twitter": "https://htmlcodex.com"
+      }
+    },
+    "services": [
+      "Surgery",
+      "Medicine",
+      "Obsterics & Gynaecology",
+      "Haematology",
+      "Radiotheray & Oncology",
+      "Health Information Management",
+      "Maxillo Facial Surgery",
+      "Pathology",
+      "Traumatic & Orthopae",
+      "Opthalmology",
+      "Radiology",
+      "Community Medicine",
+      "Family Medicine",
+      "Physiotherapy",
+      "Chemical Pathology",
+      "Paediatrics",
+      "Psychiatry",
+      "Medical Microbiology",
+      "Get In Touch",
+      "Popular Links",
+      "Newsletter"
+    ],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [
+        "Radiology",
+        "MRI"
+      ],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "teaching",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "Alex Ekwueme Federal Teaching Hospital",
+    "location": {
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [],
+      "email": [
+        "enquiries@aefutha.gov.ng"
+      ],
+      "website": "https://www.aefutha.gov.ng",
+      "social_media": {
+        "facebook": "https://www.facebook.com/aefutha",
+        "whatsapp": "https://wa.me/2347036088036",
+        "twitter": "https://www.twitter.com/aefutha",
+        "instagram": "https://www.instagram.com/aefuthapage",
+        "youtube": "https://www.youtube.com/aefutha"
+      }
+    },
+    "services": [],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [
+        "Dialysis",
+        "Laboratory",
+        "Radiology"
+      ],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "teaching",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "Aminu Kano Teaching Hospital",
+    "location": {
+      "address": "Close this module",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [
+        "08128929195",
+        "09048875201",
+        "09037357111"
+      ],
+      "email": [
+        "info@akth.gov.ng"
+      ],
+      "website": "https://akth.gov.ng",
+      "social_media": {
+        "linkedin": "https://www.linkedin.com/in/aminu-kano-teaching-hospital-b3b265406"
+      }
+    },
+    "services": [
+      "Home",
+      "About",
+      "Services",
+      "Staff",
+      "Schools",
+      "Contact",
+      "Application for Employment is closed"
+    ],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "teaching",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "David Umahi Federal University Teaching Hospital",
+    "location": {
+      "address": "UMUNAGU ENUAGU ROAD UBURU P.O.BOX 337",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [
+        "08158398323",
+        "08158256450"
+      ],
+      "email": [
+        "registry.cmd@dufuth.gov.ng"
+      ],
+      "website": "https://dufuthuburu.online",
+      "social_media": {
+        "instagram": "https://instagram.com/dumahifederalteachinghospital?igshid=YmMyMTA2M2Y=",
+        "facebook": "https://www.facebook.com/profile.php?id=100088865227093&mibextid=ZbWKwL",
+        "twitter": "https://twitter.com/dufuthospital/status/1575429032165908480?s=21&t=2tUJZ41xJ4uEEPVYes86Jw"
+      }
+    },
+    "services": [],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "teaching",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "Federal Teaching Hospital, Birnin Kebbi",
+    "location": {
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [
+        "07043133109"
+      ],
+      "email": [
+        "info@fmcbirninkebbi.gov.ng",
+        "md@fmcbirninkebbi.gov.ng",
+        "info@fmcbrininkebbi.gov.ng"
+      ],
+      "website": "https://fmcbirninkebbi.gov.ng",
+      "social_media": {
+        "facebook": "http://facebook.com",
+        "twitter": "https://twitter.com",
+        "youtube": "https://youtube.com"
+      }
+    },
+    "services": [],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [
+        "Radiology",
+        "Emergency",
+        "Laboratory",
+        "Pharmacy",
+        "Dialysis"
+      ],
+      "insurance": [
+        "nhis"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "teaching",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "Federal Teaching Hospital, Gombe",
+    "location": {
+      "address": "Address: Federal Teaching Hospital,Gombe State,Ashaka Road Rd, 620261, Gombe",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [],
+      "email": [
+        "cmd@fthgombe.gov.ng",
+        "cmd@hospital.com"
+      ],
+      "website": "https://fthgombe.gov.ng/",
+      "social_media": {
+        "facebook": "https://facebook.com/fthgombe",
+        "twitter": "https://twitter.com/fthgombe",
+        "instagram": "https://instagram.com/fthgombe"
+      }
+    },
+    "services": [
+      "Home",
+      "Vision & Mission",
+      "Historical Background",
+      "Management Board",
+      "Anesthesiaa",
+      "Dental Services",
+      "Emmergency",
+      "General Outpatient Department",
+      "Nursing Services",
+      "Obstetrics and Gynecology",
+      "Radiology",
+      "Administration",
+      "CMDS OFFICE",
+      "Engineering",
+      "Finance and Supply",
+      "ICT Department",
+      "School of Dispensing Opticianry",
+      "College of Nursing Science",
+      "College of Community Health Programme",
+      "School of Health Information Science Mang",
+      "Appointments Book Appointment",
+      "Book Appointment",
+      "Staff Staff E-mail Staff Payslip",
+      "Staff E-mail",
+      "Staff Payslip",
+      "Research",
+      "News",
+      "Resources Tenders Announcements Publications Annual Reports",
+      "Tenders",
+      "Announcements"
+    ],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [
+        "Radiology",
+        "Emergency",
+        "MRI"
+      ],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "accredited"
+      ]
+    },
+    "hospital_type": "teaching",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "Federal Teaching Hospital, Ido-Ekiti",
+    "location": {
+      "address": "PMB, 201, Oke Bareke, Off Ifaki Road, Ido-Ekiti, Ekiti State. Nigeria.",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [
+        "09121502820"
+      ],
+      "email": [
+        "usinfo@fethi.gov.ngcall"
+      ],
+      "website": "https://fethi.gov.ng/",
+      "social_media": {
+        "facebook": "https://www.facebook.com/officialfethi",
+        "twitter": "https://x.com/officialfethi",
+        "linkedin": "https://www.linkedin.com/groups/8964725/"
+      }
+    },
+    "services": [
+      "About",
+      "DepartmentsClinicalNon-Clinical",
+      "Find-a-Doctor",
+      "NewsMedical NewsEvent and OutreachHospital Grand Round",
+      "Management TeamTMCHMC",
+      "ContactBook AppointmentContact UsAdmin Portal",
+      "Clinical",
+      "Non-Clinical",
+      "Medical News",
+      "Event and Outreach",
+      "Hospital Grand Round",
+      "Book Appointment",
+      "Contact Us",
+      "Admin Portal",
+      "Intensive Care Unit",
+      "Cardiology",
+      "Surgery",
+      "Pharmacy",
+      "Physiotherapy",
+      "SOPD (Specialist Outpatient Department)",
+      "GOPD",
+      "Laboratory",
+      "Accident and Emergency",
+      "Renal",
+      "ICT (Information & Communication Technology)",
+      "Quick Links",
+      "Key Departments",
+      "24/7 monitoring and specialist nursing care",
+      "Ventilator and life support equipment",
+      "Restricted visiting hours to protect patient recovery",
+      "Cardiac consultations and follow-up care",
+      "ECG and echocardiogram services",
+      "Management of hypertension and related conditions",
+      "Pre-surgical cardiac evaluation",
+      "General and specialist surgical procedures",
+      "Emergency surgery",
+      "Pre-operative assessment and planning",
+      "Post-operative care and recovery monitoring"
+    ],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [
+        "Ambulance",
+        "Emergency",
+        "Dialysis",
+        "Pharmacy",
+        "ICU"
+      ],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "accredited"
+      ]
+    },
+    "hospital_type": "teaching",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "Federal Teaching Hospital, Katsina",
+    "location": {
+      "address": "Murtala Muhd Way Jibia bypass Katsina, Katsina State Nigeria",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [],
+      "email": [
+        "medilink@gmail.com",
+        "info@gmail.com",
+        "info@fthkatsina.gov.ng"
+      ],
+      "website": "https://fthkatsina.gov.ng/",
+      "social_media": {}
+    },
+    "services": [
+      "Murtala Muhd Way Jibia bypass Katsina, Katsina State Nigeria",
+      "any question: 12388448800",
+      "info@fthkatsina.gov.ng",
+      "Mon - Fri: 9.00am - 11.00pm",
+      "Appointment",
+      "Doctors 1",
+      "Doctors 2",
+      "Doctors 3",
+      "Doctors 4",
+      "Doctors 5",
+      "Doctors Search",
+      "Doctors Filter",
+      "Doctor Details",
+      "Departments 1",
+      "Departments 2",
+      "Departments 3",
+      "Departments 4",
+      "Departments 5",
+      "Departments 6",
+      "Departments 7",
+      "Department Detail",
+      "Faq’s",
+      "Appointment Form",
+      "Pricing Plan",
+      "Typography",
+      "404 Page",
+      "Shop My account Checkout Cart",
+      "My account"
+    ],
+    "info": {
+      "hours": "09:00 - 10:00",
+      "facilities": [
+        "Emergency"
+      ],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "teaching",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "Federal Teaching Hospital, Lokoja",
+    "location": {
+      "address": "No. 1, Saliu Ibrahim way, PMB 1001, Lokoja, Kogi State.",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [
+        "08050312534"
+      ],
+      "email": [
+        "info@fthlokoja.gov.ng",
+        "state.info@fthlokoja.gov.ng08050312534abouthistoryhospital",
+        "state.info@fthlokoja.gov.ng08050312534federal"
+      ],
+      "website": "https://fthlokoja.gov.ng/",
+      "social_media": {
+        "facebook": "https://facebook.com/fthlokoja?_rdc=1&_rdr",
+        "instagram": "https://instagram.com/fthlokoja"
+      }
+    },
+    "services": [
+      "About FTH Lokoja",
+      "History",
+      "Structure",
+      "Top Management Committee",
+      "Hospital Facilities",
+      "Statistics",
+      "Achievements",
+      "Developments in the hospital",
+      "Articles",
+      "Galleries",
+      "Videos",
+      "Donations",
+      "Research",
+      "Anaesthesiology and Intensive Care",
+      "Accident and Emergency",
+      "Administration",
+      "Biomedical Unit",
+      "Community Health",
+      "Chemical Pathology",
+      "Clinical Microbiology",
+      "Dental and Maxillofacial surgery",
+      "Family Medicine",
+      "Finance and Accounts",
+      "Histopathology and Morbid Anatomy",
+      "Haematology and Blood Transfusion",
+      "Health Records",
+      "Housing Unit",
+      "Internal Medicine",
+      "NHIA FMC, Lokoja",
+      "Nursing Services"
+    ],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [
+        "Laboratory",
+        "Radiology",
+        "Emergency",
+        "ICU",
+        "Dialysis",
+        "Pharmacy",
+        "Theatre"
+      ],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "teaching",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "Federal University of Health Sciences Teaching Hospital, Ila-Orangun",
+    "location": {
+      "address": "KM 4, Ora Road, P.M.B. 228,Ila-Orangun, Osun State.",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [
+        "08035019361",
+        "08033593683",
+        "08039401201",
+        "08164200542"
+      ],
+      "email": [
+        "9361info@fuhsith.com.ngcheck",
+        "addressinfo@fuhsthi.com.ng",
+        "usinfo@fuhsthi.com.ngsupport",
+        "zuleihatyusuf74@gmail.com"
+      ],
+      "website": "https://www.fuhsthi.com.ng/",
+      "social_media": {
+        "facebook": "https://www.facebook.com/share/1KrtGFJDGn/?mibextid=wwXIfr",
+        "twitter": "https://twitter.com/fuhsith",
+        "instagram": "https://instagram.com/fuhsith"
+      }
+    },
+    "services": [
+      "Alhaji Okanlawon Sefiu",
+      "Zuleihat Yusuf",
+      "Adegboyega Ridwan Adebowale",
+      "Dr. Ogunrinde Ibrahim Akinola, DPT",
+      "Ogunleye Kazeem Abiola",
+      "Hajia Folake Saidat Bello",
+      "Olokede, Victoria Jesutofunmi",
+      "Aderemi, Adejoke Deborah",
+      "Bolanle Titus Omoboye",
+      "Engr. Ogunmodede, Rafiu Oyaniyi",
+      "Abe Iyanuoluwa Hannah",
+      "Ajayi Paul Iyanuoluwa",
+      "Dr. Ayeni Abidemi Ibironke",
+      "Dr. Name Available Soon",
+      "Key Units",
+      "Clinic Schedule",
+      "MondayCardiology Clinic8:00 AM",
+      "TuesdayEndocrine Clinic8:00 AM",
+      "WednesdayGastroenterology9:00 AM",
+      "ThursdayGeneral Medicine8:00 AM",
+      "FridayNephrology Clinic8:00 AM",
+      "Need a Consultation?",
+      "Federal University of Health Sciences",
+      "Quick Links",
+      "About Us",
+      "Find a Doctor",
+      "Appointments",
+      "News & Events",
+      "Careers",
+      "Departments",
+      "Internal Medicine",
+      "Surgery",
+      "Pediatrics",
+      "Obstetrics & Gynaecology",
+      "Radiology",
+      "Laboratory Services",
+      "Contact Us",
+      "Our Location",
+      "Phone Number",
+      "Email Address",
+      "Patient Rights",
+      "Grievance Mechanism",
+      "Related Documents",
+      "Patient Bill of Rights",
+      "Servicom Handbook",
+      "Career Objective",
+      "Education",
+      "Professional Experience",
+      "Skills & Competencies",
+      "Interests"
+    ],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [
+        "Laboratory",
+        "Radiology",
+        "Blood bank"
+      ],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "teaching",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "Federal University of Health Sciences Teaching Hospital, Otukpo",
+    "location": {
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [],
+      "email": [],
+      "website": "https://fuhstho.gov.ng/",
+      "social_media": {}
+    },
+    "services": [],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "teaching",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "Federal University Teaching Hospital, Lafia",
+    "location": {
+      "address": "PMB 07, Lafia, Nasarawa State.",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [
+        "08151238986",
+        "09129739707"
+      ],
+      "email": [
+        "admin@fulth.gov.ng"
+      ],
+      "website": "https://fulth.gov.ng/",
+      "social_media": {
+        "twitter": "https://www.twitter.com/",
+        "facebook": "https://www.facebook.com/",
+        "linkedin": "https://www.linkedin.com/",
+        "youtube": "https://youtube.com/",
+        "instagram": "https://instagram.com/"
+      }
+    },
+    "services": [],
+    "info": {
+      "hours": "00:00 - 23:59",
+      "facilities": [
+        "Laboratory",
+        "Pharmacy",
+        "Radiology",
+        "MRI",
+        "Emergency"
+      ],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "teaching",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "Federal University Teaching Hospital, Owerri",
+    "location": {
+      "address": "105 Hospital Road, Orlu Rd, Owerri 460281, Imo State, Nigeria.",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [
+        "09095884734"
+      ],
+      "email": [
+        "info@fthowerri.gov.ng"
+      ],
+      "website": "https://fthowerri.gov.ng",
+      "social_media": {
+        "facebook": "https://web.facebook.com/futhowerri",
+        "twitter": "https://x.com/futhowerri"
+      }
+    },
+    "services": [
+      "Dental",
+      "Department Overview",
+      "Our Consultants",
+      "Department: Dental & Maxillofacial",
+      "Unit: Dental & Maxillofacial",
+      "Department: Restorative Dentistry",
+      "Unit: Restorative Dentistry",
+      "Our Services",
+      "Advanced Techniques",
+      "Patient-Focused Care",
+      "Our Commitment to Oral Health Excellence",
+      "Family Medicine",
+      "Fellowship Year: 2017",
+      "Speciality: Family Medicine",
+      "Interests: Lifestyle Medicine",
+      "Fellowship Year: 2013",
+      "Interests: Maternal and Child Care",
+      "Fellowship Year: 2011",
+      "Speciality: Geriatrics",
+      "Interests: Adolescent Health",
+      "Fellowship Year: FMCFM 2007, FWACP 2008",
+      "Fellowship Year: 2012",
+      "Fellowship Year: 2020",
+      "Interests: Adolescent/Sexual Health, Lifestyle Medicine",
+      "Fellowship Year: 2008",
+      "Interests: Palliative Care, Public Health",
+      "Fellowship Year: 2023",
+      "Interests: Emergency/Acute Care Medicine",
+      "Fellowship Year: November 2017",
+      "Ophthalmology",
+      "Fellowship Year: 2003",
+      "Speciality: Comprehensive Ophthalmology",
+      "Interests: Glaucoma, Low Vision",
+      "Fellowship Year: 2007",
+      "Speciality: Comprehensive Ophthalmology, Vitreoretina",
+      "Interests: Public Health, Clinical Research, Clinical Trials",
+      "Speciality: Glaucoma",
+      "Fellowship Year: 2017 (FMCOphth), 2018 (FWACS)",
+      "Fellowship Year: 2014",
+      "Speciality: Community Ophthalmology",
+      "Fellowship Year: 2022",
+      "Interests: Digital Health, AI, Translational Research",
+      "Interests: Oculoplasty",
+      "Excellence in Eye Care",
+      "Patient-Centered Approach",
+      "Our Commitment to Vision Health",
+      "Otorhinolaryngology (ENT)",
+      "Fellowship Year: 2004",
+      "Speciality: Otorhinolaryngology",
+      "Fellowship Year: 2021",
+      "Speciality: Otology, Endoscopic ENT",
+      "Speciality: Rhinology and Skull Base",
+      "Fellowship Year: 2024",
+      "Speciality: Otology",
+      "Advanced Technology",
+      "Multidisciplinary Care",
+      "Our Commitment to ENT Excellence",
+      "Orthopaedics",
+      "Speciality: Arthroplasty",
+      "Other Interests: Sports Medicine",
+      "Speciality: Trauma",
+      "Other Interests: Arthroplasty",
+      "Speciality: Paediatric Orthopaedic and General Orthopaedic",
+      "Other Interests: Minimal Access Orthopaedic Surgery",
+      "Fellowship Year: 1994",
+      "Speciality: General Orthopaedics",
+      "Fellowship Year: 2005",
+      "Speciality: General Orthopaedics, Trauma and Spine",
+      "Other Interests: Arthroplasty, Limb Reconstruction",
+      "Fellowship Year: 2010",
+      "Speciality: Trauma, Oncology, Limb Reconstruction",
+      "Our Commitment to Orthopaedic Excellence"
+    ],
+    "info": {
+      "hours": "00:00 - 23:59",
+      "facilities": [
+        "Dialysis",
+        "Emergency",
+        "Laboratory",
+        "Pharmacy",
+        "Radiology"
+      ],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "teaching",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "Federal University Teaching Hospital, Wukari",
+    "location": {
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [],
+      "email": [],
+      "website": "https://www.futhw.org/",
+      "social_media": {}
+    },
+    "services": [],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "teaching",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "Irrua Specialist Teaching Hospital",
+    "location": {
+      "address": "CALL: +234 816 946 4623 - EMAIL: info@isth.org.ng - ADDRESS: KM 87, Benin Auchi Road, P.M.B. 08, Irrua, Edo state, Nigeria",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [
+        "08169464623",
+        "08058066677",
+        "08058065577"
+      ],
+      "email": [
+        "info@isth.org.ng"
+      ],
+      "website": "https://isth.org.ng/",
+      "social_media": {
+        "facebook": "https://web.facebook.com/profile.php?id=61577983487350",
+        "twitter": "https://x.com/isthng_irrua",
+        "youtube": "https://www.youtube.com/channel/UCL3dLVdZ0Ns4kzvxdI6ZMTQ",
+        "linkedin": "http://www.linkedin.com/in/isthng-irrua",
+        "instagram": "https://www.instagram.com/isthirrua/"
+      }
+    },
+    "services": [
+      "Home",
+      "About + About Us Management",
+      "About Us",
+      "Management",
+      "Community Medicine",
+      "Surgery",
+      "Paediatrics",
+      "Ophthalmology",
+      "Dental Services (Oral Diagnosis Unit)",
+      "Anaesthesia",
+      "Nursing Service",
+      "Obstetrics and Gynaecology",
+      "Family Medicine",
+      "Mental Health and Behavioural Medicine",
+      "Radiology",
+      "Accident & Emergency",
+      "Anatomy Pathology",
+      "Physiotherapy",
+      "Internal Medicine",
+      "Hospice and Palliative Care Unit",
+      "Administrative",
+      "SERVICOM Department",
+      "NHIS Department",
+      "Pharmacy Department",
+      "Finance & Accounts",
+      "Laundry Services",
+      "Works",
+      "Stores",
+      "Kitchen Service",
+      "Chemical Pathology"
+    ],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [
+        "Pharmacy",
+        "Radiology",
+        "Emergency",
+        "Theatre",
+        "Laboratory"
+      ],
+      "insurance": [
+        "nhis"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "teaching",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "Jos University Teaching Hospital",
+    "location": {
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [
+        "09133838870"
+      ],
+      "email": [
+        "info@juth.gov.ng"
+      ],
+      "website": "https://juth.gov.ng/",
+      "social_media": {
+        "instagram": "https://www.instagram.com/juth_online/",
+        "facebook": "https://web.facebook.com/officialjuth",
+        "twitter": "https://x.com/juth_online",
+        "whatsapp": "https://api.whatsapp.com/send?phone=https://wa.me/+2348032850363"
+      }
+    },
+    "services": [
+      "Find a Doctor",
+      "Book an Appointment",
+      "Location",
+      "English",
+      "Home",
+      "The CMD",
+      "Brief History",
+      "Who We Are",
+      "Management",
+      "JUTH Comprehensive Health Centre, Zamko",
+      "JUTH Comprehensive Health Center Gindiri",
+      "Heads of Departments",
+      "Departments",
+      "School of Health Information Management (SHIM)",
+      "Research & Development",
+      "Milestones Menu Toggle Awards Achievements Events",
+      "Awards",
+      "Achievements",
+      "Events",
+      "News",
+      "Contact Us Menu Toggle Location Internal Security",
+      "Internal Security",
+      "about"
+    ],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [
+        "ICU",
+        "Emergency"
+      ],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "teaching",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "Lagos University Teaching Hospital",
+    "location": {
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [
+        "08070591395",
+        "08023115885",
+        "09116564504",
+        "08122683334"
+      ],
+      "email": [],
+      "website": "https://luth.gov.ng/",
+      "social_media": {
+        "twitter": "https://twitter.com/luthofficialinf",
+        "youtube": "https://www.youtube.com/channel/UCsSW_ST7Iw3xDzU41SYHKkg",
+        "instagram": "https://www.instagram.com/luthofficialinfo/?hl=en%5C"
+      }
+    },
+    "services": [
+      "Home",
+      "AboutAbout UsHistoryStructure",
+      "About Us",
+      "History",
+      "Structure",
+      "Clinical Departments",
+      "Allied Clinical Departments",
+      "Non-Clinical Departments",
+      "Clinics & Clinic Days",
+      "Health Information",
+      "Patient Testimonials",
+      "Complaints - ServicomContact UsOur CharterClient's Access",
+      "Contact Us",
+      "Our Charter",
+      "Client's Access",
+      "2025 Latest News",
+      "Podcast",
+      "Videos",
+      "Event Archives",
+      "News Archives",
+      "Past Research",
+      "Research Grants",
+      "Ethics",
+      "Collaboration",
+      "LUTH Schools",
+      "Scientific Conferences",
+      "PolicyAMS PolicyLUTH Data Privacy Policy",
+      "AMS Policy",
+      "LUTH Data Privacy Policy",
+      "Schools"
+    ],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [
+        "Laboratory",
+        "Pharmacy",
+        "Dialysis",
+        "Radiology"
+      ],
+      "insurance": [
+        "hmo"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "teaching",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "Modibbo Adama University Teaching Hospital",
+    "location": {
+      "address": "Every Step of the Way.",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [
+        "08036516745",
+        "09066212056"
+      ],
+      "email": [
+        "info@mauth.gov.ng",
+        "physiotherapy.dept@mauth.gov.ng",
+        "physiotherapy@mauth.gov.ng",
+        "cmd.dept@mauth.gov.ng",
+        "cmd@mauthyola.gov.ng",
+        "contact@mauthyola.gov.ng",
+        "admin.dept@mauth.gov.ng",
+        "admin@mauthyola.gov.ng",
+        "financeandaccounts.dept@mauth.gov.ng",
+        "finance@mauthyola.gov.ng",
+        "worksandmaintenance.dept@mauth.gov.ng",
+        "works@mauthyola.gov.ng"
+      ],
+      "website": "https://mauth.gov.ng/",
+      "social_media": {
+        "twitter": "https://x.com/mauthyola",
+        "facebook": "https://www.facebook.com/mauteachinghospitalyola",
+        "instagram": "https://www.instagram.com/mauthyola"
+      }
+    },
+    "services": [
+      "Modibbo Adama University Teaching Hospital, Yola",
+      "Home",
+      "About Us",
+      "Divisions",
+      "Services",
+      "Notices",
+      "Downloads",
+      "Contact",
+      "Back",
+      "Rehabilitation",
+      "Patient Care",
+      "Education, Training, & Stakeholders’ Engagement",
+      "Performance Management & Staff Discipline",
+      "Research, Ethics, Statistics, & Publications",
+      "Core Clinical Services",
+      "Special Services",
+      "Allied Medical Rehabilitation Services",
+      "Musculoskeletal Rehabilitation",
+      "Neurological Rehabilitation",
+      "Cardiopulmonary Physiotherapy",
+      "Sports Injury Management",
+      "Paediatric Physiotherapy",
+      "Orthopaedic Rehabilitation",
+      "Physiotherapy Appointment Schedule",
+      "Exercise Therapy Awareness Programme",
+      "Continuing Professional Development Workshop",
+      "Patient Exercise Guide",
+      "Physiotherapy Referral Form",
+      "Treatment Progress Sheet",
+      "Rehabilitation Protocols",
+      "Units",
+      "Leadership",
+      "Excellence",
+      "Audit Unit",
+      "Information & Public Relations",
+      "Procurement Unit",
+      "Servicom Unit",
+      "ACTU Unit",
+      "Protocol Unit",
+      "Legal Unit",
+      "Clinical Leadership & Oversight",
+      "Healthcare Governance",
+      "Patient Care Coordination",
+      "Strategic Medical Planning",
+      "Medical Records & Reporting",
+      "Medical Staff Coordination",
+      "Medical Staff Credential Verification Exercise",
+      "Monthly Clinical Management Meeting",
+      "Digital Health Records Training for Clinical Staff",
+      "Clinical Governance Handbook",
+      "Medical Staff Leave Application Form",
+      "Clinical Duty Rota & Overtime Log",
+      "Efficiency",
+      "Integrity",
+      "General Administration",
+      "Human Resources",
+      "Establishment",
+      "Planning",
+      "Staff Welfare & HR",
+      "Corporate Governance",
+      "Facility Logistics",
+      "Strategic Planning",
+      "Registry Services",
+      "Industrial Relations",
+      "New Staff Verification Exercise 2024",
+      "Monthly Staff Welfare Meeting",
+      "Digital Skills Workshop for Registry Staff",
+      "Staff Handbook 2024",
+      "Leave Request Form",
+      "Overtime Claim Template",
+      "Procurement Policy",
+      "Contact Information",
+      "Send a Message",
+      "Accuracy",
+      "Accountability",
+      "Final Accounts Unit",
+      "Revenue Unit",
+      "Salaries & Payroll Unit",
+      "Expenditure Unit",
+      "Budget Unit",
+      "Central Pay Office",
+      "Financial Management & Control",
+      "Revenue Administration",
+      "Salaries & Payroll Management",
+      "Budget Planning & Monitoring",
+      "Final Accounts & Reporting",
+      "Central Pay Office Operations",
+      "Revenue Collection Reconciliation Exercise",
+      "Quarterly Budget Performance Review Meeting",
+      "Staff Salary Processing and Verification Exercise",
+      "Financial Regulations & Accounting Guidelines",
+      "Revenue Collection & Receipting Procedures",
+      "Budget Performance & Expenditure Report Template",
+      "Payroll Management & Salary Processing Manual",
+      "About",
+      "Maintenance",
+      "Engineering",
+      "Mechanical Engineering Division",
+      "Electrical Engineering Division",
+      "Civil Engineering Division",
+      "Facility Maintenance Services",
+      "Electrical & Power Systems",
+      "Mechanical Engineering Support",
+      "Project Planning & Supervision",
+      "Civil & Building Engineering",
+      "Technical & Utility Services",
+      "Routine Facility Maintenance Exercise",
+      "Electrical System Upgrade and Monitoring",
+      "Building Renovation and Repair Activities",
+      "Works & Maintenance Operational Guidelines",
+      "Facility Maintenance & Repair Procedures Manual",
+      "Infrastructure Monitoring & Works Reporting Template",
+      "Engineering Services & Maintenance Protocol Manual",
+      "Works & Maintenance Office Information",
+      "Send a Message to Works & Maintenance Department",
+      "Quick Links",
+      "Clinical Oversight",
+      "Patient Advocacy",
+      "Quality Assurance",
+      "Coordinating inpatient neurological monitoring.",
+      "Facilitating mental health intervention strategies.",
+      "Outpatient neurological diagnostic support.",
+      "Psychological counseling and mental wellness outreach.",
+      "Management of life-support systems.",
+      "Intensive bedside monitoring and emergency triage.",
+      "Emergency critical care response.",
+      "Specialized intensive recovery consultations.",
+      "Surgical and non-surgical musculoskeletal management.",
+      "Rehabilitation planning and joint care protocols.",
+      "Physical therapy and mobility restoration.",
+      "Orthopaedic corrective outpatient clinics.",
+      "Rapid response to accident-related trauma.",
+      "Stabilization and emergency medical interventions.",
+      "24/7 Emergency casualty admission.",
+      "Trauma stabilization counseling.",
+      "Child-specific healthcare administration.",
+      "Vaccination and neonatal care management.",
+      "Paediatric wellness and curative services.",
+      "Infant immunization and nutrition clinics.",
+      "Specialist gynecological and pelvic floor therapy.",
+      "Women’s health protocol compliance.",
+      "Reproductive and pelvic health consultation.",
+      "Women’s wellness diagnostic programs."
+    ],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [
+        "Dialysis",
+        "Laboratory",
+        "Pharmacy",
+        "Radiology",
+        "MRI",
+        "Emergency",
+        "ICU"
+      ],
+      "insurance": [
+        "nhis"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "teaching",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "National Hospital, Abuja",
+    "location": {
+      "address": "Plot 132, Central Business District, Abuja, Nigeria.",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [
+        "08097520012",
+        "09030097889",
+        "07065633018",
+        "08062556177"
+      ],
+      "email": [
+        "uscontact@nationalhospital.gov.ngvisit",
+        "contact@nationalhospital.gov.ng",
+        "servicom@nationalhospital.gov.ng",
+        "enquiriescontact@nationalhospital.gov.ng"
+      ],
+      "website": "https://nationalhospital.gov.ng/",
+      "social_media": {
+        "facebook": "https://web.facebook.com/NatHospAbj",
+        "twitter": "https://x.com/NatHospital_ABJ",
+        "instagram": "https://www.instagram.com/nathospital_abj/"
+      }
+    },
+    "services": [
+      "Search our care directory",
+      "We are here to help",
+      "Serving Nigeria from Abuja",
+      "A&E(General Surgery)",
+      "Anaesthesia",
+      "Anaesthesia Intensive Care",
+      "Cardio Thoracic Unit",
+      "Chemical Pathology",
+      "Dental and MFU",
+      "Dietetics",
+      "Family medicine",
+      "Haematology",
+      "Health Records",
+      "Histopathology",
+      "Infromation, Protocol and Management Department",
+      "Internal Medicine",
+      "Invitro Fertilization (IVF)",
+      "Library Services",
+      "Medical Microbiology",
+      "Medical Physics",
+      "Microbiology & Parasitology",
+      "National Trauma Centre NHA",
+      "Nuclear Medicine",
+      "Nursing Services",
+      "Obstetrics & Gynaecology",
+      "Oncology",
+      "Opthamology",
+      "Orthopaedics",
+      "Orthopedics & Trauma",
+      "Otorhinolaryngology/Head and Neck Surgery"
+    ],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [
+        "Radiology",
+        "Emergency",
+        "Pharmacy",
+        "ICU"
+      ],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "other",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "Nnamdi Azikiwe University Teaching Hospital",
+    "location": {
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [],
+      "email": [],
+      "website": "https://www.thenauth.org/",
+      "social_media": {}
+    },
+    "services": [],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [
+        "Pharmacy"
+      ],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "teaching",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "Obafemi Awolowo University Teaching Hospitals Complex",
+    "location": {
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [],
+      "email": [],
+      "website": "https://www.oauthc.gov.ng/",
+      "social_media": {}
+    },
+    "services": [],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "teaching",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "Rasheed Shekoni Teaching Hospital",
+    "location": {
+      "address": "Kiyawa Road dutse",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [],
+      "email": [
+        "info@rsfuth.gov.ngnavigationhomeabout"
+      ],
+      "website": "https://rsfuth.gov.ng/",
+      "social_media": {
+        "facebook": "https://www.facebook.com/",
+        "instagram": "https://www.instagram.com/"
+      }
+    },
+    "services": [],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [
+        "Laboratory",
+        "Pharmacy",
+        "Emergency"
+      ],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "teaching",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "University College Hospital, Ibadan",
+    "location": {
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [],
+      "email": [],
+      "website": "https://uch-ibadan.org.ng",
+      "social_media": {
+        "facebook": "https://www.facebook.com/TeePubliccom-865099700332026",
+        "instagram": "https://www.instagram.com/teepublic/",
+        "twitter": "https://twitter.com/TeePublic"
+      }
+    },
+    "services": [],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "other",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "University of Abuja Teaching Hospital",
+    "location": {
+      "address": "Gwagwalada, P.M.B. 228, Abuja NIGERIA",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [
+        "07040045614",
+        "08000001001"
+      ],
+      "email": [
+        "info@uath.gov.ng",
+        "admin@uath.gov.ng",
+        "cmd@uath.gov.ng"
+      ],
+      "website": "https://uath.gov.ng/",
+      "social_media": {}
+    },
+    "services": [
+      "HOME",
+      "ABOUT US",
+      "Board of Directors",
+      "Chief Medical Director",
+      "Chairman Medical Advisory Committee",
+      "Director of Administration",
+      "Department Heads",
+      "Departmental Profiles",
+      "NEWS",
+      "DOWNLOADs Bulletin Annual Report Service Charter",
+      "Bulletin",
+      "Annual Report",
+      "Service Charter",
+      "eFORMS",
+      "CONTACT US",
+      "Home",
+      "About Us",
+      "Management",
+      "Clinical Services",
+      "Patient Care",
+      "Administrative Services",
+      "Education & Training",
+      "Research",
+      "Community Services",
+      "QUICK LINKS",
+      "Administration",
+      "LIST OF ALL SERVICES PROVIDED BY THE DEPARTMENT",
+      "Appointment, Promotion and Discipline",
+      "Training, Education and staff Welfare, Industrial Relations",
+      "Records, Statistics and Documentation/Pension matters",
+      "Procurement",
+      "Anaesthesia & Intensive Care",
+      "Range of Services Rendered by the Department",
+      "Labour Analgesia",
+      "Central venous catheterization",
+      "Anaesthesia for specialized radiological procedures",
+      "Provision of Oxygen and related services",
+      "Monitoring of oxygen consumptions",
+      "Training of Doctors from other specialties",
+      "Regional Anaesthesia"
+    ],
+    "info": {
+      "hours": "08:00 - 16:00",
+      "facilities": [
+        "Laboratory",
+        "MRI",
+        "Emergency",
+        "Pharmacy",
+        "Radiology",
+        "CT scan",
+        "Theatre",
+        "ICU",
+        "Blood bank"
+      ],
+      "insurance": [
+        "nhis"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "teaching",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "University of Benin Teaching Hospital",
+    "location": {
+      "address": "UBTH Km 10, Benin -Lagos Express road Ugbowo Benin City",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [
+        "09133000051",
+        "09134000053",
+        "08140454483",
+        "09057493732"
+      ],
+      "email": [
+        "info@ubth.org",
+        "medsec.ubth@oncoclinicsafrica.com"
+      ],
+      "website": "https://ubth.org/",
+      "social_media": {
+        "facebook": "https://www.facebook.com/ubthng",
+        "twitter": "https://x.com/ubthng",
+        "instagram": "https://www.instagram.com/ubthng/",
+        "whatsapp": "https://wa.me/2349168373681"
+      }
+    },
+    "services": [
+      "HOME",
+      "ABOUT General Info Management Team FAQ Contact Us",
+      "General Info",
+      "Management Team",
+      "Contact Us",
+      "NEWS",
+      "PATIENTS & VISITORS Location & Directions Testimonials",
+      "Location & Directions",
+      "Testimonials",
+      "Medical Specialties",
+      "Surgical Specialties",
+      "Obstetrics & Gynaecology Specialties",
+      "Paediatrics Specialties",
+      "Dentistry Specialties",
+      "Oncology Department",
+      "UBTH SCHOOLS College of Nursing IHST UBTH",
+      "College of Nursing",
+      "IHST UBTH",
+      "Internship"
+    ],
+    "info": {
+      "hours": "08:00 - 18:00",
+      "facilities": [
+        "Laboratory",
+        "Pharmacy",
+        "Emergency"
+      ],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "teaching",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "University of Calabar Teaching Hospital",
+    "location": {
+      "address": "We aspire to lead the way in quaternary healthcare provision, delivering top-tier specialist-led medical and ancillary services across West and Central Africa, extending our reach beyond borders.",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [
+        "08024310194",
+        "08066722346",
+        "08025966923",
+        "08021236801",
+        "08062540799"
+      ],
+      "email": [
+        "info@ucthcalabar.gov.ng"
+      ],
+      "website": "https://www.ucthcalabar.gov.ng/",
+      "social_media": {
+        "facebook": "https://web.facebook.com/CorporateAffairsUCTH",
+        "whatsapp": "https://wa.me/2348066722346?text=Hello%20UCTH%20ICT"
+      }
+    },
+    "services": [
+      "About",
+      "Specialties",
+      "Departments",
+      "Clinic Days",
+      "Our Team",
+      "Contact",
+      "Our Vision",
+      "Our Mission",
+      "Accident & Emergency Department",
+      "About Accident & Emergency",
+      "Our Doctors",
+      "Head of Department",
+      "Vision & Mission",
+      "UCTH",
+      "About UCTH",
+      "Management",
+      "Board Members",
+      "CMD's Office",
+      "SOPs",
+      "Quick Links",
+      "All Doctors",
+      "College of Nursing",
+      "Community Health",
+      "Contact Us",
+      "Webmail",
+      "Anaesthesiology Department",
+      "About Anaesthesiology",
+      "Community Medicine Department",
+      "About Community Medicine",
+      "Dentistry Department",
+      "About Dentistry",
+      "Preventive Dentistry Department",
+      "About Preventive Dentistry",
+      "Restorative Dentistry Department",
+      "About Restorative Dentistry"
+    ],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [
+        "ICU",
+        "Laboratory",
+        "Pharmacy",
+        "Radiology",
+        "MRI",
+        "Ambulance",
+        "Emergency",
+        "Theatre"
+      ],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "teaching",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "University of Ilorin Teaching Hospital",
+    "location": {
+      "address": "Old Jebba Road, Oke Ose, Ilorin, Kwara State, Nigeria",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [
+        "08055763942",
+        "08137875019"
+      ],
+      "email": [
+        "ent@uithilorin.org.ng",
+        "chempathim@uithilorin.org.ng",
+        "microbiology@uithilorin.org.ng",
+        "anatpath@uithilorin.org.ng",
+        "info@uithilorin.org.ng",
+        "webunit@uithilorin.org.ng",
+        "nursingservices@uithilorin.org.ng"
+      ],
+      "website": "https://www.uithilorin.org.ng/index",
+      "social_media": {
+        "youtube": "https://www.youtube.com/watch?v=4Lwr58AVrQI&t=6s",
+        "facebook": "https://web.facebook.com/uith.ilorin.7"
+      }
+    },
+    "services": [
+      "HOME",
+      "Home",
+      "AnesthesiaBehavioural Science",
+      "EpidemiologyHeamatology",
+      "Invitro FertilizationMedicine",
+      "O and GEnt",
+      "OphthalmologyPain And Pallative",
+      "PharmacyPaediatrics",
+      "PhysiotherapyRadiology",
+      "SurgeryUrology",
+      "Nursing ServiceNHIS",
+      "Accident And EmergencyCommunity Health",
+      "DieteticHealth Information",
+      "AccountAudit",
+      "Board And TenderCentral Administration",
+      "Corporate AffairsEthics And Research",
+      "ICTPersonnel And Training",
+      "ServicomStore",
+      "Procurement UnitWorks",
+      "Legal Laundry",
+      "Revolving Fund Library",
+      "ACTU",
+      "Chemical Pathology",
+      "Microbiology/Parasitology",
+      "Histopathology",
+      "Hemathology",
+      "Anatomic Pathology",
+      "Management Board",
+      "CMAC",
+      "Post Basic Nephrology A and E Paediatric Ophthalmology"
+    ],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [
+        "Laboratory",
+        "Radiology",
+        "Emergency",
+        "ICU",
+        "Dialysis",
+        "Pharmacy",
+        "MRI",
+        "Theatre"
+      ],
+      "insurance": [
+        "nhis"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "teaching",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "University of Maiduguri Teaching Hospital",
+    "location": {
+      "address": "Bama Road, Maiduguri, Borno State",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [
+        "09030549474"
+      ],
+      "email": [
+        "info@umth.gov.ng"
+      ],
+      "website": "https://umth.gov.ng/",
+      "social_media": {
+        "facebook": "https://web.facebook.com/University-of-Maiduguri-Teaching-Hospital-101468139359963",
+        "youtube": "https://www.youtube.com/watch?v=oFoteU5BdYs&t=62s"
+      }
+    },
+    "services": [],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [
+        "Radiology",
+        "Laboratory"
+      ],
+      "insurance": [
+        "nhis"
+      ],
+      "accreditation": [
+        "accredited"
+      ]
+    },
+    "hospital_type": "teaching",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "University of Nigeria Teaching Hospital",
+    "location": {
+      "address": "The University of Nigeria Teaching Hospital (UNTH) Ituku-Ozalla Enugu, has come a long way. Read More of our long history.",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [
+        "07031322008"
+      ],
+      "email": [],
+      "website": "https://unth.edu.ng/",
+      "social_media": {
+        "linkedin": "https://www.linkedin.com/company/university-teaching-hospital-unth-ituku-ozalla/",
+        "twitter": "https://x.com/officialunth",
+        "facebook": "https://www.facebook.com/unthitukuozalla",
+        "instagram": "https://www.instagram.com/officialunth"
+      }
+    },
+    "services": [
+      "Toggle menu",
+      "History",
+      "Milestones in our Development",
+      "UNTH’s Mission",
+      "UNTH’s Vision",
+      "UNTH’s Core Values",
+      "Leadership Team",
+      "UNTH Management Team",
+      "Heads of Department",
+      "CDH Staff Profile",
+      "The Foundation UNTH Foundation",
+      "UNTH Foundation",
+      "Tenders Unit",
+      "Works Unit",
+      "Health Visiting Unit",
+      "PPMO",
+      "Legal Unit",
+      "Oncology Pharmacy",
+      "Institute of Child Health",
+      "Nursing Services Division",
+      "Cardiothoracic Centre",
+      "Department of Ophthalmology",
+      "Pharmacy Department",
+      "Department of Paediatrics",
+      "Department of Dermatology",
+      "Emergency Medicine",
+      "General Out-Patient Dept",
+      "Otolaryngology",
+      "Chemical Pathology",
+      "Physiotherapy"
+    ],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [
+        "Pharmacy",
+        "Ambulance",
+        "Emergency",
+        "Laboratory",
+        "Dialysis",
+        "Blood bank",
+        "Theatre"
+      ],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "teaching",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "University of Port Harcourt Teaching Hospital",
+    "location": {
+      "address": "East-West Road, Opposite Alakahia Junction, RS. P.M.B 6173",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [
+        "07010207377",
+        "08182692056",
+        "08034567780",
+        "07012345678",
+        "08134567890",
+        "08023456789",
+        "09021112223"
+      ],
+      "email": [],
+      "website": "https://www.upth.gov.ng/",
+      "social_media": {
+        "facebook": "https://www.facebook.com/share/18jjTaZPzo/",
+        "twitter": "https://x.com/UpthOnline",
+        "youtube": "https://youtube.com/@upthmedia?si=BmiknPSq70fkdPr5",
+        "instagram": "https://www.instagram.com/upthonline?igsh=eTUwZXdzeHN1anFr\n",
+        "linkedin": "https://www.linkedin.com/company/university-of-port-harcourt-teaching-hospital/",
+        "whatsapp": "https://wa.me/2347010207377"
+      }
+    },
+    "services": [],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [
+        "Laboratory",
+        "Pharmacy",
+        "Radiology",
+        "Blood bank",
+        "Emergency",
+        "Theatre"
+      ],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "teaching",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "University of Uyo Teaching Hospital",
+    "location": {
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [
+        "08137987928"
+      ],
+      "email": [
+        "info@uuthuyo.net"
+      ],
+      "website": "https://uuthuyo.net",
+      "social_media": {
+        "facebook": "https://www.facebook.com/groups/1117643045645533/permalink/1355229725220196",
+        "twitter": "https://twitter.com/UniversityUyo"
+      }
+    },
+    "services": [],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [
+        "Pharmacy",
+        "Radiology",
+        "Emergency"
+      ],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "teaching",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "Usmanu Danfodiyo University Teaching Hospital",
+    "location": {
+      "address": "Garba Nadama Road, Sokoto",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [],
+      "email": [
+        "info@uduth.org.ng",
+        "emergency@uduth.org.ng"
+      ],
+      "website": "https://www.uduth.org.ng/",
+      "social_media": {
+        "facebook": "https://www.facebook.com/Uduthsokoto/",
+        "twitter": "https://www.twitter.com/",
+        "instagram": "https://www.instagram.com/"
+      }
+    },
+    "services": [
+      "Home",
+      "About Us",
+      "Clinical Departments",
+      "Non Clinical Departments",
+      "Laboratories",
+      "School of Community Health (SOCH)",
+      "School of Nursing",
+      "School of Post Basic & Midwifery",
+      "School of Health Information Management (SHIM)",
+      "School of Post Basic Perioperative Nursing",
+      "School of Post Basic Paediatrics Nursing",
+      "Careers",
+      "All Specialists",
+      "Consultants",
+      "Residents/Medical",
+      "Contact",
+      "GOPD Clinic",
+      "MOPD Clinic",
+      "SOPD Clinic",
+      "Fed. Staff Clinic",
+      "Surgery",
+      "Anaesthesiology",
+      "Neuro Surgery",
+      "Radiology",
+      "Nursing Services",
+      "Medical Library",
+      "Internal Medicine",
+      "Family Medicine",
+      "Community Medicine",
+      "Obstetrics & Gynaecology",
+      "Administration",
+      "Finance",
+      "Works",
+      "Audit",
+      "Laundry",
+      "Catering Services",
+      "Security",
+      "Stores and Supply",
+      "Mon-Sun 24/7",
+      "Phone: +234UDUTH +234808080",
+      "info@uduth.org.ng"
+    ],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [
+        "Dialysis",
+        "Laboratory",
+        "MRI",
+        "CT scan",
+        "Blood bank",
+        "Emergency",
+        "Pharmacy",
+        "Radiology"
+      ],
+      "insurance": [
+        "nhis"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "teaching",
+    "verification_status": "unclaimed"
+  }
+]
