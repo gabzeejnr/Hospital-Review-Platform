@@ -1,0 +1,715 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Get a free hosted Postgres database in seconds: `npx create-db`
+
+generator client {
+  provider = "prisma-client"
+  output   = "../generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+// ------------------------------------------------------
+// ENUMS
+// ------------------------------------------------------
+
+enum UserRole {
+  USER
+  HOSPITAL_REP
+  MODERATOR
+  SUPPORT
+  ADMIN
+}
+
+enum Theme {
+  LIGHT
+  DARK
+  SYSTEM
+}
+
+enum HospitalType {
+  GENERAL
+  SPECIALIST
+  TEACHING
+  MATERNITY
+  PEDIATRIC
+  DENTAL
+  PSYCHIATRIC
+  CLINIC
+  DIAGNOSTIC
+  OTHER
+}
+
+enum HospitalOwnership {
+  PUBLIC
+  PRIVATE
+  FAITH_BASED
+  NGO
+  OTHER
+}
+
+enum HospitalClaimStatus {
+  UNCLAIMED
+  CLAIM_PENDING
+  CLAIMED
+  CLAIM_REJECTED
+}
+
+enum ClaimReviewStatus {
+  PENDING
+  APPROVED
+  REJECTED
+  WITHDRAWN
+}
+
+enum HospitalVerificationStatus {
+  NOT_VERIFIED
+  PENDING
+  VERIFIED
+  REJECTED
+  SUSPENDED
+}
+
+enum ReviewStatus {
+  DRAFT
+  SUBMITTED
+  PENDING_MODERATION
+  PUBLISHED
+  REJECTED
+  FLAGGED
+  UNDER_INVESTIGATION
+  DISPUTED
+  REMOVED
+}
+
+enum RatingCategory {
+  STAFF_PROFESSIONALISM
+  WAITING_TIME
+  CLEANLINESS
+  COMMUNICATION
+  SERVICE_EXPERIENCE
+  FACILITY_QUALITY
+  BILLING_TRANSPARENCY
+  ACCESSIBILITY
+}
+
+enum VerificationStatus {
+  NOT_SUBMITTED
+  PENDING
+  VERIFIED
+  REJECTED
+}
+
+enum ReportStatus {
+  PENDING
+  UNDER_REVIEW
+  RESOLVED
+  DISMISSED
+}
+
+enum NotificationType {
+  REVIEW_PUBLISHED
+  REVIEW_REJECTED
+  HOSPITAL_RESPONSE
+  CLAIM_UPDATE
+  VERIFICATION_UPDATE
+  REVIEW_REPLY
+  SYSTEM
+  SECURITY
+}
+
+enum DayOfWeek {
+  MONDAY
+  TUESDAY
+  WEDNESDAY
+  THURSDAY
+  FRIDAY
+  SATURDAY
+  SUNDAY
+}
+
+// ------------------------------------------------------
+// USERS, PROFILES, SETTINGS AND ACCOUNT SECURITY
+// ------------------------------------------------------
+
+model User {
+  // Use the UUID from Supabase Auth as this ID.
+  id              String   @id @db.Uuid
+  email           String   @unique
+  displayName     String?
+  username        String?  @unique
+  avatarUrl       String?
+  phoneNumber     String?
+
+  emailVerifiedAt DateTime?
+  isActive        Boolean  @default(true)
+  role            UserRole @default(USER)
+
+  // Regional and display preferences
+  country         String   @default("NG")
+  language        String   @default("en")
+  timezone        String   @default("Africa/Lagos")
+  theme           Theme    @default(SYSTEM)
+
+  // Flexible settings; validate allowed keys in the backend.
+  preferences     Json?
+  privacySettings Json?
+
+  // Saved location is optional and should only be stored with user consent.
+  locationEnabled    Boolean @default(false)
+  preferredLatitude  Float?
+  preferredLongitude Float?
+
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
+  lastLoginAt     DateTime?
+
+  reviews                 Review[]
+  favorites               Favorite[]
+  notifications           Notification[]
+  notificationSettings    NotificationPreference?
+  hospitalClaims          HospitalClaim[]
+  hospitalStaff           HospitalStaff[]
+  reviewReports           ReviewReport[]
+  deletionRequest         AccountDeletionRequest?
+  moderationActions       ModerationAction[] @relation("ModerationActor")
+  auditLogs               AuditLog[]
+  loginActivities         LoginActivity[]
+  securityEvents          SecurityEvent[]
+  reviewedHospitalClaims  HospitalClaim[] @relation("ClaimReviewer")
+  hospitalResponses       HospitalResponse[] @relation("ResponseAuthor")
+
+  @@index([role])
+  @@index([country])
+  @@index([createdAt])
+}
+
+model NotificationPreference {
+  id     String @id @default(uuid()) @db.Uuid
+  userId String @unique @db.Uuid
+
+  emailNotifications Boolean @default(true)
+  pushNotifications  Boolean @default(true)
+  inAppNotifications Boolean @default(true)
+
+  reviewUpdates      Boolean @default(true)
+  hospitalResponses  Boolean @default(true)
+  claimUpdates       Boolean @default(true)
+  promotionalEmails  Boolean @default(false)
+  securityAlerts     Boolean @default(true)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model AccountDeletionRequest {
+  id                   String    @id @default(uuid()) @db.Uuid
+  userId               String    @unique @db.Uuid
+  reason               String?
+  requestedAt          DateTime  @default(now())
+  scheduledDeletionAt  DateTime?
+  completedAt          DateTime?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model LoginActivity {
+  id         String   @id @default(uuid()) @db.Uuid
+  userId     String?  @db.Uuid
+
+  ipAddress  String?
+  userAgent  String?
+  device     String?
+  browser    String?
+  os         String?
+  country    String?
+  city       String?
+
+  successful Boolean  @default(false)
+  reason     String?
+  createdAt  DateTime @default(now())
+
+  user User? @relation(fields: [userId], references: [id], onDelete: SetNull)
+
+  @@index([userId, createdAt])
+  @@index([ipAddress])
+  @@index([createdAt])
+}
+
+model SecurityEvent {
+  id         String   @id @default(uuid()) @db.Uuid
+  userId     String?  @db.Uuid
+
+  eventType  String
+  ipAddress  String?
+  userAgent  String?
+  metadata   Json?
+  createdAt  DateTime @default(now())
+
+  user User? @relation(fields: [userId], references: [id], onDelete: SetNull)
+
+  @@index([userId, createdAt])
+  @@index([eventType])
+  @@index([createdAt])
+}
+
+// ------------------------------------------------------
+// GEOGRAPHICAL REFERENCE DATA
+// ------------------------------------------------------
+
+model Country {
+  id        String   @id @default(uuid()) @db.Uuid
+  name      String
+  code      String   @unique
+  createdAt DateTime @default(now())
+
+  states    State[]
+  hospitals Hospital[]
+
+  @@index([name])
+}
+
+model State {
+  id        String   @id @default(uuid()) @db.Uuid
+  name      String
+  code      String?
+
+  countryId String   @db.Uuid
+  country   Country  @relation(fields: [countryId], references: [id], onDelete: Restrict)
+
+  lgas      LocalGovernmentArea[]
+  hospitals Hospital[]
+
+  @@unique([name, countryId])
+  @@index([countryId])
+}
+
+model LocalGovernmentArea {
+  id      String @id @default(uuid()) @db.Uuid
+  name    String
+
+  stateId String @db.Uuid
+  state   State  @relation(fields: [stateId], references: [id], onDelete: Restrict)
+
+  hospitals Hospital[]
+
+  @@unique([name, stateId])
+  @@index([stateId])
+}
+
+// ------------------------------------------------------
+// HOSPITAL DIRECTORY
+// ------------------------------------------------------
+
+model Hospital {
+  id          String  @id @default(uuid()) @db.Uuid
+  name        String
+  slug        String  @unique
+  description String?
+
+  logoUrl     String?
+  coverImage  String?
+
+  hospitalType HospitalType?
+  ownership    HospitalOwnership?
+  yearEstablished Int?
+
+  // External registry provenance. Keep the source's identifier separately.
+  hfrId       String? @unique
+  source      String?
+  sourceUrl   String?
+
+  countryCode String  @default("NG")
+  countryId   String? @db.Uuid
+  stateId     String? @db.Uuid
+  lgaId       String? @db.Uuid
+
+  city        String?
+  address     String?
+  latitude    Float?
+  longitude   Float?
+
+  // Record where coordinates came from and when they were checked.
+  coordinatesSource     String?
+  coordinatesVerifiedAt DateTime?
+
+  phoneNumber String?
+  email       String?
+  website     String?
+
+  facebook    String?
+  instagram   String?
+  x           String?
+  linkedin    String?
+
+  claimStatus        HospitalClaimStatus        @default(UNCLAIMED)
+  verificationStatus HospitalVerificationStatus @default(NOT_VERIFIED)
+
+  // Cached aggregates. Update these from eligible published reviews on the server.
+  averageRating Float @default(0)
+  totalReviews  Int   @default(0)
+
+  country       Country?              @relation(fields: [countryId], references: [id], onDelete: Restrict)
+  state         State?                @relation(fields: [stateId], references: [id], onDelete: Restrict)
+  lga           LocalGovernmentArea?  @relation(fields: [lgaId], references: [id], onDelete: Restrict)
+
+  services       HospitalService[]
+  facilities     HospitalFacility[]
+  operatingHours HospitalOperatingHour[]
+  insurance      HospitalInsurance[]
+  accreditations HospitalAccreditation[]
+  photos         HospitalPhoto[]
+
+  reviews         Review[]
+  favorites       Favorite[]
+  claims          HospitalClaim[]
+  staff           HospitalStaff[]
+  ratingSummaries HospitalRatingSummary[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([name])
+  @@index([stateId])
+  @@index([lgaId])
+  @@index([hospitalType])
+  @@index([averageRating])
+  @@index([verificationStatus])
+  @@index([claimStatus])
+  @@index([latitude, longitude])
+  @@index([countryCode, stateId, lgaId])
+}
+
+model HospitalService {
+  id          String  @id @default(uuid()) @db.Uuid
+  hospitalId  String  @db.Uuid
+  name        String
+  description String?
+  isAvailable Boolean @default(true)
+
+  hospital Hospital @relation(fields: [hospitalId], references: [id], onDelete: Cascade)
+
+  @@unique([hospitalId, name])
+  @@index([name])
+  @@index([hospitalId, isAvailable])
+}
+
+model HospitalFacility {
+  id          String  @id @default(uuid()) @db.Uuid
+  hospitalId  String  @db.Uuid
+  name        String
+  description String?
+
+  hospital Hospital @relation(fields: [hospitalId], references: [id], onDelete: Cascade)
+
+  @@unique([hospitalId, name])
+  @@index([hospitalId])
+}
+
+model HospitalOperatingHour {
+  id         String    @id @default(uuid()) @db.Uuid
+  hospitalId String    @db.Uuid
+  dayOfWeek  DayOfWeek
+  openTime   String?
+  closeTime  String?
+  isClosed   Boolean   @default(false)
+  is24Hours  Boolean   @default(false)
+
+  hospital Hospital @relation(fields: [hospitalId], references: [id], onDelete: Cascade)
+
+  @@unique([hospitalId, dayOfWeek])
+  @@index([hospitalId, dayOfWeek])
+}
+
+model HospitalInsurance {
+  id          String  @id @default(uuid()) @db.Uuid
+  hospitalId  String  @db.Uuid
+  provider    String
+  description String?
+
+  hospital Hospital @relation(fields: [hospitalId], references: [id], onDelete: Cascade)
+
+  @@unique([hospitalId, provider])
+  @@index([provider])
+}
+
+model HospitalAccreditation {
+  id         String    @id @default(uuid()) @db.Uuid
+  hospitalId String    @db.Uuid
+  name       String
+  issuer     String?
+  reference  String?
+  issuedAt   DateTime?
+  expiresAt  DateTime?
+
+  hospital Hospital @relation(fields: [hospitalId], references: [id], onDelete: Cascade)
+
+  @@index([hospitalId])
+}
+
+model HospitalPhoto {
+  id         String   @id @default(uuid()) @db.Uuid
+  hospitalId String   @db.Uuid
+  imageUrl   String
+  caption    String?
+  isCover    Boolean  @default(false)
+  createdAt  DateTime @default(now())
+
+  hospital Hospital @relation(fields: [hospitalId], references: [id], onDelete: Cascade)
+
+  @@index([hospitalId])
+}
+
+// ------------------------------------------------------
+// REVIEWS, RATINGS AND HOSPITAL RESPONSES
+// ------------------------------------------------------
+
+model Review {
+  id         String @id @default(uuid()) @db.Uuid
+  userId     String @db.Uuid
+  hospitalId String @db.Uuid
+
+  title         String
+  comment       String
+  overallRating Int
+
+  visitPeriodStart DateTime?
+  visitPeriodEnd   DateTime?
+  department       String?
+
+  verificationStatus VerificationStatus @default(NOT_SUBMITTED)
+  isVerifiedVisit    Boolean            @default(false)
+
+  status      ReviewStatus @default(PENDING_MODERATION)
+  publishedAt DateTime?
+
+  user     User     @relation(fields: [userId], references: [id], onDelete: Restrict)
+  hospital Hospital @relation(fields: [hospitalId], references: [id], onDelete: Restrict)
+
+  ratings           ReviewRating[]
+  response          HospitalResponse?
+  reports           ReviewReport[]
+  evidence          ReviewEvidence[]
+  moderationActions ModerationAction[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  // This initial design permits one review per user per hospital.
+  // Remove this constraint if multiple reviews for separate visits are allowed.
+  @@unique([userId, hospitalId])
+  @@index([hospitalId, status, publishedAt])
+  @@index([userId])
+  @@index([overallRating])
+  @@index([createdAt])
+}
+
+model ReviewRating {
+  id       String         @id @default(uuid()) @db.Uuid
+  reviewId String         @db.Uuid
+  category RatingCategory
+  rating   Int
+
+  review Review @relation(fields: [reviewId], references: [id], onDelete: Cascade)
+
+  @@unique([reviewId, category])
+  @@index([category, rating])
+}
+
+model HospitalRatingSummary {
+  id            String         @id @default(uuid()) @db.Uuid
+  hospitalId    String         @db.Uuid
+  category      RatingCategory
+  averageRating Float          @default(0)
+  totalRatings  Int            @default(0)
+
+  hospital Hospital @relation(fields: [hospitalId], references: [id], onDelete: Cascade)
+
+  @@unique([hospitalId, category])
+}
+
+model HospitalResponse {
+  id          String   @id @default(uuid()) @db.Uuid
+  reviewId    String   @unique @db.Uuid
+  responderId String?  @db.Uuid
+  message     String
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  review    Review @relation(fields: [reviewId], references: [id], onDelete: Cascade)
+  responder User?  @relation("ResponseAuthor", fields: [responderId], references: [id], onDelete: SetNull)
+
+  @@index([responderId])
+}
+
+model ReviewEvidence {
+  id           String             @id @default(uuid()) @db.Uuid
+  reviewId     String             @db.Uuid
+  evidenceType String
+  storageKey   String
+  status       VerificationStatus @default(PENDING)
+
+  createdAt  DateTime  @default(now())
+  reviewedAt DateTime?
+
+  review Review @relation(fields: [reviewId], references: [id], onDelete: Cascade)
+
+  @@index([reviewId, status])
+}
+
+// ------------------------------------------------------
+// HOSPITAL CLAIMS, VERIFICATION AND STAFF
+// ------------------------------------------------------
+
+model HospitalClaim {
+  id             String            @id @default(uuid()) @db.Uuid
+  hospitalId     String            @db.Uuid
+  userId         String            @db.Uuid
+  position       String?
+  message        String?
+  status         ClaimReviewStatus @default(PENDING)
+
+  reviewedAt     DateTime?
+  reviewedById   String?           @db.Uuid
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  hospital    Hospital @relation(fields: [hospitalId], references: [id], onDelete: Cascade)
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  reviewedBy  User?    @relation("ClaimReviewer", fields: [reviewedById], references: [id], onDelete: SetNull)
+
+  documents HospitalClaimDocument[]
+
+  @@index([hospitalId, status])
+  @@index([userId])
+  @@index([reviewedById])
+}
+
+model HospitalClaimDocument {
+  id           String   @id @default(uuid()) @db.Uuid
+  claimId      String   @db.Uuid
+  documentType String
+  storageKey   String
+  createdAt    DateTime @default(now())
+
+  claim HospitalClaim @relation(fields: [claimId], references: [id], onDelete: Cascade)
+
+  @@index([claimId])
+}
+
+model HospitalStaff {
+  id         String   @id @default(uuid()) @db.Uuid
+  hospitalId String   @db.Uuid
+  userId     String   @db.Uuid
+  position   String?
+  role       String   @default("STAFF")
+  isActive   Boolean  @default(true)
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  hospital Hospital @relation(fields: [hospitalId], references: [id], onDelete: Cascade)
+  user     User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([hospitalId, userId])
+  @@index([userId, isActive])
+}
+
+// ------------------------------------------------------
+// REPORTING AND MODERATION
+// ------------------------------------------------------
+
+model ReviewReport {
+  id       String       @id @default(uuid()) @db.Uuid
+  reviewId String       @db.Uuid
+  userId   String       @db.Uuid
+  reason   String
+  details  String?
+  status   ReportStatus @default(PENDING)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  review Review @relation(fields: [reviewId], references: [id], onDelete: Cascade)
+  user   User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([status, createdAt])
+  @@index([reviewId])
+  @@index([userId])
+}
+
+model ModerationAction {
+  id          String   @id @default(uuid()) @db.Uuid
+  moderatorId String   @db.Uuid
+  reviewId    String?  @db.Uuid
+  action      String
+  reason      String?
+  metadata    Json?
+  createdAt   DateTime @default(now())
+
+  moderator User    @relation("ModerationActor", fields: [moderatorId], references: [id], onDelete: Restrict)
+  review    Review? @relation(fields: [reviewId], references: [id], onDelete: SetNull)
+
+  @@index([moderatorId, createdAt])
+  @@index([reviewId])
+}
+
+// ------------------------------------------------------
+// FAVOURITES AND NOTIFICATIONS
+// ------------------------------------------------------
+
+model Favorite {
+  id         String   @id @default(uuid()) @db.Uuid
+  userId     String   @db.Uuid
+  hospitalId String   @db.Uuid
+  createdAt  DateTime @default(now())
+
+  user     User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  hospital Hospital @relation(fields: [hospitalId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, hospitalId])
+  @@index([userId, createdAt])
+}
+
+model Notification {
+  id        String           @id @default(uuid()) @db.Uuid
+  userId    String           @db.Uuid
+  title     String
+  message   String
+  type      NotificationType
+  isRead    Boolean          @default(false)
+  link      String?
+  createdAt DateTime         @default(now())
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, isRead, createdAt])
+}
+
+// ------------------------------------------------------
+// AUDIT LOGGING
+// ------------------------------------------------------
+
+model AuditLog {
+  id        String   @id @default(uuid()) @db.Uuid
+  userId    String?  @db.Uuid
+  action    String
+  entity    String
+  entityId  String?
+  metadata  Json?
+  ipAddress String?
+  userAgent String?
+  createdAt DateTime @default(now())
+
+  user User? @relation(fields: [userId], references: [id], onDelete: SetNull)
+
+  @@index([userId, createdAt])
+  @@index([entity, entityId])
+  @@index([createdAt])
+}
