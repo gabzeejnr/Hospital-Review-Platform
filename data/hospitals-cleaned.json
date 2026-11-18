@@ -299,11 +299,9 @@
     "services": [
       "Anesthesiaa",
       "Dental Services",
-      "General Outpatient Department",
       "Nursing Services",
       "Obstetrics and Gynecology",
       "Radiology",
-      "ICT Department",
       "College of Nursing Science",
       "Resources Tenders Announcements Publications Annual Reports",
       "Announcements"
@@ -348,7 +346,6 @@
       }
     },
     "services": [
-      "DepartmentsClinicalNon-Clinical",
       "Clinical",
       "Non-Clinical",
       "Intensive Care Unit",
@@ -356,11 +353,9 @@
       "Surgery",
       "Pharmacy",
       "Physiotherapy",
-      "SOPD (Specialist Outpatient Department)",
       "Laboratory",
       "Accident and Emergency",
       "Renal",
-      "Key Departments",
       "24/7 monitoring and specialist nursing care",
       "Ventilator and life support equipment",
       "Restricted visiting hours to protect patient recovery",
@@ -411,14 +406,6 @@
       "social_media": {}
     },
     "services": [
-      "Departments 1",
-      "Departments 2",
-      "Departments 3",
-      "Departments 4",
-      "Departments 5",
-      "Departments 6",
-      "Departments 7",
-      "Department Detail"
     ],
     "info": {
       "hours": "TBD - TBD",
@@ -458,7 +445,6 @@
       "social_media": {}
     },
     "services": [
-      "Achievements",
       "Developments in the hospital",
       "Anaesthesiology and Intensive Care",
       "Accident and Emergency",
@@ -525,7 +511,6 @@
       "WednesdayGastroenterology9:00 AM",
       "ThursdayGeneral Medicine8:00 AM",
       "FridayNephrology Clinic8:00 AM",
-      "Departments",
       "Internal Medicine",
       "Surgery",
       "Pediatrics",
@@ -653,11 +638,8 @@
       }
     },
     "services": [
-      "Departments",
       "Dental",
-      "Department: Dental & Maxillofacial",
       "Unit: Dental & Maxillofacial",
-      "Department: Restorative Dentistry",
       "Unit: Restorative Dentistry",
       "Patient-Focused Care",
       "Family Medicine",
@@ -758,9 +740,6 @@
       "Anatomy Pathology",
       "Physiotherapy",
       "Internal Medicine",
-      "SERVICOM Department",
-      "NHIS Department",
-      "Pharmacy Department",
       "Chemical Pathology"
     ],
     "info": {
@@ -840,9 +819,6 @@
       "social_media": {}
     },
     "services": [
-      "Clinical Departments",
-      "Allied Clinical Departments",
-      "Non-Clinical Departments",
       "Patient Testimonials",
       "Client's Access",
       "Scientific Conferences"
@@ -1129,14 +1105,12 @@
     "services": [
       "Chief Medical Director",
       "Chairman Medical Advisory Committee",
-      "Department Heads",
       "Departmental Profiles",
       "Clinical Services",
       "Patient Care",
       "Records, Statistics and Documentation/Pension matters",
       "Procurement",
       "Anaesthesia & Intensive Care",
-      "Range of Services Rendered by the Department",
       "Central venous catheterization",
       "Anaesthesia for specialized radiological procedures",
       "Regional Anaesthesia"
@@ -1194,15 +1168,11 @@
       }
     },
     "services": [
-      "PATIENTS & VISITORS Location & Directions Testimonials",
       "Medical Specialties",
       "Surgical Specialties",
       "Obstetrics & Gynaecology Specialties",
       "Paediatrics Specialties",
-      "Dentistry Specialties",
-      "Oncology Department",
-      "UBTH SCHOOLS College of Nursing IHST UBTH",
-      "College of Nursing"
+      "Dentistry Specialties"
     ],
     "info": {
       "hours": "08:00 - 18:00",
@@ -1251,14 +1221,7 @@
       }
     },
     "services": [
-      "Departments",
-      "Accident & Emergency Department",
-      "Head of Department",
-      "College of Nursing",
-      "Anaesthesiology Department",
-      "Community Medicine Department",
-      "Dentistry Department",
-      "Restorative Dentistry Department"
+
     ],
     "info": {
       "hours": "TBD - TBD",
@@ -1419,13 +1382,8 @@
     },
     "services": [
       "Milestones in our Development",
-      "Heads of Department",
       "Oncology Pharmacy",
       "Cardiothoracic Centre",
-      "Department of Ophthalmology",
-      "Pharmacy Department",
-      "Department of Paediatrics",
-      "Department of Dermatology",
       "Emergency Medicine",
       "General Out-Patient Dept",
       "Chemical Pathology",
@@ -1563,8 +1521,6 @@
       "social_media": {}
     },
     "services": [
-      "Clinical Departments",
-      "Non Clinical Departments",
       "School of Nursing",
       "School of Post Basic Perioperative Nursing",
       "School of Post Basic Paediatrics Nursing",
@@ -1622,10 +1578,8 @@
     },
     "services": [
       "Statements",
-      "Departments Clinical Service Non Clinical Service",
       "Clinical Service",
-      "Non Clinical Service",
-      "EMRDepartments"
+      "Non Clinical Service"
     ],
     "info": {
       "hours": "TBD - TBD",
@@ -1671,16 +1625,11 @@
       }
     },
     "services": [
-      "Departments",
       "Accident and Emergency",
-      "Achievements",
-      "Department of Anaesthesia and Intensive Care",
-      "Department of Dentistry",
       "Child Dental Health and Orthodontics",
       "Oral and Maxillofacial Surgery",
       "Oral Diagnosis and Radiology",
       "Oral Pathology",
-      "Department of Haematology",
       "Departmental weekly activities",
       "Tuesday for clinical ward rounds",
       "Wednesday slide review and seminal presentations",
@@ -1834,7 +1783,6 @@
       }
     },
     "services": [
-      "Departments Clinical Non-Clinical Units",
       "Clinical",
       "Non-Clinical",
       "Chemical Pathology",
@@ -1921,7 +1869,6 @@
     "location": {
       "state": "Lagos",
       "city": "Epe",
-      "address": null,
       "coordinates": {
         "latitude": null,
         "longitude": null
@@ -1956,7 +1903,6 @@
     "location": {
       "state": "Katsina",
       "city": "Daura",
-      "address": null,
       "coordinates": {
         "latitude": null,
         "longitude": null
@@ -1988,7 +1934,6 @@
     "location": {
       "state": "Zamfara",
       "city": "Gusau",
-      "address": null,
       "coordinates": {
         "latitude": null,
         "longitude": null
@@ -2007,17 +1952,12 @@
       }
     },
     "services": [
-      "Departments Clinical Non-Clinical",
       "Clinical",
       "Non-Clinical",
       "Payments",
       "Clinical services",
       "Intensive Care Unit",
-      "Pharmacy Service",
-      "Departments",
-      "Clinical Departments",
-      "Administration Department",
-      "Non-Clinical Departments"
+      "Pharmacy Service"
     ],
     "info": {
       "hours": "TBD - TBD",
@@ -2044,7 +1984,6 @@
     "location": {
       "state": "Adamawa",
       "city": "Hong",
-      "address": null,
       "coordinates": {
         "latitude": null,
         "longitude": null
@@ -2059,7 +1998,6 @@
       "social_media": {}
     },
     "services": [
-      "Departments",
       "Internal Medicine",
       "Surgery",
       "Pediatrics",
@@ -2079,8 +2017,7 @@
       "Immunization and Nutrition Programs",
       "Community Medical Outreach",
       "HIV/AIDS Counseling and Treatment",
-      "Surgical and Diagnostic Services",
-      "New FMC Hong Begins Clinical Services"
+      "Surgical and Diagnostic Services"
     ],
     "info": {
       "hours": "TBD - TBD",
@@ -2108,7 +2045,6 @@
     "location": {
       "state": "Ekiti",
       "city": "Ikole-Ekiti",
-      "address": "Head of Accident and Emergency Department at Victoria Hospital, Castries, St. Lucia. 2008-2015",
       "coordinates": {
         "latitude": null,
         "longitude": null
@@ -2129,7 +2065,6 @@
       }
     },
     "services": [
-      "Achievements",
       "Accident & Emergency",
       "Dentistry",
       "General Surgery",
@@ -2171,7 +2106,6 @@
     "location": {
       "state": "FCT",
       "city": "Jabi",
-      "address": "16 beds in the Paediatric ward including private rooms",
       "coordinates": {
         "latitude": null,
         "longitude": null
@@ -2195,10 +2129,6 @@
       }
     },
     "services": [
-      "Heads of Department/Unit",
-      "Departments",
-      "OFFICE OF CLINICAL SERVICE",
-      "8 beds in the Emergency Paediatric Unit(EPU)",
       "Dispensing of safe and efficacious medicines",
       "Identifying and resolving drug therapy problems",
       "Patient counselling",
@@ -2253,7 +2183,6 @@
       }
     },
     "services": [
-      "DEPARTMENTS",
       "Medical Records",
       "Family Medicine",
       "Internal Medicine",
@@ -2299,7 +2228,6 @@
     "location": {
       "state": "Nasarawa",
       "city": "Keffi",
-      "address": null,
       "coordinates": {
         "latitude": null,
         "longitude": null
@@ -2378,7 +2306,6 @@
     "location": {
       "state": "Bauchi",
       "city": "Misau",
-      "address": null,
       "coordinates": {
         "latitude": null,
         "longitude": null
@@ -2432,7 +2359,6 @@
       "NUTRITION AND DIETETICS",
       "Environmental Health",
       "Emergency Services",
-      "Departments & Services",
       "Patient Portal",
       "Recent Insights"
     ],
@@ -2464,7 +2390,6 @@
     "location": {
       "state": "Adamawa",
       "city": "Mubi",
-      "address": null,
       "coordinates": {
         "latitude": null,
         "longitude": null
@@ -2496,7 +2421,6 @@
     "location": {
       "state": "Niger",
       "city": "New Bussa",
-      "address": null,
       "coordinates": {
         "latitude": null,
         "longitude": null
@@ -2632,10 +2556,8 @@
     },
     "services": [
       "Internal Medicine",
-      "Family Medicine Department",
       "PHYSIOTHERAPY",
       "Medical Social Works",
-      "Departments",
       "Daily Outpatient Clinic – 8am to 4pm",
       "Minor surgical procedures",
       "Outpatient wound care",
@@ -2740,7 +2662,6 @@
       "social_media": {}
     },
     "services": [
-      "Departments & Services"
     ],
     "info": {
       "hours": "TBD - TBD",
@@ -2781,13 +2702,11 @@
     "services": [
       "Multipurpose International Conference Centre",
       "Dental & Maxillofacial Surgery",
-      "Dental and Maxillofacial Surgery Department",
       "Oral & Maxillofacial Surgery,",
       "Restorative Dentistry,",
       "Child Dental Health",
       "Oral & Maxillofacial Surgery",
       "Restorative Dentistry",
-      "Dental & Maxillofacial Surgery Department",
       "Laboratory"
     ],
     "info": {
@@ -2870,7 +2789,6 @@
     "location": {
       "state": "Kwara",
       "city": "Budo-Egba",
-      "address": null,
       "coordinates": {
         "latitude": null,
         "longitude": null
@@ -2936,7 +2854,6 @@
       }
     },
     "services": [
-      "All Departments",
       "Medical Director's Units",
       "Clinical Services",
       "College of Mental Health Nursing",
@@ -2998,7 +2915,6 @@
       }
     },
     "services": [
-      "Departments",
       "Clinical Services",
       "Advertisements",
       "Cognitive Health and Dementia Unit",
@@ -3043,7 +2959,6 @@
       "social_media": {}
     },
     "services": [
-      "Heads of Departments",
       "Medical Services",
       "Nursing Services",
       "Pharmacy",
@@ -3109,7 +3024,6 @@
       "Clinical Services",
       "Telepsychiatry",
       "College of Nursing Science",
-      "Medical Services Department",
       "General Psychiatry",
       "Addiction Psychiatry",
       "Child & Adolescent Psychiatry",
@@ -3149,7 +3063,6 @@
     "location": {
       "state": "Borno",
       "city": "Maiduguri",
-      "address": null,
       "coordinates": {
         "latitude": null,
         "longitude": null
@@ -3181,7 +3094,6 @@
     "location": {
       "state": "Sokoto",
       "city": "Kware",
-      "address": null,
       "coordinates": {
         "latitude": null,
         "longitude": null
@@ -3429,7 +3341,6 @@
       "social_media": {}
     },
     "services": [
-      "Departments"
     ],
     "info": {
       "hours": "TBD - TBD",
@@ -3528,7 +3439,6 @@
     },
     "services": [
       "Past Medical Directors’",
-      "Departments",
       "College of Nursing Science",
       "College of Orthopaedic Cast Technology"
     ],
@@ -3555,7 +3465,6 @@
     "location": {
       "state": "Lagos",
       "city": "Igbobi",
-      "address": null,
       "coordinates": {
         "latitude": null,
         "longitude": null
@@ -3587,7 +3496,6 @@
     "location": {
       "state": "Taraba",
       "city": "Jalingo",
-      "address": null,
       "coordinates": {
         "latitude": null,
         "longitude": null
@@ -3661,7 +3569,6 @@
     "location": {
       "state": "Ebonyi",
       "city": "Abakaliki",
-      "address": null,
       "coordinates": {
         "latitude": null,
         "longitude": null
@@ -3686,8 +3593,6 @@
     },
     "services": [
       "Medical Director’s Desk",
-      "Departments & Services Departments & Units Services",
-      "Departments & Units",
       "Other general gyneacological surgeries such as myomectomy",
       "Renal Dialysis Services",
       "In Vitro Fertilization (IVF) Service",
@@ -3731,7 +3636,6 @@
     "location": {
       "state": "Edo",
       "city": "Benin",
-      "address": null,
       "coordinates": {
         "latitude": null,
         "longitude": null
