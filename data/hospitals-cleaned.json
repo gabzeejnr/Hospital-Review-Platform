@@ -1606,8 +1606,8 @@
   {
     "hospital_name": "Federal Medical Centre, Abeokuta",
     "location": {
-      "state": null,
-      "city": null,
+      "state": "Ogun",
+      "city": "Abeokuta",
       "address": "Olabisi Onabanjo Way, (P.M.B 3031, Sapon), Abeokuta, Ogun State, Nigeria",
       "coordinates": {
         "latitude": null,
@@ -1649,8 +1649,8 @@
   {
     "hospital_name": "Federal Medical Centre, Asaba",
     "location": {
-      "state": null,
-      "city": null,
+      "state": "Delta",
+      "city": "Asaba",
       "address": "Federal Medical CentreNnebisi road, Asaba, Delta State, Nigeria",
       "coordinates": {
         "latitude": null,
@@ -1712,8 +1712,8 @@
   {
     "hospital_name": "Federal Medical Centre, Azare",
     "location": {
-      "state": null,
-      "city": null,
+      "state": "Bauchi",
+      "city": "Azare",
       "address": "No. 5 Sule Katagum Road,Azare, Bauchi State",
       "coordinates": {
         "latitude": null,
@@ -1751,8 +1751,8 @@
   {
     "hospital_name": "Federal Medical Centre, Bida",
     "location": {
-      "state": null,
-      "city": null,
+      "state": "Niger",
+      "city": "Bida",
       "address": "Works & Estate",
       "coordinates": {
         "latitude": null,
@@ -1812,8 +1812,8 @@
   {
     "hospital_name": "Federal Medical Centre, Birnin Kudu",
     "location": {
-      "state": null,
-      "city": null,
+      "state": "Jigawa",
+      "city": "Birnin Kudu",
       "address": "PMB 1022, Along Kano – Maiduguri Road, Birnin Kudu, Jigawa State",
       "coordinates": {
         "latitude": null,
@@ -1877,8 +1877,8 @@
   {
     "hospital_name": "Federal Medical Centre, Ebute Metta",
     "location": {
-      "state": null,
-      "city": null,
+      "state": "Lagos",
+      "city": "Ebute Metta",
       "address": "Book Your Appointment with Easy Way",
       "coordinates": {
         "latitude": null,
@@ -1919,8 +1919,8 @@
   {
     "hospital_name": "Federal Medical Centre, Epe",
     "location": {
-      "state": null,
-      "city": null,
+      "state": "Lagos",
+      "city": "Epe",
       "address": null,
       "coordinates": {
         "latitude": null,
@@ -1954,8 +1954,8 @@
   {
     "hospital_name": "Federal Medical Centre, Daura",
     "location": {
-      "state": null,
-      "city": null,
+      "state": "Katsina",
+      "city": "Daura",
       "address": null,
       "coordinates": {
         "latitude": null,
@@ -1986,8 +1986,8 @@
   {
     "hospital_name": "Federal Medical Centre, Gusau",
     "location": {
-      "state": null,
-      "city": null,
+      "state": "Zamfara",
+      "city": "Gusau",
       "address": null,
       "coordinates": {
         "latitude": null,
@@ -2042,8 +2042,8 @@
   {
     "hospital_name": "Federal Medical Centre, Hong",
     "location": {
-      "state": null,
-      "city": null,
+      "state": "Adamawa",
+      "city": "Hong",
       "address": null,
       "coordinates": {
         "latitude": null,
@@ -2106,8 +2106,8 @@
   {
     "hospital_name": "Federal Medical Centre, Ikole-Ekiti",
     "location": {
-      "state": null,
-      "city": null,
+      "state": "Ekiti",
+      "city": "Ikole-Ekiti",
       "address": "Head of Accident and Emergency Department at Victoria Hospital, Castries, St. Lucia. 2008-2015",
       "coordinates": {
         "latitude": null,
@@ -2169,8 +2169,8 @@
   {
     "hospital_name": "Federal Medical Centre, Jabi, Abuja",
     "location": {
-      "state": null,
-      "city": null,
+      "state": "FCT",
+      "city": "Jabi",
       "address": "16 beds in the Paediatric ward including private rooms",
       "coordinates": {
         "latitude": null,
@@ -2229,8 +2229,8 @@
   {
     "hospital_name": "Federal Medical Centre, Jalingo",
     "location": {
-      "state": null,
-      "city": null,
+      "state": "Taraba",
+      "city": "Jalingo",
       "address": "Amenity Ward: Premium inpatient care with enhanced comfort and privacy",
       "coordinates": {
         "latitude": null,
@@ -2297,8 +2297,8 @@
   {
     "hospital_name": "Federal Medical Centre, Keffi",
     "location": {
-      "state": null,
-      "city": null,
+      "state": "Nasarawa",
+      "city": "Keffi",
       "address": null,
       "coordinates": {
         "latitude": null,
@@ -2329,8 +2329,8 @@
   {
     "hospital_name": "Federal Medical Centre, Makurdi",
     "location": {
-      "state": null,
-      "city": null,
+      "state": "Benue",
+      "city": "Makurdi",
       "address": "Mission Ward (Main Centre)",
       "coordinates": {
         "latitude": null,
@@ -2376,8 +2376,8 @@
   {
     "hospital_name": "Federal Medical Centre, Misau",
     "location": {
-      "state": null,
-      "city": null,
+      "state": "Bauchi",
+      "city": "Misau",
       "address": null,
       "coordinates": {
         "latitude": null,
@@ -2462,8 +2462,8 @@
   {
     "hospital_name": "Federal Medical Centre, Mubi",
     "location": {
-      "state": null,
-      "city": null,
+      "state": "Adamawa",
+      "city": "Mubi",
       "address": null,
       "coordinates": {
         "latitude": null,
@@ -2494,8 +2494,8 @@
   {
     "hospital_name": "Federal Medical Centre, New Bussa",
     "location": {
-      "state": null,
-      "city": null,
+      "state": "Niger",
+      "city": "New Bussa",
       "address": null,
       "coordinates": {
         "latitude": null,
@@ -2526,8 +2526,8 @@
   {
     "hospital_name": "Federal Medical Centre, Nguru",
     "location": {
-      "state": null,
-      "city": null,
+      "state": "Yobe",
+      "city": "Nguru",
       "address": "2 Machina Road, Nguru, Yobe State, Nigeria. +234(0)8163309374 info@fmcnguru.gov.ng",
       "coordinates": {
         "latitude": null,
@@ -2564,8 +2564,8 @@
   {
     "hospital_name": "Federal Medical Centre, Onitsha",
     "location": {
-      "state": null,
-      "city": null,
+      "state": "Anambra",
+      "city": "Onitsha",
       "address": "No 3 Awka Road , Onitsha, Anambra State, Nigeria",
       "coordinates": {
         "latitude": null,
@@ -2605,8 +2605,8 @@
   {
     "hospital_name": "Federal Medical Centre, Owo",
     "location": {
-      "state": null,
-      "city": null,
+      "state": "Ondo",
+      "city": "Owo",
       "address": "Two-way referral services and coordinated care with other specialist clinics",
       "coordinates": {
         "latitude": null,
@@ -2677,8 +2677,8 @@
   {
     "hospital_name": "Federal Medical Centre, Umuahia",
     "location": {
-      "state": null,
-      "city": null,
+      "state": "Abia",
+      "city": "Umuahia",
       "address": ": Aba Rd, opposite Guaranty Trust Bank, Umuahia 440221, Abia",
       "coordinates": {
         "latitude": null,
@@ -2721,8 +2721,8 @@
   {
     "hospital_name": "Federal Medical Centre, Wase",
     "location": {
-      "state": null,
-      "city": null,
+      "state": "Plateau",
+      "city": "Wase",
       "address": "Yola-Bashar Road, Wase, Plateau State",
       "coordinates": {
         "latitude": null,
@@ -2762,8 +2762,8 @@
   {
     "hospital_name": "Federal Medical Centre, Yenagoa",
     "location": {
-      "state": null,
-      "city": null,
+      "state": "Bayelsa",
+      "city": "Yenagoa",
       "address": "The staffs were attentive to me during my stay at the Gynae ward of O&G I commend them for a good service",
       "coordinates": {
         "latitude": null,
@@ -2814,8 +2814,8 @@
   {
     "hospital_name": "Federal Neuro-Psychiatric Hospital, Aro, Abeokuta",
     "location": {
-      "state": null,
-      "city": null,
+      "state": "Ogun",
+      "city": "Abeokuta",
       "address": "To design and monitor the hospital's security surveillance system e.g. Close Circuit Television (CCTV)",
       "coordinates": {
         "latitude": null,
@@ -2868,8 +2868,8 @@
   {
     "hospital_name": "Federal Neuro-Psychiatric Hospital, Budo-Egba, Kwara State",
     "location": {
-      "state": null,
-      "city": null,
+      "state": "Kwara",
+      "city": "Budo-Egba",
       "address": null,
       "coordinates": {
         "latitude": null,
@@ -2915,8 +2915,8 @@
   {
     "hospital_name": "Federal Neuro-Psychiatric Hospital, Calabar, Cross River State",
     "location": {
-      "state": null,
-      "city": null,
+      "state": "Cross River",
+      "city": "Calabar",
       "address": "123 Calabar Road, Calabar South, Cross River State",
       "coordinates": {
         "latitude": null,
@@ -2974,8 +2974,8 @@
   {
     "hospital_name": "Federal Neuro-Psychiatric Hospital, Dawanau, Kano State",
     "location": {
-      "state": null,
-      "city": null,
+      "state": "Kano",
+      "city": "Dawanau",
       "address": "Federal Neuropsychiatric Hospital DawanauP.M.B 11923, Katsina Road, Kano State, Nigeria",
       "coordinates": {
         "latitude": null,
@@ -3025,8 +3025,8 @@
   {
     "hospital_name": "Federal Neuro-Psychiatric Hospital, Enugu, Enugu State",
     "location": {
-      "state": null,
-      "city": null,
+      "state": "Enugu",
+      "city": "Enugu",
       "address": "Male Forensic Ward",
       "coordinates": {
         "latitude": null,
@@ -3085,8 +3085,8 @@
   {
     "hospital_name": "Federal Neuro-Psychiatric Hospital, Kaduna, Kaduna State",
     "location": {
-      "state": null,
-      "city": null,
+      "state": "Kaduna",
+      "city": "Kaduna",
       "address": "Opposite Shagari Low Cost P.M.B 2181 Barnawa Kaduna",
       "coordinates": {
         "latitude": null,
@@ -3147,8 +3147,8 @@
   {
     "hospital_name": "Federal Neuro-Psychiatric Hospital, Maiduguri, Borno State",
     "location": {
-      "state": null,
-      "city": null,
+      "state": "Borno",
+      "city": "Maiduguri",
       "address": null,
       "coordinates": {
         "latitude": null,
@@ -3179,8 +3179,8 @@
   {
     "hospital_name": "Federal Neuro-Psychiatric Hospital, Kware, Sokoto State",
     "location": {
-      "state": null,
-      "city": null,
+      "state": "Sokoto",
+      "city": "Kware",
       "address": null,
       "coordinates": {
         "latitude": null,
@@ -3211,8 +3211,8 @@
   {
     "hospital_name": "Federal Neuro-Psychiatric Hospital, Uselu-Benin, Edo State",
     "location": {
-      "state": null,
-      "city": null,
+      "state": "Edo",
+      "city": "Uselu-Benin",
       "address": "Federal Neuro-Psychiatric Hospital, P.M.B. 1108, Benin City,Edo State. Nigeria",
       "coordinates": {
         "latitude": null,
@@ -3253,8 +3253,8 @@
   {
     "hospital_name": "Federal Neuro-Psychiatric Hospital, Yaba, Lagos State",
     "location": {
-      "state": null,
-      "city": null,
+      "state": "Lagos",
+      "city": "Yaba",
       "address": "8 Harvey Road, Yaba Lagos",
       "coordinates": {
         "latitude": null,
@@ -3307,8 +3307,8 @@
   {
     "hospital_name": "National Eye Centre, Kaduna, Kaduna State",
     "location": {
-      "state": null,
-      "city": null,
+      "state": "Kaduna",
+      "city": "Kaduna",
       "address": "Hit enter to search or ESC to close",
       "coordinates": {
         "latitude": null,
@@ -3351,8 +3351,8 @@
   {
     "hospital_name": "National Ear Care Centre, Kaduna, Kaduna State",
     "location": {
-      "state": null,
-      "city": null,
+      "state": "Kaduna",
+      "city": "Kaduna",
       "address": "Funding has been a major constraint of the Centre. Unlike many other institutions, the Centre, from inception to date, has neither benefited from take-off grant nor special funding",
       "coordinates": {
         "latitude": null,
@@ -3410,8 +3410,8 @@
   {
     "hospital_name": "National Orthopaedic Hospital, Benin, Edo State",
     "location": {
-      "state": null,
-      "city": null,
+      "state": "Edo",
+      "city": "Benin",
       "address": "Ogheghe, Sapele Road Bypass, Benin City, Edo State Nigeria",
       "coordinates": {
         "latitude": null,
@@ -3452,8 +3452,8 @@
   {
     "hospital_name": "National Orthopaedic Hospital, Dala, Kano State",
     "location": {
-      "state": null,
-      "city": null,
+      "state": "Kano",
+      "city": "Dala",
       "address": "Kofar-Ruwa Road Dala, Kano",
       "coordinates": {
         "latitude": null,
@@ -3503,8 +3503,8 @@
   {
     "hospital_name": "National Orthopaedic Hospital, Enugu, Enugu State",
     "location": {
-      "state": null,
-      "city": null,
+      "state": "Enugu",
+      "city": "Enugu",
       "address": "Abakpa junction, Abakiliki Road Enugu",
       "coordinates": {
         "latitude": null,
@@ -3553,8 +3553,8 @@
   {
     "hospital_name": "National Orthopaedic Hospital, Igbobi, Lagos State",
     "location": {
-      "state": null,
-      "city": null,
+      "state": "Lagos",
+      "city": "Igbobi",
       "address": null,
       "coordinates": {
         "latitude": null,
@@ -3585,8 +3585,8 @@
   {
     "hospital_name": "National Orthopaedic Hospital, Jalingo, Taraba State",
     "location": {
-      "state": null,
-      "city": null,
+      "state": "Taraba",
+      "city": "Jalingo",
       "address": null,
       "coordinates": {
         "latitude": null,
@@ -3617,8 +3617,8 @@
   {
     "hospital_name": "National Orthopaedic Hospital, Jos, Plateau State",
     "location": {
-      "state": null,
-      "city": null,
+      "state": "Plateau",
+      "city": "Jos",
       "address": "National Orthopaedic Hospital Muritala Mohammed Way (By Terminus) Jos. Pleateau State Nigeria",
       "coordinates": {
         "latitude": null,
@@ -3659,8 +3659,8 @@
   {
     "hospital_name": "National Obstetric Fistula Centre, Abakaliki, Ebonyi State",
     "location": {
-      "state": null,
-      "city": null,
+      "state": "Ebonyi",
+      "city": "Abakaliki",
       "address": null,
       "coordinates": {
         "latitude": null,
@@ -3729,8 +3729,8 @@
   {
     "hospital_name": "National Obstetric Fistula Centre, Benin, Edo State",
     "location": {
-      "state": null,
-      "city": null,
+      "state": "Edo",
+      "city": "Benin",
       "address": null,
       "coordinates": {
         "latitude": null,
@@ -3761,8 +3761,8 @@
   {
     "hospital_name": "National Obstetric Fistula Centre, Ningi, Bauchi State",
     "location": {
-      "state": null,
-      "city": null,
+      "state": "Bauchi",
+      "city": "Ningi",
       "address": "Babbar Ruga / Jino 820102, Katsina, Katsina State",
       "coordinates": {
         "latitude": null,
