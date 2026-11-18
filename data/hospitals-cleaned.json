@@ -1,0 +1,3828 @@
+[
+  {
+    "hospital_name": "Abubakar Tafawa Balewa University Teaching Hospital",
+    "location": {
+      "state": "Bauchi",
+      "city": "Bauchi",
+      "address": "8RQ9+H43, Hospital Road off, Yandoka Rd, 740101, Bauchi",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [
+        "09043608006",
+        "07099975770",
+        "08033218730",
+        "08095962967",
+        "08099999999",
+        "07067076000",
+        "08166697912",
+        "08122334455",
+        "07032687719",
+        "08066274347"
+      ],
+      "email": [
+        "icu@atbuth.gov.ng",
+        "abubakar.m.jari@atbuth.gov.ng",
+        "usman.muhammed.nasir@atbuth.gov.ng",
+        "sani.suleiman.bara@atbuth.gov.ng",
+        "ibrahim.salim.abdullahi@atbuth.gov.ng",
+        "mohammed.bashar.rabiu@atbuth.gov.ng",
+        "yusuf.rayyan.rabiu@atbuth.gov.ng",
+        "isah.bashir.ibrahim@atbuth.gov.ng",
+        "aliyu.bashir.adamu@atbuth.gov.ng",
+        "aliyubashiradamu808@gmail.com"
+      ],
+      "website": "https://www.atbuth.gov.ng/",
+      "social_media": {}
+    },
+    "services": [
+      "Anaesthesia"
+    ],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [
+        "ICU",
+        "Laboratory",
+        "Pharmacy",
+        "Radiology",
+        "Emergency"
+      ],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "teaching",
+    "ownership": "federal",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "Ahmadu Bello University Teaching Hospital",
+    "location": {
+      "state": "Kaduna",
+      "city": "Zaria",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [
+        "08071455223",
+        "07081750333"
+      ],
+      "email": [
+        "info@abuth.gov.ng",
+        "cmd@abuth.gov.ng",
+        "cmac@abuth.gov.ng"
+      ],
+      "website": "https://abuth.gov.ng/",
+      "social_media": {}
+    },
+    "services": [
+      "Surgery",
+      "Medicine",
+      "Obsterics & Gynaecology",
+      "Haematology",
+      "Radiotheray & Oncology",
+      "Maxillo Facial Surgery",
+      "Pathology",
+      "Traumatic & Orthopae",
+      "Radiology",
+      "Community Medicine",
+      "Family Medicine",
+      "Physiotherapy",
+      "Chemical Pathology",
+      "Paediatrics",
+      "Psychiatry",
+      "Medical Microbiology"
+    ],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [
+        "Radiology",
+        "MRI"
+      ],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "teaching",
+    "ownership": "federal",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "Alex Ekwueme Federal Teaching Hospital",
+    "location": {
+      "state": "Ebonyi",
+      "city": "Abakaliki",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [],
+      "email": [
+        "enquiries@aefutha.gov.ng"
+      ],
+      "website": "https://www.aefutha.gov.ng",
+      "social_media": {
+        "whatsapp": "https://wa.me/2347036088036"
+      }
+    },
+    "services": [],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [
+        "Dialysis",
+        "Laboratory",
+        "Radiology"
+      ],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "teaching",
+    "ownership": "federal",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "Aminu Kano Teaching Hospital",
+    "location": {
+      "state": "Kano",
+      "city": "Kano",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [
+        "08128929195",
+        "09048875201",
+        "09037357111"
+      ],
+      "email": [
+        "info@akth.gov.ng"
+      ],
+      "website": "https://akth.gov.ng",
+      "social_media": {}
+    },
+    "services": [
+      "Application for Employment is closed"
+    ],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "teaching",
+    "ownership": "federal",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "David Umahi Federal University Teaching Hospital",
+    "location": {
+      "state": "Ebonyi",
+      "city": "Uburu",
+      "address": "UMUNAGU ENUAGU ROAD UBURU P.O.BOX 337",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [
+        "08158398323",
+        "08158256450"
+      ],
+      "email": [
+        "registry.cmd@dufuth.gov.ng"
+      ],
+      "website": "https://dufuthuburu.online",
+      "social_media": {}
+    },
+    "services": [],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "teaching",
+    "ownership": "federal",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "Federal Teaching Hospital, Birnin Kebbi",
+    "location": {
+      "state": "Kebbi",
+      "city": "Birnin Kebbi",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [
+        "07043133109"
+      ],
+      "email": [
+        "info@fmcbirninkebbi.gov.ng",
+        "md@fmcbirninkebbi.gov.ng",
+        "info@fmcbrininkebbi.gov.ng"
+      ],
+      "website": "https://fmcbirninkebbi.gov.ng",
+      "social_media": {}
+    },
+    "services": [],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [
+        "Radiology",
+        "Emergency",
+        "Laboratory",
+        "Pharmacy",
+        "Dialysis"
+      ],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "teaching",
+    "ownership": "federal",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "Federal Teaching Hospital, Gombe",
+    "location": {
+      "state": "Gombe",
+      "city": "Gombe",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [],
+      "email": [
+        "cmd@fthgombe.gov.ng",
+        "cmd@hospital.com"
+      ],
+      "website": "https://fthgombe.gov.ng/",
+      "social_media": {}
+    },
+    "services": [
+      "Anesthesiaa",
+      "Dental Services",
+      "General Outpatient Department",
+      "Nursing Services",
+      "Obstetrics and Gynecology",
+      "Radiology",
+      "ICT Department",
+      "College of Nursing Science",
+      "Resources Tenders Announcements Publications Annual Reports",
+      "Announcements"
+    ],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [
+        "Radiology",
+        "Emergency",
+        "MRI"
+      ],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "teaching",
+    "ownership": "federal",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "Federal Teaching Hospital, Ido-Ekiti",
+    "location": {
+      "state": "Ekiti",
+      "city": "Ido-Ekiti",
+      "address": "PMB, 201, Oke Bareke, Off Ifaki Road, Ido-Ekiti, Ekiti State. Nigeria.",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [
+        "09121502820"
+      ],
+      "email": [],
+      "website": "https://fethi.gov.ng/",
+      "social_media": {
+        "twitter": "https://x.com/officialfethi"
+      }
+    },
+    "services": [
+      "DepartmentsClinicalNon-Clinical",
+      "Clinical",
+      "Non-Clinical",
+      "Intensive Care Unit",
+      "Cardiology",
+      "Surgery",
+      "Pharmacy",
+      "Physiotherapy",
+      "SOPD (Specialist Outpatient Department)",
+      "Laboratory",
+      "Accident and Emergency",
+      "Renal",
+      "Key Departments",
+      "24/7 monitoring and specialist nursing care",
+      "Ventilator and life support equipment",
+      "Restricted visiting hours to protect patient recovery",
+      "Pre-surgical cardiac evaluation",
+      "General and specialist surgical procedures",
+      "Emergency surgery",
+      "Pre-operative assessment and planning"
+    ],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [
+        "Ambulance",
+        "Emergency",
+        "Dialysis",
+        "Pharmacy",
+        "ICU"
+      ],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "teaching",
+    "ownership": "federal",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "Federal Teaching Hospital, Katsina",
+    "location": {
+      "state": "Katsina",
+      "city": "Katsina",
+      "address": "Murtala Muhd Way Jibia bypass Katsina, Katsina State Nigeria",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [],
+      "email": [
+        "medilink@gmail.com",
+        "info@gmail.com",
+        "info@fthkatsina.gov.ng"
+      ],
+      "website": "https://fthkatsina.gov.ng/",
+      "social_media": {}
+    },
+    "services": [
+      "Departments 1",
+      "Departments 2",
+      "Departments 3",
+      "Departments 4",
+      "Departments 5",
+      "Departments 6",
+      "Departments 7",
+      "Department Detail"
+    ],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [
+        "Emergency"
+      ],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "teaching",
+    "ownership": "federal",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "Federal Teaching Hospital, Lokoja",
+    "location": {
+      "state": "Kogi",
+      "city": "Lokoja",
+      "address": "No. 1, Saliu Ibrahim way, PMB 1001, Lokoja, Kogi State.",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [
+        "08050312534"
+      ],
+      "email": [
+        "info@fthlokoja.gov.ng"
+      ],
+      "website": "https://fthlokoja.gov.ng/",
+      "social_media": {}
+    },
+    "services": [
+      "Achievements",
+      "Developments in the hospital",
+      "Anaesthesiology and Intensive Care",
+      "Accident and Emergency",
+      "Biomedical Unit",
+      "Chemical Pathology",
+      "Clinical Microbiology",
+      "Dental and Maxillofacial surgery",
+      "Family Medicine",
+      "Histopathology and Morbid Anatomy",
+      "Haematology and Blood Transfusion",
+      "Internal Medicine",
+      "Nursing Services"
+    ],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [
+        "Laboratory",
+        "Radiology",
+        "Emergency",
+        "ICU",
+        "Dialysis",
+        "Pharmacy",
+        "Theatre"
+      ],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "teaching",
+    "ownership": "federal",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "Federal University of Health Sciences Teaching Hospital, Ila-Orangun",
+    "location": {
+      "state": "Osun",
+      "city": "Ila-Orangun",
+      "address": "KM 4, Ora Road, P.M.B. 228,Ila-Orangun, Osun State.",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [
+        "08035019361",
+        "08033593683",
+        "08039401201",
+        "08164200542"
+      ],
+      "email": [
+        "addressinfo@fuhsthi.com.ng",
+        "zuleihatyusuf74@gmail.com"
+      ],
+      "website": "https://www.fuhsthi.com.ng/",
+      "social_media": {}
+    },
+    "services": [
+      "MondayCardiology Clinic8:00 AM",
+      "TuesdayEndocrine Clinic8:00 AM",
+      "WednesdayGastroenterology9:00 AM",
+      "ThursdayGeneral Medicine8:00 AM",
+      "FridayNephrology Clinic8:00 AM",
+      "Departments",
+      "Internal Medicine",
+      "Surgery",
+      "Pediatrics",
+      "Obstetrics & Gynaecology",
+      "Radiology",
+      "Laboratory Services",
+      "Patient Rights",
+      "Related Documents",
+      "Patient Bill of Rights"
+    ],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [
+        "Laboratory",
+        "Radiology",
+        "Blood bank"
+      ],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "teaching",
+    "ownership": "federal",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "Federal University of Health Sciences Teaching Hospital, Otukpo",
+    "location": {
+      "state": "Benue",
+      "city": "Otukpo",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [],
+      "email": [],
+      "website": "https://fuhstho.gov.ng/",
+      "social_media": {}
+    },
+    "services": [],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "teaching",
+    "ownership": "federal",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "Federal University Teaching Hospital, Lafia",
+    "location": {
+      "state": "Nasarawa",
+      "city": "Lafia",
+      "address": "PMB 07, Lafia, Nasarawa State.",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [
+        "08151238986",
+        "09129739707"
+      ],
+      "email": [
+        "admin@fulth.gov.ng"
+      ],
+      "website": "https://fulth.gov.ng/",
+      "social_media": {}
+    },
+    "services": [],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [
+        "Laboratory",
+        "Pharmacy",
+        "Radiology",
+        "MRI",
+        "Emergency"
+      ],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "teaching",
+    "ownership": "federal",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "Federal University Teaching Hospital, Owerri",
+    "location": {
+      "state": "Imo",
+      "city": "Owerri",
+      "address": "105 Hospital Road, Orlu Rd, Owerri 460281, Imo State, Nigeria.",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [
+        "09095884734"
+      ],
+      "email": [
+        "info@fthowerri.gov.ng"
+      ],
+      "website": "https://fthowerri.gov.ng",
+      "social_media": {
+        "facebook": "https://web.facebook.com/futhowerri",
+        "twitter": "https://x.com/futhowerri"
+      }
+    },
+    "services": [
+      "Departments",
+      "Dental",
+      "Department: Dental & Maxillofacial",
+      "Unit: Dental & Maxillofacial",
+      "Department: Restorative Dentistry",
+      "Unit: Restorative Dentistry",
+      "Patient-Focused Care",
+      "Family Medicine",
+      "Ophthalmology",
+      "Patient-Centered Approach",
+      "Otorhinolaryngology (ENT)",
+      "Orthopaedics"
+    ],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [
+        "Dialysis",
+        "Emergency",
+        "Laboratory",
+        "Pharmacy",
+        "Radiology"
+      ],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "teaching",
+    "ownership": "federal",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "Federal University Teaching Hospital, Wukari",
+    "location": {
+      "state": "Taraba",
+      "city": "Wukari",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [],
+      "email": [],
+      "website": "https://www.futhw.org/",
+      "social_media": {}
+    },
+    "services": [],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "teaching",
+    "ownership": "federal",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "Irrua Specialist Teaching Hospital",
+    "location": {
+      "state": "Edo",
+      "city": "Irrua",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [
+        "08169464623",
+        "08058066677",
+        "08058065577"
+      ],
+      "email": [
+        "info@isth.org.ng"
+      ],
+      "website": "https://isth.org.ng/",
+      "social_media": {
+        "facebook": "https://web.facebook.com/profile.php?id=61577983487350",
+        "twitter": "https://x.com/isthng_irrua"
+      }
+    },
+    "services": [
+      "Community Medicine",
+      "Surgery",
+      "Paediatrics",
+      "Ophthalmology",
+      "Dental Services (Oral Diagnosis Unit)",
+      "Anaesthesia",
+      "Nursing Service",
+      "Obstetrics and Gynaecology",
+      "Family Medicine",
+      "Mental Health and Behavioural Medicine",
+      "Radiology",
+      "Accident & Emergency",
+      "Anatomy Pathology",
+      "Physiotherapy",
+      "Internal Medicine",
+      "SERVICOM Department",
+      "NHIS Department",
+      "Pharmacy Department",
+      "Chemical Pathology"
+    ],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [
+        "Pharmacy",
+        "Radiology",
+        "Emergency",
+        "Theatre",
+        "Laboratory"
+      ],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "specialist",
+    "ownership": "federal",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "Jos University Teaching Hospital",
+    "location": {
+      "state": "Plateau",
+      "city": "Jos",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [],
+      "email": [],
+      "website": "https://juth.gov.ng/",
+      "social_media": {
+        "facebook": "https://web.facebook.com/officialjuth",
+        "twitter": "https://x.com/juth_online",
+        "whatsapp": "https://api.whatsapp.com/send?phone=https://wa.me/+2348032850363"
+      }
+    },
+    "services": [],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "teaching",
+    "ownership": "federal",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "Lagos University Teaching Hospital",
+    "location": {
+      "state": "Lagos",
+      "city": "Lagos",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [
+        "08070591395",
+        "08023115885",
+        "09116564504",
+        "08122683334"
+      ],
+      "email": [],
+      "website": "https://luth.gov.ng/",
+      "social_media": {}
+    },
+    "services": [
+      "Clinical Departments",
+      "Allied Clinical Departments",
+      "Non-Clinical Departments",
+      "Patient Testimonials",
+      "Client's Access",
+      "Scientific Conferences"
+    ],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [
+        "Laboratory",
+        "Pharmacy",
+        "Dialysis",
+        "Radiology"
+      ],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "teaching",
+    "ownership": "federal",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "Modibbo Adama University Teaching Hospital",
+    "location": {
+      "state": "Adamawa",
+      "city": "Yola",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [],
+      "email": [],
+      "website": "https://mauth.gov.ng/",
+      "social_media": {
+        "twitter": "https://x.com/mauthyola"
+      }
+    },
+    "services": [],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "teaching",
+    "ownership": "federal",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "National Hospital, Abuja",
+    "location": {
+      "state": "FCT",
+      "city": "Abuja",
+      "address": "Plot 132, Central Business District, Abuja, Nigeria.",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [
+        "08097520012",
+        "09030097889",
+        "07065633018",
+        "08062556177"
+      ],
+      "email": [
+        "contact@nationalhospital.gov.ng",
+        "servicom@nationalhospital.gov.ng",
+        "enquiriescontact@nationalhospital.gov.ng"
+      ],
+      "website": "https://nationalhospital.gov.ng/",
+      "social_media": {
+        "facebook": "https://web.facebook.com/NatHospAbj",
+        "twitter": "https://x.com/NatHospital_ABJ"
+      }
+    },
+    "services": [
+      "A&E(General Surgery)",
+      "Anaesthesia",
+      "Anaesthesia Intensive Care",
+      "Chemical Pathology",
+      "Dental and MFU",
+      "Dietetics",
+      "Family medicine",
+      "Haematology",
+      "Histopathology",
+      "Internal Medicine",
+      "Invitro Fertilization (IVF)",
+      "Medical Microbiology",
+      "Medical Physics",
+      "Microbiology & Parasitology",
+      "National Trauma Centre NHA",
+      "Nuclear Medicine",
+      "Nursing Services",
+      "Obstetrics & Gynaecology",
+      "Oncology",
+      "Orthopaedics",
+      "Orthopedics & Trauma",
+      "Otorhinolaryngology/Head and Neck Surgery"
+    ],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [
+        "Radiology",
+        "Emergency",
+        "Pharmacy",
+        "ICU"
+      ],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "other",
+    "ownership": "federal",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "Nnamdi Azikiwe University Teaching Hospital",
+    "location": {
+      "state": "Anambra",
+      "city": "Nnewi",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [],
+      "email": [],
+      "website": "https://www.thenauth.org/",
+      "social_media": {}
+    },
+    "services": [],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [
+        "Pharmacy"
+      ],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "teaching",
+    "ownership": "federal",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "Obafemi Awolowo University Teaching Hospitals Complex",
+    "location": {
+      "state": "Osun",
+      "city": "Ile-Ife",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [],
+      "email": [],
+      "website": "https://www.oauthc.gov.ng/",
+      "social_media": {}
+    },
+    "services": [],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "teaching",
+    "ownership": "federal",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "Rasheed Shekoni Teaching Hospital",
+    "location": {
+      "state": "Jigawa",
+      "city": "Dutse",
+      "address": "Kiyawa Road dutse",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [],
+      "email": [],
+      "website": "https://rsfuth.gov.ng/",
+      "social_media": {}
+    },
+    "services": [],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [
+        "Laboratory",
+        "Pharmacy",
+        "Emergency"
+      ],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "teaching",
+    "ownership": "federal",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "University College Hospital, Ibadan",
+    "location": {
+      "state": "Oyo",
+      "city": "Ibadan",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [],
+      "email": [],
+      "website": "https://uch-ibadan.org.ng",
+      "social_media": {}
+    },
+    "services": [],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "other",
+    "ownership": "federal",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "University of Abuja Teaching Hospital",
+    "location": {
+      "state": "FCT",
+      "city": "Gwagwalada",
+      "address": "Gwagwalada, P.M.B. 228, Abuja NIGERIA",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [
+        "07040045614",
+        "08000001001"
+      ],
+      "email": [
+        "info@uath.gov.ng",
+        "admin@uath.gov.ng",
+        "cmd@uath.gov.ng"
+      ],
+      "website": "https://uath.gov.ng/",
+      "social_media": {}
+    },
+    "services": [
+      "Chief Medical Director",
+      "Chairman Medical Advisory Committee",
+      "Department Heads",
+      "Departmental Profiles",
+      "Clinical Services",
+      "Patient Care",
+      "Records, Statistics and Documentation/Pension matters",
+      "Procurement",
+      "Anaesthesia & Intensive Care",
+      "Range of Services Rendered by the Department",
+      "Central venous catheterization",
+      "Anaesthesia for specialized radiological procedures",
+      "Regional Anaesthesia"
+    ],
+    "info": {
+      "hours": "08:00 - 16:00",
+      "facilities": [
+        "Laboratory",
+        "MRI",
+        "Emergency",
+        "Pharmacy",
+        "Radiology",
+        "CT scan",
+        "Theatre",
+        "ICU",
+        "Blood bank"
+      ],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "teaching",
+    "ownership": "federal",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "University of Benin Teaching Hospital",
+    "location": {
+      "state": "Edo",
+      "city": "Benin City",
+      "address": "UBTH Km 10, Benin -Lagos Express road Ugbowo Benin City",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [
+        "09133000051",
+        "09134000053",
+        "08140454483",
+        "09057493732"
+      ],
+      "email": [
+        "info@ubth.org",
+        "medsec.ubth@oncoclinicsafrica.com"
+      ],
+      "website": "https://ubth.org/",
+      "social_media": {
+        "twitter": "https://x.com/ubthng",
+        "whatsapp": "https://wa.me/2349168373681"
+      }
+    },
+    "services": [
+      "PATIENTS & VISITORS Location & Directions Testimonials",
+      "Medical Specialties",
+      "Surgical Specialties",
+      "Obstetrics & Gynaecology Specialties",
+      "Paediatrics Specialties",
+      "Dentistry Specialties",
+      "Oncology Department",
+      "UBTH SCHOOLS College of Nursing IHST UBTH",
+      "College of Nursing"
+    ],
+    "info": {
+      "hours": "08:00 - 18:00",
+      "facilities": [
+        "Laboratory",
+        "Pharmacy",
+        "Emergency"
+      ],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "teaching",
+    "ownership": "federal",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "University of Calabar Teaching Hospital",
+    "location": {
+      "state": "Cross River",
+      "city": "Calabar",
+      "address": "We aspire to lead the way in quaternary healthcare provision, delivering top-tier specialist-led medical and ancillary services across West and Central Africa, extending our reach beyond borders.",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [
+        "08024310194",
+        "08066722346",
+        "08025966923",
+        "08021236801",
+        "08062540799"
+      ],
+      "email": [
+        "info@ucthcalabar.gov.ng"
+      ],
+      "website": "https://www.ucthcalabar.gov.ng/",
+      "social_media": {
+        "facebook": "https://web.facebook.com/CorporateAffairsUCTH",
+        "whatsapp": "https://wa.me/2348066722346?text=Hello%20UCTH%20ICT"
+      }
+    },
+    "services": [
+      "Departments",
+      "Accident & Emergency Department",
+      "Head of Department",
+      "College of Nursing",
+      "Anaesthesiology Department",
+      "Community Medicine Department",
+      "Dentistry Department",
+      "Restorative Dentistry Department"
+    ],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [
+        "ICU",
+        "Laboratory",
+        "Pharmacy",
+        "Radiology",
+        "MRI",
+        "Ambulance",
+        "Emergency",
+        "Theatre"
+      ],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "teaching",
+    "ownership": "federal",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "University of Ilorin Teaching Hospital",
+    "location": {
+      "state": "Kwara",
+      "city": "Ilorin",
+      "address": "Old Jebba Road, Oke Ose, Ilorin, Kwara State, Nigeria",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [
+        "08055763942",
+        "08137875019"
+      ],
+      "email": [
+        "ent@uithilorin.org.ng",
+        "chempathim@uithilorin.org.ng",
+        "microbiology@uithilorin.org.ng",
+        "anatpath@uithilorin.org.ng",
+        "info@uithilorin.org.ng",
+        "webunit@uithilorin.org.ng",
+        "nursingservices@uithilorin.org.ng"
+      ],
+      "website": "https://www.uithilorin.org.ng/index",
+      "social_media": {
+        "facebook": "https://web.facebook.com/uith.ilorin.7"
+      }
+    },
+    "services": [
+      "AnesthesiaBehavioural Science",
+      "Invitro FertilizationMedicine",
+      "O and GEnt",
+      "OphthalmologyPain And Pallative",
+      "PharmacyPaediatrics",
+      "PhysiotherapyRadiology",
+      "SurgeryUrology",
+      "Nursing ServiceNHIS",
+      "Accident And EmergencyCommunity Health",
+      "DieteticHealth Information",
+      "Board And TenderCentral Administration",
+      "Procurement UnitWorks",
+      "Chemical Pathology",
+      "Microbiology/Parasitology",
+      "Histopathology",
+      "Hemathology",
+      "Anatomic Pathology"
+    ],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [
+        "Laboratory",
+        "Radiology",
+        "Emergency",
+        "ICU",
+        "Dialysis",
+        "Pharmacy",
+        "MRI",
+        "Theatre"
+      ],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "teaching",
+    "ownership": "federal",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "University of Maiduguri Teaching Hospital",
+    "location": {
+      "state": "Borno",
+      "city": "Maiduguri",
+      "address": "Bama Road, Maiduguri, Borno State",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [
+        "09030549474"
+      ],
+      "email": [
+        "info@umth.gov.ng"
+      ],
+      "website": "https://umth.gov.ng/",
+      "social_media": {
+        "facebook": "https://web.facebook.com/University-of-Maiduguri-Teaching-Hospital-101468139359963"
+      }
+    },
+    "services": [],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [
+        "Radiology",
+        "Laboratory"
+      ],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "teaching",
+    "ownership": "federal",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "University of Nigeria Teaching Hospital",
+    "location": {
+      "state": "Enugu",
+      "city": "Ituku-Ozalla",
+      "address": "The University of Nigeria Teaching Hospital (UNTH) Ituku-Ozalla Enugu, has come a long way. Read More of our long history.",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [
+        "07031322008"
+      ],
+      "email": [],
+      "website": "https://unth.edu.ng/",
+      "social_media": {
+        "twitter": "https://x.com/officialunth"
+      }
+    },
+    "services": [
+      "Milestones in our Development",
+      "Heads of Department",
+      "Oncology Pharmacy",
+      "Cardiothoracic Centre",
+      "Department of Ophthalmology",
+      "Pharmacy Department",
+      "Department of Paediatrics",
+      "Department of Dermatology",
+      "Emergency Medicine",
+      "General Out-Patient Dept",
+      "Chemical Pathology",
+      "Physiotherapy"
+    ],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [
+        "Pharmacy",
+        "Ambulance",
+        "Emergency",
+        "Laboratory",
+        "Dialysis",
+        "Blood bank",
+        "Theatre"
+      ],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "teaching",
+    "ownership": "federal",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "University of Port Harcourt Teaching Hospital",
+    "location": {
+      "state": "Rivers",
+      "city": "Port Harcourt",
+      "address": "East-West Road, Opposite Alakahia Junction, RS. P.M.B 6173",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [
+        "07010207377",
+        "08182692056",
+        "08034567780",
+        "07012345678",
+        "08134567890",
+        "08023456789",
+        "09021112223"
+      ],
+      "email": [],
+      "website": "https://www.upth.gov.ng/",
+      "social_media": {
+        "twitter": "https://x.com/UpthOnline",
+        "whatsapp": "https://wa.me/2347010207377"
+      }
+    },
+    "services": [],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [
+        "Laboratory",
+        "Pharmacy",
+        "Radiology",
+        "Blood bank",
+        "Emergency",
+        "Theatre"
+      ],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "teaching",
+    "ownership": "federal",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "University of Uyo Teaching Hospital",
+    "location": {
+      "state": "Akwa Ibom",
+      "city": "Uyo",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [
+        "08137987928"
+      ],
+      "email": [
+        "info@uuthuyo.net"
+      ],
+      "website": "https://uuthuyo.net",
+      "social_media": {}
+    },
+    "services": [],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [
+        "Pharmacy",
+        "Radiology",
+        "Emergency"
+      ],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "teaching",
+    "ownership": "federal",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "Usmanu Danfodiyo University Teaching Hospital",
+    "location": {
+      "state": "Sokoto",
+      "city": "Sokoto",
+      "address": "Garba Nadama Road, Sokoto",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [],
+      "email": [
+        "info@uduth.org.ng",
+        "emergency@uduth.org.ng"
+      ],
+      "website": "https://www.uduth.org.ng/",
+      "social_media": {}
+    },
+    "services": [
+      "Clinical Departments",
+      "Non Clinical Departments",
+      "School of Nursing",
+      "School of Post Basic Perioperative Nursing",
+      "School of Post Basic Paediatrics Nursing",
+      "Residents/Medical",
+      "Surgery",
+      "Anaesthesiology",
+      "Neuro Surgery",
+      "Radiology",
+      "Nursing Services",
+      "Medical Library",
+      "Internal Medicine",
+      "Family Medicine",
+      "Community Medicine",
+      "Obstetrics & Gynaecology"
+    ],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [
+        "Dialysis",
+        "Laboratory",
+        "MRI",
+        "CT scan",
+        "Blood bank",
+        "Emergency",
+        "Pharmacy",
+        "Radiology"
+      ],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "teaching",
+    "ownership": "federal",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "Federal Medical Centre, Abeokuta",
+    "location": {
+      "state": null,
+      "city": null,
+      "address": "Olabisi Onabanjo Way, (P.M.B 3031, Sapon), Abeokuta, Ogun State, Nigeria",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [],
+      "email": [],
+      "website": "http://www.fmcabeokuta.net/",
+      "social_media": {}
+    },
+    "services": [
+      "Statements",
+      "Departments Clinical Service Non Clinical Service",
+      "Clinical Service",
+      "Non Clinical Service",
+      "EMRDepartments"
+    ],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [
+        "Pharmacy",
+        "Radiology",
+        "Emergency",
+        "ICU"
+      ],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "general",
+    "ownership": "federal",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "Federal Medical Centre, Asaba",
+    "location": {
+      "state": null,
+      "city": null,
+      "address": "Federal Medical CentreNnebisi road, Asaba, Delta State, Nigeria",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [
+        "09167810386",
+        "09167791541"
+      ],
+      "email": [],
+      "website": "https://fmcasaba.org/",
+      "social_media": {
+        "facebook": "https://www.facebook.com/fmcasaba",
+        "twitter": "https://www.twitter.com/fmcasaba",
+        "instagram": "https://www.instagram.com/officialfmcasaba"
+      }
+    },
+    "services": [
+      "Departments",
+      "Accident and Emergency",
+      "Achievements",
+      "Department of Anaesthesia and Intensive Care",
+      "Department of Dentistry",
+      "Child Dental Health and Orthodontics",
+      "Oral and Maxillofacial Surgery",
+      "Oral Diagnosis and Radiology",
+      "Oral Pathology",
+      "Department of Haematology",
+      "Departmental weekly activities",
+      "Tuesday for clinical ward rounds",
+      "Wednesday slide review and seminal presentations",
+      "Thursday for oncology patient review and chemotherapy"
+    ],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [
+        "Dialysis",
+        "Pharmacy",
+        "Radiology",
+        "Emergency",
+        "Theatre",
+        "Laboratory",
+        "Ambulance",
+        "ICU"
+      ],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "general",
+    "ownership": "federal",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "Federal Medical Centre, Azare",
+    "location": {
+      "state": null,
+      "city": null,
+      "address": "No. 5 Sule Katagum Road,Azare, Bauchi State",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [
+        "08036161249"
+      ],
+      "email": [
+        "fuhstha@gmail.com",
+        "1249fuhstha@gmail.com"
+      ],
+      "website": "https://fmcazare.gov.ng",
+      "social_media": {}
+    },
+    "services": [],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [
+        "Emergency"
+      ],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "general",
+    "ownership": "federal",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "Federal Medical Centre, Bida",
+    "location": {
+      "state": null,
+      "city": null,
+      "address": "Works & Estate",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [
+        "08149228329"
+      ],
+      "email": [],
+      "website": "https://fmcbida.gov.ng/",
+      "social_media": {}
+    },
+    "services": [
+      "Medical Director",
+      "Head of Clinical Services",
+      "Accidents & Emergency",
+      "Anaesthesia",
+      "Community Medicine",
+      "Dental Surgery",
+      "Family Medicine",
+      "Internal Medicine",
+      "Medical Social Welfare",
+      "Mental Health",
+      "Nursing Services",
+      "Obstetrics & Gynecology",
+      "Ophthalmic",
+      "Paediatrics",
+      "Physiotherapy",
+      "Radiology",
+      "Surgery",
+      "MicroBiology",
+      "Chemical Pathology",
+      "Haematology",
+      "Comprehensive Health Centre, Zungeru"
+    ],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [
+        "Laboratory",
+        "Radiology",
+        "Emergency",
+        "Dialysis"
+      ],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "general",
+    "ownership": "federal",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "Federal Medical Centre, Birnin Kudu",
+    "location": {
+      "state": null,
+      "city": null,
+      "address": "PMB 1022, Along Kano – Maiduguri Road, Birnin Kudu, Jigawa State",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [],
+      "email": [
+        "info@fmcbkd.gov.ng"
+      ],
+      "website": "https://fmcbkd.gov.ng/",
+      "social_media": {
+        "whatsapp": "https://wa.me/+(234) 7045190837",
+        "facebook": "https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Ffmcbkd.gov.ng%2Fservices%2FContent-writing-and-SEO",
+        "twitter": "https://twitter.com/share?text=Cervical Cancer Colposcopy&url=http%3A%2F%2Ffmcbkd.gov.ng%2Fservices%2FContent-writing-and-SEO",
+        "linkedin": "http://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Ffmcbkd.gov.ng%2Fservices%2FContent-writing-and-SEO&title=Cervical Cancer Colposcopy"
+      }
+    },
+    "services": [
+      "Departments Clinical Non-Clinical Units",
+      "Clinical",
+      "Non-Clinical",
+      "Chemical Pathology",
+      "Hematology",
+      "Histopathology",
+      "Intensive Care Unit",
+      "Mental Health Services",
+      "Microbiology STC",
+      "Pharmacy",
+      "Physiotherapy",
+      "Total Hip Replacement",
+      "Obstetric & Gynecology",
+      "Internal Medicine",
+      "Psychiatric",
+      "Paediatrics",
+      "General Surgery",
+      "Pathology",
+      "ICU/Anaesthesia",
+      "Radiology"
+    ],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [
+        "ICU",
+        "Pharmacy",
+        "Radiology",
+        "Laboratory"
+      ],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "general",
+    "ownership": "federal",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "Federal Medical Centre, Ebute Metta",
+    "location": {
+      "state": null,
+      "city": null,
+      "address": "Book Your Appointment with Easy Way",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [
+        "08170693805",
+        "08187270749",
+        "08177623322"
+      ],
+      "email": [
+        "fmcebinfo@fmceb.org"
+      ],
+      "website": "https://www.fmceb.org/",
+      "social_media": {}
+    },
+    "services": [],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [
+        "Laboratory",
+        "Radiology",
+        "Emergency"
+      ],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "general",
+    "ownership": "federal",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "Federal Medical Centre, Epe",
+    "location": {
+      "state": null,
+      "city": null,
+      "address": null,
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [
+        "07060636780",
+        "08033002111"
+      ],
+      "email": [],
+      "website": "https://fmcepe.gov.ng/",
+      "social_media": {}
+    },
+    "services": [],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "general",
+    "ownership": "federal",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "Federal Medical Centre, Daura",
+    "location": {
+      "state": null,
+      "city": null,
+      "address": null,
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [],
+      "email": [],
+      "website": null,
+      "social_media": {}
+    },
+    "services": [],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "general",
+    "ownership": "federal",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "Federal Medical Centre, Gusau",
+    "location": {
+      "state": null,
+      "city": null,
+      "address": null,
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [],
+      "email": [
+        "info@fmcgusau.gov.ng"
+      ],
+      "website": "https://www.fmcgusau.gov.ng/",
+      "social_media": {
+        "facebook": "https://facebook.com/fmcgusau",
+        "twitter": "https://twitter.com/fmc_gusau",
+        "instagram": "https://instagram.com/fmcgusau"
+      }
+    },
+    "services": [
+      "Departments Clinical Non-Clinical",
+      "Clinical",
+      "Non-Clinical",
+      "Payments",
+      "Clinical services",
+      "Intensive Care Unit",
+      "Pharmacy Service",
+      "Departments",
+      "Clinical Departments",
+      "Administration Department",
+      "Non-Clinical Departments"
+    ],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [
+        "Laboratory",
+        "Pharmacy",
+        "Radiology",
+        "CT scan",
+        "Emergency"
+      ],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "general",
+    "ownership": "federal",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "Federal Medical Centre, Hong",
+    "location": {
+      "state": null,
+      "city": null,
+      "address": null,
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [],
+      "email": [
+        "info@fmchong.gov.ng"
+      ],
+      "website": "https://fmchong.gov.ng/",
+      "social_media": {}
+    },
+    "services": [
+      "Departments",
+      "Internal Medicine",
+      "Surgery",
+      "Pediatrics",
+      "Obstetrics & Gynecology",
+      "Family Medicine",
+      "Radiology",
+      "Laboratory & Pathology Services",
+      "Pharmacy",
+      "Dental Services",
+      "Mental Health & Psychiatry",
+      "Community Medicine",
+      "Emergency Services",
+      "Medical Records & ICT",
+      "Emergency Services (24/7)",
+      "Outpatient Clinics and Specialty Consultations",
+      "Inpatient Care and Intensive Care Unit (ICU)",
+      "Immunization and Nutrition Programs",
+      "Community Medical Outreach",
+      "HIV/AIDS Counseling and Treatment",
+      "Surgical and Diagnostic Services",
+      "New FMC Hong Begins Clinical Services"
+    ],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [
+        "ICU",
+        "Laboratory",
+        "Radiology",
+        "Ambulance",
+        "Emergency",
+        "Pharmacy"
+      ],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "general",
+    "ownership": "federal",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "Federal Medical Centre, Ikole-Ekiti",
+    "location": {
+      "state": null,
+      "city": null,
+      "address": "Head of Accident and Emergency Department at Victoria Hospital, Castries, St. Lucia. 2008-2015",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [
+        "09071507008"
+      ],
+      "email": [
+        "info@fmcikoleekiti.gov.ng",
+        "chinonsodomnic@gmail.com"
+      ],
+      "website": "http://fmcikoleekiti.gov.ng/",
+      "social_media": {
+        "facebook": "https://web.facebook.com/profile.php?id=61569964799221",
+        "twitter": "https://x.com/FederalEki9107"
+      }
+    },
+    "services": [
+      "Achievements",
+      "Accident & Emergency",
+      "Dentistry",
+      "General Surgery",
+      "Family Medicine",
+      "Internal Medicine",
+      "Laboratory",
+      "Medical Records",
+      "Nursing Services",
+      "Obstetrics & Gynaecology",
+      "Ophthalmology",
+      "Orthopaedics",
+      "Paediatrics",
+      "Pharmacy",
+      "Physiotherapy",
+      "Radiology",
+      "Procurement"
+    ],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [
+        "Laboratory",
+        "Pharmacy",
+        "Radiology",
+        "Emergency"
+      ],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "general",
+    "ownership": "federal",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "Federal Medical Centre, Jabi, Abuja",
+    "location": {
+      "state": null,
+      "city": null,
+      "address": "16 beds in the Paediatric ward including private rooms",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [
+        "07025700037",
+        "08036678249"
+      ],
+      "email": [
+        "info@fmcabuja.gov.ng",
+        "corporateservices@fmcabuja.gov.ng",
+        "pro@fmcabuja.gov.ng"
+      ],
+      "website": "https://fmcabuja.gov.ng/",
+      "social_media": {
+        "facebook": "https://www.facebook.com/fmcjabiabuja",
+        "twitter": "https://twitter.com/FMCAbuja",
+        "instagram": "https://www.instagram.com/fmcabuja/"
+      }
+    },
+    "services": [
+      "Heads of Department/Unit",
+      "Departments",
+      "OFFICE OF CLINICAL SERVICE",
+      "8 beds in the Emergency Paediatric Unit(EPU)",
+      "Dispensing of safe and efficacious medicines",
+      "Identifying and resolving drug therapy problems",
+      "Patient counselling",
+      "Professional seminars and clinical presentations",
+      "Outpatient units"
+    ],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [
+        "Laboratory",
+        "Pharmacy",
+        "Emergency",
+        "Radiology",
+        "ICU",
+        "Theatre"
+      ],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "general",
+    "ownership": "federal",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "Federal Medical Centre, Jalingo",
+    "location": {
+      "state": null,
+      "city": null,
+      "address": "Amenity Ward: Premium inpatient care with enhanced comfort and privacy",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [
+        "08100197029",
+        "08164112428",
+        "08032920299",
+        "07064516376"
+      ],
+      "email": [],
+      "website": "https://fmcjalingo.gov.ng/",
+      "social_media": {
+        "facebook": "https://facebook.com/fmcjalingo.gov.ng/",
+        "twitter": "https://x.com/FMCJTweet",
+        "linkedin": "https://www.linkedin.com/company/umc-hospital"
+      }
+    },
+    "services": [
+      "DEPARTMENTS",
+      "Medical Records",
+      "Family Medicine",
+      "Internal Medicine",
+      "Paediatrics",
+      "Obstetrics & Gynaecology",
+      "Surgery",
+      "Anaesthesia",
+      "Orthopaedic Surgery",
+      "Otorhinolaryngology (ENT)",
+      "Ophthalmology",
+      "Dentistry",
+      "Nursing Services",
+      "Pharmacy",
+      "Radiology",
+      "Histopathology",
+      "Medical Laboratory Services",
+      "Physiotherapy",
+      "Nutrition and Dietetics",
+      "Medical Social Services",
+      "Oncology Unit"
+    ],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [
+        "Ambulance",
+        "Emergency",
+        "Laboratory",
+        "Pharmacy"
+      ],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "general",
+    "ownership": "federal",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "Federal Medical Centre, Keffi",
+    "location": {
+      "state": null,
+      "city": null,
+      "address": null,
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [],
+      "email": [],
+      "website": "https://fmckeffi.gov.ng/",
+      "social_media": {}
+    },
+    "services": [],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "general",
+    "ownership": "federal",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "Federal Medical Centre, Makurdi",
+    "location": {
+      "state": null,
+      "city": null,
+      "address": "Mission Ward (Main Centre)",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [],
+      "email": [
+        "info@fmcmakurdi.gov.ng"
+      ],
+      "website": "https://fmcmakurdi.gov.ng",
+      "social_media": {}
+    },
+    "services": [
+      "Procurement",
+      "Emergency Services",
+      "Dental Services",
+      "Outpatient Care",
+      "Inpatient Care",
+      "Surgica Services",
+      "Laboratory Services",
+      "Pediatrics Care"
+    ],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [
+        "Emergency",
+        "Laboratory",
+        "Theatre"
+      ],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "general",
+    "ownership": "federal",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "Federal Medical Centre, Misau",
+    "location": {
+      "state": null,
+      "city": null,
+      "address": null,
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [
+        "08001234567",
+        "07088047173",
+        "09162334109",
+        "08038228974"
+      ],
+      "email": [
+        "info@fmcmisau.gov.ng",
+        "appointments@fmcmisau.gov.ng"
+      ],
+      "website": "https://www.fmcmisau.gov.ng/",
+      "social_media": {
+        "facebook": "https://www.facebook.com/share/19hRBZsi1v/?misaufmc"
+      }
+    },
+    "services": [
+      "Internal Medicine",
+      "General Medical Consultations",
+      "Diabetes & Endocrine Care",
+      "Respiratory Disease Treatment",
+      "Surgery",
+      "General Surgery",
+      "Orthopedic Surgery",
+      "Laparoscopic Surgery",
+      "Pediatrics",
+      "Pediatric Immunizations",
+      "Developmental Assessments",
+      "Pediatric Emergency Care",
+      "Obstetrics & Gynecology",
+      "Gynecological Procedures",
+      "Family Planning & Fertility Services",
+      "Orthopedics",
+      "Joint Replacement Surgery",
+      "Sports Medicine",
+      "Spine Surgery",
+      "Haematology",
+      "Blood Disorder Diagnosis & Treatment",
+      "Clinical Services",
+      "Nursing Services",
+      "MEDICAL LABORATORY",
+      "Dental Surgery",
+      "Pharmacy",
+      "Radiology",
+      "Physiotherapy",
+      "NUTRITION AND DIETETICS",
+      "Environmental Health",
+      "Emergency Services",
+      "Departments & Services",
+      "Patient Portal",
+      "Recent Insights"
+    ],
+    "info": {
+      "hours": "07:00 - 15:00",
+      "facilities": [
+        "ICU",
+        "Laboratory",
+        "Radiology",
+        "CT scan",
+        "Ambulance",
+        "Emergency",
+        "Dialysis",
+        "Pharmacy"
+      ],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "general",
+    "ownership": "federal",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "Federal Medical Centre, Mubi",
+    "location": {
+      "state": null,
+      "city": null,
+      "address": null,
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [],
+      "email": [],
+      "website": null,
+      "social_media": {}
+    },
+    "services": [],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "general",
+    "ownership": "federal",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "Federal Medical Centre, New Bussa",
+    "location": {
+      "state": null,
+      "city": null,
+      "address": null,
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [],
+      "email": [],
+      "website": null,
+      "social_media": {}
+    },
+    "services": [],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "general",
+    "ownership": "federal",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "Federal Medical Centre, Nguru",
+    "location": {
+      "state": null,
+      "city": null,
+      "address": "2 Machina Road, Nguru, Yobe State, Nigeria. +234(0)8163309374 info@fmcnguru.gov.ng",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [
+        "08163309374"
+      ],
+      "email": [
+        "info@fmcnguru.gov.ng"
+      ],
+      "website": "https://fmcnguru.gov.ng/",
+      "social_media": {}
+    },
+    "services": [],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [
+        "Pharmacy"
+      ],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "general",
+    "ownership": "federal",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "Federal Medical Centre, Onitsha",
+    "location": {
+      "state": null,
+      "city": null,
+      "address": "No 3 Awka Road , Onitsha, Anambra State, Nigeria",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [],
+      "email": [
+        "info@fmconitsha.org.ng"
+      ],
+      "website": "https://fmconitsha.org.ng/",
+      "social_media": {
+        "youtube": "https://www.youtube.com/watch?v=4UvS3k8D4rs"
+      }
+    },
+    "services": [],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [
+        "Laboratory",
+        "Pharmacy",
+        "Radiology",
+        "Ambulance"
+      ],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "general",
+    "ownership": "federal",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "Federal Medical Centre, Owo",
+    "location": {
+      "state": null,
+      "city": null,
+      "address": "Two-way referral services and coordinated care with other specialist clinics",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [
+        "08059931579"
+      ],
+      "email": [
+        "chemicalpathology@fmcowo.org.ng",
+        "drtomiadaja@gmail.com",
+        "adajatm@fmcowo.org.ng"
+      ],
+      "website": "https://www.fmcowo.org.ng/",
+      "social_media": {
+        "facebook": "https://www.facebook.com/people/FMC-Owo-Federal-Medical-Centre-Owo/100037660193215/",
+        "instagram": "https://www.instagram.com/explore/locations/448152047/federal-medical-centre-owo-ondo-state/?hl=en",
+        "twitter": "https://twitter.com/FMC_Owo",
+        "whatsapp": "https://chat.whatsapp.com/Ev3z1IY6MYdGTHerPhGHI5"
+      }
+    },
+    "services": [
+      "Internal Medicine",
+      "Family Medicine Department",
+      "PHYSIOTHERAPY",
+      "Medical Social Works",
+      "Departments",
+      "Daily Outpatient Clinic – 8am to 4pm",
+      "Minor surgical procedures",
+      "Outpatient wound care",
+      "Weekly seminar/journal review/presentation",
+      "Certificate of medical fitness",
+      "Pharmacy Administration",
+      "Clinical",
+      "Pharmacy Public Health",
+      "Pharmacy Store and Logistics",
+      "Pharmacy out stations",
+      "Pharmacy Information Technology section",
+      "Pharmacy Information Services section",
+      "MAIN LABORATORY",
+      "LABORATORY QUALITY ASSESSMENT UNIT",
+      "DEPARTMENTAL OBJECTIVES"
+    ],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [
+        "Ambulance",
+        "Emergency",
+        "Radiology",
+        "Laboratory",
+        "Pharmacy",
+        "Theatre",
+        "ICU"
+      ],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "general",
+    "ownership": "federal",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "Federal Medical Centre, Umuahia",
+    "location": {
+      "state": null,
+      "city": null,
+      "address": ": Aba Rd, opposite Guaranty Trust Bank, Umuahia 440221, Abia",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [
+        "08038089468"
+      ],
+      "email": [
+        "fmcumuahia@fmc-umuahia.com.ng"
+      ],
+      "website": "https://www.fmc-umuahia.com.ng/",
+      "social_media": {
+        "facebook": "http://facebook.com/FMCUmuahia",
+        "twitter": "http://twitter.com/FMCUmuahia",
+        "youtube": "http://youtube.com/fmcumuahiatv"
+      }
+    },
+    "services": [],
+    "info": {
+      "hours": "08:00 - 16:00",
+      "facilities": [
+        "ICU",
+        "Laboratory",
+        "Emergency"
+      ],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "general",
+    "ownership": "federal",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "Federal Medical Centre, Wase",
+    "location": {
+      "state": null,
+      "city": null,
+      "address": "Yola-Bashar Road, Wase, Plateau State",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [
+        "08065808503",
+        "08039492682",
+        "08054003822"
+      ],
+      "email": [],
+      "website": "https://www.fmcwase.gov.ng/",
+      "social_media": {}
+    },
+    "services": [
+      "Departments & Services"
+    ],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [
+        "Emergency",
+        "Laboratory"
+      ],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "general",
+    "ownership": "federal",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "Federal Medical Centre, Yenagoa",
+    "location": {
+      "state": null,
+      "city": null,
+      "address": "The staffs were attentive to me during my stay at the Gynae ward of O&G I commend them for a good service",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [],
+      "email": [
+        "info@fmcyenagoa.org.ng"
+      ],
+      "website": "http://fmcyenagoa.org.ng/",
+      "social_media": {}
+    },
+    "services": [
+      "Multipurpose International Conference Centre",
+      "Dental & Maxillofacial Surgery",
+      "Dental and Maxillofacial Surgery Department",
+      "Oral & Maxillofacial Surgery,",
+      "Restorative Dentistry,",
+      "Child Dental Health",
+      "Oral & Maxillofacial Surgery",
+      "Restorative Dentistry",
+      "Dental & Maxillofacial Surgery Department",
+      "Laboratory"
+    ],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [
+        "Dialysis",
+        "Laboratory",
+        "Emergency",
+        "Pharmacy",
+        "Theatre",
+        "Radiology"
+      ],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "general",
+    "ownership": "federal",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "Federal Neuro-Psychiatric Hospital, Aro, Abeokuta",
+    "location": {
+      "state": null,
+      "city": null,
+      "address": "To design and monitor the hospital's security surveillance system e.g. Close Circuit Television (CCTV)",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [
+        "09036380203",
+        "07010737073"
+      ],
+      "email": [],
+      "website": "https://main.neuroaro.gov.ng/",
+      "social_media": {
+        "facebook": "https://web.facebook.com/nph.aro.50",
+        "twitter": "https://x.com/fnph_aro"
+      }
+    },
+    "services": [
+      "CLINICAL PSYCHOLOGY",
+      "ENVIRONMENTAL HEALTH",
+      "HORTICULTURE",
+      "LABORATORY",
+      "NURSING",
+      "NUTRITION",
+      "PHARMACY",
+      "PHYSIOTHERAPY",
+      "SPEECH THERAPY UNIT",
+      "STORE DEPARTMENT"
+    ],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [
+        "Laboratory",
+        "Pharmacy",
+        "Radiology",
+        "Emergency"
+      ],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "psychiatric",
+    "ownership": "federal",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "Federal Neuro-Psychiatric Hospital, Budo-Egba, Kwara State",
+    "location": {
+      "state": null,
+      "city": null,
+      "address": null,
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [
+        "08033930554",
+        "07069540126",
+        "08033123456"
+      ],
+      "email": [
+        "info@fnphbudoegba.gov.ng",
+        "mymail@gmail.com",
+        "sulymanlanredaud@fnphbudoegba.gov.ng"
+      ],
+      "website": "https://fnphbudoegba.gov.ng/",
+      "social_media": {
+        "facebook": "https://web.facebook.com/eHealth2019",
+        "twitter": "https://x.com/FNPH_BudoEgba"
+      }
+    },
+    "services": [],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [
+        "Laboratory",
+        "Pharmacy",
+        "Emergency"
+      ],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "psychiatric",
+    "ownership": "federal",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "Federal Neuro-Psychiatric Hospital, Calabar, Cross River State",
+    "location": {
+      "state": null,
+      "city": null,
+      "address": "123 Calabar Road, Calabar South, Cross River State",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [],
+      "email": [
+        "contact@fnphcalabar.gov.ng",
+        "enquiries@fnphcalabar.gov.ng"
+      ],
+      "website": "https://fnphcalabar.gov.ng/",
+      "social_media": {
+        "facebook": "https://www.facebook.com/share/18SXrTxVGK/",
+        "twitter": "https://x.com/FNPHCalabar"
+      }
+    },
+    "services": [
+      "All Departments",
+      "Medical Director's Units",
+      "Clinical Services",
+      "College of Mental Health Nursing",
+      "Medical & Diagnostic Services",
+      "Mental Health Resources",
+      "Patients",
+      "Campaign: Retain Psychiatrists",
+      "Nursing Services",
+      "Pharmacy",
+      "Laboratory Services",
+      "Intensive Care Unit",
+      "Psychiatric consultation",
+      "Medical Social Work"
+    ],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [
+        "Laboratory",
+        "Pharmacy",
+        "Emergency",
+        "Radiology",
+        "Ambulance"
+      ],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "psychiatric",
+    "ownership": "federal",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "Federal Neuro-Psychiatric Hospital, Dawanau, Kano State",
+    "location": {
+      "state": null,
+      "city": null,
+      "address": "Federal Neuropsychiatric Hospital DawanauP.M.B 11923, Katsina Road, Kano State, Nigeria",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [
+        "08105226705"
+      ],
+      "email": [
+        "info@fnhkano.gov.ng"
+      ],
+      "website": "https://www.fnhkano.gov.ng/",
+      "social_media": {
+        "facebook": "https://www.facebook.com/p/Federal-Neuro-Psychiatric-Hospital-Dawanau-Kano-State-100095334090451/",
+        "twitter": "https://x.com/FnphkanoNigeria",
+        "youtube": "https://www.youtube.com/@FNPHDKANO",
+        "linkedin": "https://www.linkedin.com/company/102128689/"
+      }
+    },
+    "services": [
+      "Departments",
+      "Clinical Services",
+      "Advertisements",
+      "Cognitive Health and Dementia Unit",
+      "Child and Adolescent Brain Development Unit"
+    ],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [
+        "Laboratory",
+        "Pharmacy",
+        "Emergency"
+      ],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "psychiatric",
+    "ownership": "federal",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "Federal Neuro-Psychiatric Hospital, Enugu, Enugu State",
+    "location": {
+      "state": null,
+      "city": null,
+      "address": "Male Forensic Ward",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [],
+      "email": [
+        "webmaster@fnhe.gov.ng",
+        "contact@fnhe.gov.ng"
+      ],
+      "website": "https://fnhe.gov.ng/",
+      "social_media": {}
+    },
+    "services": [
+      "Heads of Departments",
+      "Medical Services",
+      "Nursing Services",
+      "Pharmacy",
+      "Medical Library",
+      "Medical Records",
+      "Clinical Psychology",
+      "Medical Laboratory",
+      "Nursing Service",
+      "General Psychiatric Services",
+      "Emergency Psychiatric Services",
+      "Community Psychiatric Services",
+      "Forensic Psychiatric Services",
+      "Mental Retardation Services",
+      "Substance Abuse Psychiatric Services",
+      "Child & Adolescent Psychiatric Services",
+      "Geriatric Psychiatric Services",
+      "Consultation Liaison Psychiatric Services"
+    ],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [
+        "Laboratory",
+        "Pharmacy",
+        "Blood bank",
+        "Emergency",
+        "Theatre"
+      ],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "psychiatric",
+    "ownership": "federal",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "Federal Neuro-Psychiatric Hospital, Kaduna, Kaduna State",
+    "location": {
+      "state": null,
+      "city": null,
+      "address": "Opposite Shagari Low Cost P.M.B 2181 Barnawa Kaduna",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [
+        "08032722243"
+      ],
+      "email": [
+        "info@fnphkaduna.gov.ng",
+        "cons@fnphkaduna.gov.ng",
+        "admission@fnphkaduna.gov.ng"
+      ],
+      "website": "https://www.fnphkaduna.gov.ng/",
+      "social_media": {}
+    },
+    "services": [
+      "Clinical Services",
+      "Telepsychiatry",
+      "College of Nursing Science",
+      "Medical Services Department",
+      "General Psychiatry",
+      "Addiction Psychiatry",
+      "Child & Adolescent Psychiatry",
+      "Geriatric Psychiatric",
+      "Biological Psychiatry",
+      "Forensic Psychiatry",
+      "Emergency Psychiatry",
+      "In and Out-Patients Care/Treatment",
+      "Emergency Psychiatric Services",
+      "Substance Abuse Treatment and Rehabilitation",
+      "Child and Adolescent Psychiatric Services",
+      "Forensic Psychiatric Services",
+      "Geriatric Psychiatric Services",
+      "General Psychiatric Services"
+    ],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [
+        "Emergency",
+        "Laboratory",
+        "Pharmacy",
+        "Radiology"
+      ],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "psychiatric",
+    "ownership": "federal",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "Federal Neuro-Psychiatric Hospital, Maiduguri, Borno State",
+    "location": {
+      "state": null,
+      "city": null,
+      "address": null,
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [],
+      "email": [],
+      "website": "https://fnphmaiduguri.gov.ng/",
+      "social_media": {}
+    },
+    "services": [],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "psychiatric",
+    "ownership": "federal",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "Federal Neuro-Psychiatric Hospital, Kware, Sokoto State",
+    "location": {
+      "state": null,
+      "city": null,
+      "address": null,
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [],
+      "email": [],
+      "website": "https://fnphkware.gov.ng/",
+      "social_media": {}
+    },
+    "services": [],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "psychiatric",
+    "ownership": "federal",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "Federal Neuro-Psychiatric Hospital, Uselu-Benin, Edo State",
+    "location": {
+      "state": null,
+      "city": null,
+      "address": "Federal Neuro-Psychiatric Hospital, P.M.B. 1108, Benin City,Edo State. Nigeria",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [
+        "08158370392"
+      ],
+      "email": [
+        "contactus@fnphbenin.gov.ng"
+      ],
+      "website": "https://www.fnphbenin.gov.ng/pg/",
+      "social_media": {
+        "facebook": "http://www.facebook.com/psychospitaluselu"
+      }
+    },
+    "services": [],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [
+        "Laboratory",
+        "Emergency",
+        "Pharmacy"
+      ],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "psychiatric",
+    "ownership": "federal",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "Federal Neuro-Psychiatric Hospital, Yaba, Lagos State",
+    "location": {
+      "state": null,
+      "city": null,
+      "address": "8 Harvey Road, Yaba Lagos",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [
+        "08155170000",
+        "09060001907"
+      ],
+      "email": [],
+      "website": "https://www.fnphyaba.gov.ng/",
+      "social_media": {
+        "twitter": "https://www.twitter.com/fnphyNG",
+        "whatsapp": "https://wa.me/2348155170000?text=Welcome%20to%20FNPH%20Yaba.%20How%20may%20we%20be%20of%20help%3F",
+        "instagram": "https://www.instagram.com/fnphyNG",
+        "youtube": "https://www.youtube.com/fnphyNG",
+        "facebook": "https://www.facebook.com/fnphy"
+      }
+    },
+    "services": [
+      "DirectoratesClinical Directorate Non-Clinical Directorate",
+      "Clinical Directorate",
+      "Non-Clinical Directorate",
+      "PAYMENTS",
+      "Psychiatric Medical Consultancy",
+      "Community Mental Health Services",
+      "Forensic Treatment",
+      "Child and Adolescent Psychiatry",
+      "Psychiatric Nursing"
+    ],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [
+        "Laboratory",
+        "Radiology"
+      ],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "psychiatric",
+    "ownership": "federal",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "National Eye Centre, Kaduna, Kaduna State",
+    "location": {
+      "state": null,
+      "city": null,
+      "address": "Hit enter to search or ESC to close",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [
+        "08165906309",
+        "07014857030"
+      ],
+      "email": [
+        "info@eyecenter.gov.ng",
+        "contactsinfo@eyecenter.gov.ng"
+      ],
+      "website": "https://www.eyecenter.gov.ng/",
+      "social_media": {
+        "twitter": "https://x.com/neckaduna",
+        "facebook": "http://www.facebook.com/neckaduna",
+        "instagram": "http://www.instagram.com/neckaduna"
+      }
+    },
+    "services": [],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [
+        "Pharmacy"
+      ],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "eye",
+    "ownership": "federal",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "National Ear Care Centre, Kaduna, Kaduna State",
+    "location": {
+      "state": null,
+      "city": null,
+      "address": "Funding has been a major constraint of the Centre. Unlike many other institutions, the Centre, from inception to date, has neither benefited from take-off grant nor special funding",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [
+        "08036377829",
+        "08022050277"
+      ],
+      "email": [
+        "info@necckaduna.gov.ng"
+      ],
+      "website": "https://necckaduna.com.ng/",
+      "social_media": {
+        "facebook": "https://facebook.com/mustapha.abubakaryaro.7"
+      }
+    },
+    "services": [
+      "The Centre",
+      "Clinical Services",
+      "Nursing Services",
+      "Medical Laboratory",
+      "Pharmacy",
+      "Radiology",
+      "Biomedical Engineering",
+      "Post Basic ORL Nursing",
+      "Basic (General) Nursing",
+      "Laser Surgeries"
+    ],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [
+        "Laboratory",
+        "Pharmacy",
+        "Radiology",
+        "CT scan",
+        "Ambulance",
+        "Emergency",
+        "Theatre",
+        "ICU"
+      ],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "ear",
+    "ownership": "federal",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "National Orthopaedic Hospital, Benin, Edo State",
+    "location": {
+      "state": null,
+      "city": null,
+      "address": "Ogheghe, Sapele Road Bypass, Benin City, Edo State Nigeria",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [
+        "07032595012"
+      ],
+      "email": [
+        "info@nohbenin.gov.ng"
+      ],
+      "website": "https://www.nohbenin.gov.ng/",
+      "social_media": {}
+    },
+    "services": [
+      "Departments"
+    ],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [
+        "Pharmacy",
+        "Emergency",
+        "Radiology"
+      ],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "orthopaedic",
+    "ownership": "federal",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "National Orthopaedic Hospital, Dala, Kano State",
+    "location": {
+      "state": null,
+      "city": null,
+      "address": "Kofar-Ruwa Road Dala, Kano",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [
+        "08091324290"
+      ],
+      "email": [],
+      "website": "https://nohkano.gov.ng/",
+      "social_media": {}
+    },
+    "services": [
+      "Clinical Services",
+      "Pathology",
+      "Nursing Services",
+      "Pharmacy",
+      "Physiotherapy",
+      "Radiology",
+      "Medical Library",
+      "Medical Record Stores",
+      "Medical Social Work"
+    ],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [
+        "ICU",
+        "Laboratory",
+        "Pharmacy",
+        "Radiology",
+        "MRI",
+        "Emergency"
+      ],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "orthopaedic",
+    "ownership": "federal",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "National Orthopaedic Hospital, Enugu, Enugu State",
+    "location": {
+      "state": null,
+      "city": null,
+      "address": "Abakpa junction, Abakiliki Road Enugu",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [
+        "09168110729"
+      ],
+      "email": [
+        "noheadmn@nohenugu.org.ng"
+      ],
+      "website": "https://nohenugu.org.ng/",
+      "social_media": {
+        "twitter": "https://x.com/nohenugu",
+        "facebook": "https://www.facebook.com/profile.php?id=100073668006561",
+        "instagram": "https://www.instagram.com/nohenugu/",
+        "youtube": "https://www.youtube.com/channel/UCHLQMwLqJcHUWj4sLtnPxAg"
+      }
+    },
+    "services": [
+      "Past Medical Directors’",
+      "Departments",
+      "College of Nursing Science",
+      "College of Orthopaedic Cast Technology"
+    ],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [
+        "Laboratory",
+        "Pharmacy",
+        "Radiology"
+      ],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "orthopaedic",
+    "ownership": "federal",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "National Orthopaedic Hospital, Igbobi, Lagos State",
+    "location": {
+      "state": null,
+      "city": null,
+      "address": null,
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [],
+      "email": [],
+      "website": "https://nohlagos.org.ng/",
+      "social_media": {}
+    },
+    "services": [],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "orthopaedic",
+    "ownership": "federal",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "National Orthopaedic Hospital, Jalingo, Taraba State",
+    "location": {
+      "state": null,
+      "city": null,
+      "address": null,
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [],
+      "email": [],
+      "website": null,
+      "social_media": {}
+    },
+    "services": [],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "orthopaedic",
+    "ownership": "federal",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "National Orthopaedic Hospital, Jos, Plateau State",
+    "location": {
+      "state": null,
+      "city": null,
+      "address": "National Orthopaedic Hospital Muritala Mohammed Way (By Terminus) Jos. Pleateau State Nigeria",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [
+        "08161211199"
+      ],
+      "email": [
+        "info@nohjos.gov.ng"
+      ],
+      "website": "https://www.nohjos.gov.ng/",
+      "social_media": {
+        "facebook": "https://www.facebook.com/61555507965053/",
+        "instagram": "https://www.instagram.com/nohjos/"
+      }
+    },
+    "services": [],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [
+        "Pharmacy",
+        "Emergency"
+      ],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "orthopaedic",
+    "ownership": "federal",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "National Obstetric Fistula Centre, Abakaliki, Ebonyi State",
+    "location": {
+      "state": null,
+      "city": null,
+      "address": null,
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [
+        "08136533679",
+        "08038679354"
+      ],
+      "email": [
+        "contact@noficabakaliki.gov.ng",
+        "nationalobstetricfistulacentre@yahoo.com"
+      ],
+      "website": "https://noficabakaliki.gov.ng/",
+      "social_media": {
+        "facebook": "https://facebook.com/noficabakaliki",
+        "twitter": "https://twitter.com/noficabakaliki",
+        "linkedin": "https://linkedIn.com/noficabakaliki",
+        "instagram": "https://instagram.com/noficabakaliki"
+      }
+    },
+    "services": [
+      "Medical Director’s Desk",
+      "Departments & Services Departments & Units Services",
+      "Departments & Units",
+      "Other general gyneacological surgeries such as myomectomy",
+      "Renal Dialysis Services",
+      "In Vitro Fertilization (IVF) Service",
+      "ENT Services",
+      "Ophthalmology Services",
+      "Paediatric/ New Born Care",
+      "Mental Health Care",
+      "Urology Services",
+      "Plastic Surgery",
+      "General Surgery",
+      "Internal Medicine Services",
+      "Family Medicine Services",
+      "Repair of Obstetric Fistula",
+      "Gynaecological Surgeries",
+      "Invitro Fertilization (IVF)",
+      "Renal Dialysis",
+      "Physiotherapy",
+      "Laboratory and Radiological services"
+    ],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [
+        "Dialysis",
+        "Laboratory",
+        "Radiology",
+        "Pharmacy"
+      ],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "maternity",
+    "ownership": "federal",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "National Obstetric Fistula Centre, Benin, Edo State",
+    "location": {
+      "state": null,
+      "city": null,
+      "address": null,
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [],
+      "email": [],
+      "website": null,
+      "social_media": {}
+    },
+    "services": [],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "maternity",
+    "ownership": "federal",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "National Obstetric Fistula Centre, Ningi, Bauchi State",
+    "location": {
+      "state": null,
+      "city": null,
+      "address": "Babbar Ruga / Jino 820102, Katsina, Katsina State",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [
+        "07069644997",
+        "0810000000"
+      ],
+      "email": [],
+      "website": "https://noficningi.gov.ng/",
+      "social_media": {}
+    },
+    "services": [],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "maternity",
+    "ownership": "federal",
+    "verification_status": "unclaimed"
+  },
+  {
+    "hospital_name": "National Obstetric Fistula Centre, Katsina, Katsina State",
+    "location": {
+      "state": "Katsina",
+      "city": "Katsina",
+      "address": "Babbar Ruga / Jino 820102, Katsina, Katsina State",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    "contact": {
+      "phone_number": [],
+      "email": [],
+      "website": null,
+      "social_media": {}
+    },
+    "services": [],
+    "info": {
+      "hours": "TBD - TBD",
+      "facilities": [],
+      "insurance": [
+        "unknown"
+      ],
+      "accreditation": [
+        "unknown"
+      ]
+    },
+    "hospital_type": "maternity",
+    "ownership": "federal",
+    "verification_status": "unclaimed"
+  }
+]
