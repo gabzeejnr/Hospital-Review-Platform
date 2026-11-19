@@ -6,8 +6,8 @@
       "city": "Bauchi",
       "address": "8RQ9+H43, Hospital Road off, Yandoka Rd, 740101, Bauchi",
       "coordinates": {
-        "latitude": null,
-        "longitude": null
+        "latitude": 10.3388706,
+        "longitude": 9.8178345
       }
     },
     "contact": {
@@ -67,8 +67,8 @@
       "state": "Kaduna",
       "city": "Zaria",
       "coordinates": {
-        "latitude": null,
-        "longitude": null
+        "latitude": 11.17623,
+        "longitude": 7.6047899999999995
       }
     },
     "contact": {
@@ -125,8 +125,8 @@
       "state": "Ebonyi",
       "city": "Abakaliki",
       "coordinates": {
-        "latitude": null,
-        "longitude": null
+        "latitude": 6.322218899999999,
+        "longitude": 8.093260599999999
       }
     },
     "contact": {
@@ -164,8 +164,8 @@
       "state": "Kano",
       "city": "Kano",
       "coordinates": {
-        "latitude": null,
-        "longitude": null
+        "latitude": 11.9653064,
+        "longitude": 8.5487126
       }
     },
     "contact": {
@@ -204,8 +204,8 @@
       "city": "Uburu",
       "address": "UMUNAGU ENUAGU ROAD UBURU P.O.BOX 337",
       "coordinates": {
-        "latitude": null,
-        "longitude": null
+        "latitude": 6.0304775,
+        "longitude": 7.720956200000001
       }
     },
     "contact": {
@@ -240,8 +240,8 @@
       "state": "Kebbi",
       "city": "Birnin Kebbi",
       "coordinates": {
-        "latitude": null,
-        "longitude": null
+        "latitude": 12.435020999999999,
+        "longitude": 4.1890103000000005
       }
     },
     "contact": {
@@ -283,8 +283,8 @@
       "state": "Gombe",
       "city": "Gombe",
       "coordinates": {
-        "latitude": null,
-        "longitude": null
+        "latitude": 10.2989831,
+        "longitude": 11.138380100000001
       }
     },
     "contact": {
@@ -331,8 +331,8 @@
       "city": "Ido-Ekiti",
       "address": "PMB, 201, Oke Bareke, Off Ifaki Road, Ido-Ekiti, Ekiti State. Nigeria.",
       "coordinates": {
-        "latitude": null,
-        "longitude": null
+        "latitude": 7.843774400000001,
+        "longitude": 5.1887454
       }
     },
     "contact": {
@@ -391,8 +391,8 @@
       "city": "Katsina",
       "address": "Murtala Muhd Way Jibia bypass Katsina, Katsina State Nigeria",
       "coordinates": {
-        "latitude": null,
-        "longitude": null
+        "latitude": 12.987895799999999,
+        "longitude": 7.576867
       }
     },
     "contact": {
@@ -405,8 +405,7 @@
       "website": "https://fthkatsina.gov.ng/",
       "social_media": {}
     },
-    "services": [
-    ],
+    "services": [],
     "info": {
       "hours": "TBD - TBD",
       "facilities": [
@@ -430,8 +429,8 @@
       "city": "Lokoja",
       "address": "No. 1, Saliu Ibrahim way, PMB 1001, Lokoja, Kogi State.",
       "coordinates": {
-        "latitude": null,
-        "longitude": null
+        "latitude": 7.7997635999999995,
+        "longitude": 6.7420323
       }
     },
     "contact": {
@@ -487,8 +486,8 @@
       "city": "Ila-Orangun",
       "address": "KM 4, Ora Road, P.M.B. 228,Ila-Orangun, Osun State.",
       "coordinates": {
-        "latitude": null,
-        "longitude": null
+        "latitude": 8.0112812,
+        "longitude": 4.9296869999999995
       }
     },
     "contact": {
@@ -545,8 +544,8 @@
       "state": "Benue",
       "city": "Otukpo",
       "coordinates": {
-        "latitude": null,
-        "longitude": null
+        "latitude": 7.2021341,
+        "longitude": 8.151425999999999
       }
     },
     "contact": {
@@ -577,8 +576,8 @@
       "city": "Lafia",
       "address": "PMB 07, Lafia, Nasarawa State.",
       "coordinates": {
-        "latitude": null,
-        "longitude": null
+        "latitude": 8.5022503,
+        "longitude": 8.5237001
       }
     },
     "contact": {
@@ -620,8 +619,8 @@
       "city": "Owerri",
       "address": "105 Hospital Road, Orlu Rd, Owerri 460281, Imo State, Nigeria.",
       "coordinates": {
-        "latitude": null,
-        "longitude": null
+        "latitude": 5.5029761,
+        "longitude": 7.0240646
       }
     },
     "contact": {
@@ -674,8 +673,8 @@
       "state": "Taraba",
       "city": "Wukari",
       "coordinates": {
-        "latitude": null,
-        "longitude": null
+        "latitude": 7.873724299999999,
+        "longitude": 9.7608981
       }
     },
     "contact": {
@@ -705,8 +704,8 @@
       "state": "Edo",
       "city": "Irrua",
       "coordinates": {
-        "latitude": null,
-        "longitude": null
+        "latitude": 6.7318291,
+        "longitude": 6.1896201
       }
     },
     "contact": {
@@ -768,8 +767,8 @@
       "state": "Plateau",
       "city": "Jos",
       "coordinates": {
-        "latitude": null,
-        "longitude": null
+        "latitude": 9.915407,
+        "longitude": 8.8894066
       }
     },
     "contact": {
@@ -803,8 +802,8 @@
       "state": "Lagos",
       "city": "Lagos",
       "coordinates": {
-        "latitude": null,
-        "longitude": null
+        "latitude": 6.5176223,
+        "longitude": 3.3537453
       }
     },
     "contact": {
@@ -848,8 +847,8 @@
       "state": "Adamawa",
       "city": "Yola",
       "coordinates": {
-        "latitude": null,
-        "longitude": null
+        "latitude": 9.1951445,
+        "longitude": 12.4903397
       }
     },
     "contact": {
@@ -882,8 +881,8 @@
       "city": "Abuja",
       "address": "Plot 132, Central Business District, Abuja, Nigeria.",
       "coordinates": {
-        "latitude": null,
-        "longitude": null
+        "latitude": 9.0406064,
+        "longitude": 7.4617596
       }
     },
     "contact": {
@@ -953,8 +952,8 @@
       "state": "Anambra",
       "city": "Nnewi",
       "coordinates": {
-        "latitude": null,
-        "longitude": null
+        "latitude": 6.0263127,
+        "longitude": 6.914240599999999
       }
     },
     "contact": {
@@ -986,8 +985,8 @@
       "state": "Osun",
       "city": "Ile-Ife",
       "coordinates": {
-        "latitude": null,
-        "longitude": null
+        "latitude": 7.6145507,
+        "longitude": 4.737210699999999
       }
     },
     "contact": {
@@ -1018,8 +1017,8 @@
       "city": "Dutse",
       "address": "Kiyawa Road dutse",
       "coordinates": {
-        "latitude": null,
-        "longitude": null
+        "latitude": 11.678536,
+        "longitude": 9.3366355
       }
     },
     "contact": {
@@ -1053,8 +1052,8 @@
       "state": "Oyo",
       "city": "Ibadan",
       "coordinates": {
-        "latitude": null,
-        "longitude": null
+        "latitude": 7.4018600999999995,
+        "longitude": 3.9020596999999997
       }
     },
     "contact": {
@@ -1085,8 +1084,8 @@
       "city": "Gwagwalada",
       "address": "Gwagwalada, P.M.B. 228, Abuja NIGERIA",
       "coordinates": {
-        "latitude": null,
-        "longitude": null
+        "latitude": 8.9528819,
+        "longitude": 7.0636468
       }
     },
     "contact": {
@@ -1146,8 +1145,8 @@
       "city": "Benin City",
       "address": "UBTH Km 10, Benin -Lagos Express road Ugbowo Benin City",
       "coordinates": {
-        "latitude": null,
-        "longitude": null
+        "latitude": 6.3901037999999994,
+        "longitude": 5.6110009
       }
     },
     "contact": {
@@ -1199,8 +1198,8 @@
       "city": "Calabar",
       "address": "We aspire to lead the way in quaternary healthcare provision, delivering top-tier specialist-led medical and ancillary services across West and Central Africa, extending our reach beyond borders.",
       "coordinates": {
-        "latitude": null,
-        "longitude": null
+        "latitude": 4.954985499999999,
+        "longitude": 8.3501874
       }
     },
     "contact": {
@@ -1220,9 +1219,7 @@
         "whatsapp": "https://wa.me/2348066722346?text=Hello%20UCTH%20ICT"
       }
     },
-    "services": [
-
-    ],
+    "services": [],
     "info": {
       "hours": "TBD - TBD",
       "facilities": [
@@ -1253,8 +1250,8 @@
       "city": "Ilorin",
       "address": "Old Jebba Road, Oke Ose, Ilorin, Kwara State, Nigeria",
       "coordinates": {
-        "latitude": null,
-        "longitude": null
+        "latitude": 8.5374599,
+        "longitude": 4.6467767
       }
     },
     "contact": {
@@ -1325,8 +1322,8 @@
       "city": "Maiduguri",
       "address": "Bama Road, Maiduguri, Borno State",
       "coordinates": {
-        "latitude": null,
-        "longitude": null
+        "latitude": 11.8332614,
+        "longitude": 13.117235899999999
       }
     },
     "contact": {
@@ -1366,8 +1363,8 @@
       "city": "Ituku-Ozalla",
       "address": "The University of Nigeria Teaching Hospital (UNTH) Ituku-Ozalla Enugu, has come a long way. Read More of our long history.",
       "coordinates": {
-        "latitude": null,
-        "longitude": null
+        "latitude": 6.2990591,
+        "longitude": 7.4585935999999995
       }
     },
     "contact": {
@@ -1418,8 +1415,8 @@
       "city": "Port Harcourt",
       "address": "East-West Road, Opposite Alakahia Junction, RS. P.M.B 6173",
       "coordinates": {
-        "latitude": null,
-        "longitude": null
+        "latitude": 4.89985,
+        "longitude": 6.9288547
       }
     },
     "contact": {
@@ -1467,8 +1464,8 @@
       "state": "Akwa Ibom",
       "city": "Uyo",
       "coordinates": {
-        "latitude": null,
-        "longitude": null
+        "latitude": 5.010475,
+        "longitude": 7.8614181
       }
     },
     "contact": {
@@ -1507,8 +1504,8 @@
       "city": "Sokoto",
       "address": "Garba Nadama Road, Sokoto",
       "coordinates": {
-        "latitude": null,
-        "longitude": null
+        "latitude": 13.0389538,
+        "longitude": 5.2264962
       }
     },
     "contact": {
@@ -1566,8 +1563,8 @@
       "city": "Abeokuta",
       "address": "Olabisi Onabanjo Way, (P.M.B 3031, Sapon), Abeokuta, Ogun State, Nigeria",
       "coordinates": {
-        "latitude": null,
-        "longitude": null
+        "latitude": 7.143432799999999,
+        "longitude": 3.3779478999999997
       }
     },
     "contact": {
@@ -1607,8 +1604,8 @@
       "city": "Asaba",
       "address": "Federal Medical CentreNnebisi road, Asaba, Delta State, Nigeria",
       "coordinates": {
-        "latitude": null,
-        "longitude": null
+        "latitude": 6.211053799999999,
+        "longitude": 6.7122538
       }
     },
     "contact": {
@@ -1665,8 +1662,8 @@
       "city": "Azare",
       "address": "No. 5 Sule Katagum Road,Azare, Bauchi State",
       "coordinates": {
-        "latitude": null,
-        "longitude": null
+        "latitude": 11.6694649,
+        "longitude": 10.210472099999999
       }
     },
     "contact": {
@@ -1704,8 +1701,8 @@
       "city": "Bida",
       "address": "Works & Estate",
       "coordinates": {
-        "latitude": null,
-        "longitude": null
+        "latitude": 9.073768,
+        "longitude": 5.9985083
       }
     },
     "contact": {
@@ -1765,8 +1762,8 @@
       "city": "Birnin Kudu",
       "address": "PMB 1022, Along Kano – Maiduguri Road, Birnin Kudu, Jigawa State",
       "coordinates": {
-        "latitude": null,
-        "longitude": null
+        "latitude": 11.442288099999999,
+        "longitude": 9.4851931
       }
     },
     "contact": {
@@ -1829,8 +1826,8 @@
       "city": "Ebute Metta",
       "address": "Book Your Appointment with Easy Way",
       "coordinates": {
-        "latitude": null,
-        "longitude": null
+        "latitude": 6.4843874999999995,
+        "longitude": 3.3803294
       }
     },
     "contact": {
@@ -1870,8 +1867,8 @@
       "state": "Lagos",
       "city": "Epe",
       "coordinates": {
-        "latitude": null,
-        "longitude": null
+        "latitude": 6.586663199999999,
+        "longitude": 3.9699874
       }
     },
     "contact": {
@@ -1904,8 +1901,8 @@
       "state": "Katsina",
       "city": "Daura",
       "coordinates": {
-        "latitude": null,
-        "longitude": null
+        "latitude": 13.035723299999999,
+        "longitude": 8.3091963
       }
     },
     "contact": {
@@ -1935,8 +1932,8 @@
       "state": "Zamfara",
       "city": "Gusau",
       "coordinates": {
-        "latitude": null,
-        "longitude": null
+        "latitude": 12.183739899999999,
+        "longitude": 6.6868611
       }
     },
     "contact": {
@@ -1985,8 +1982,8 @@
       "state": "Adamawa",
       "city": "Hong",
       "coordinates": {
-        "latitude": null,
-        "longitude": null
+        "latitude": 10.2341689,
+        "longitude": 12.946521899999999
       }
     },
     "contact": {
@@ -2046,8 +2043,8 @@
       "state": "Ekiti",
       "city": "Ikole-Ekiti",
       "coordinates": {
-        "latitude": null,
-        "longitude": null
+        "latitude": 7.801923,
+        "longitude": 5.5341586
       }
     },
     "contact": {
@@ -2107,8 +2104,8 @@
       "state": "FCT",
       "city": "Jabi",
       "coordinates": {
-        "latitude": null,
-        "longitude": null
+        "latitude": 9.015030699999999,
+        "longitude": 7.4077663
       }
     },
     "contact": {
@@ -2163,8 +2160,8 @@
       "city": "Jalingo",
       "address": "Amenity Ward: Premium inpatient care with enhanced comfort and privacy",
       "coordinates": {
-        "latitude": null,
-        "longitude": null
+        "latitude": 8.8983666,
+        "longitude": 11.3668069
       }
     },
     "contact": {
@@ -2229,8 +2226,8 @@
       "state": "Nasarawa",
       "city": "Keffi",
       "coordinates": {
-        "latitude": null,
-        "longitude": null
+        "latitude": 8.845754,
+        "longitude": 7.8855985
       }
     },
     "contact": {
@@ -2261,8 +2258,8 @@
       "city": "Makurdi",
       "address": "Mission Ward (Main Centre)",
       "coordinates": {
-        "latitude": null,
-        "longitude": null
+        "latitude": 7.729525499999999,
+        "longitude": 8.5190278
       }
     },
     "contact": {
@@ -2307,8 +2304,8 @@
       "state": "Bauchi",
       "city": "Misau",
       "coordinates": {
-        "latitude": null,
-        "longitude": null
+        "latitude": 11.3148205,
+        "longitude": 10.449781
       }
     },
     "contact": {
@@ -2391,8 +2388,8 @@
       "state": "Adamawa",
       "city": "Mubi",
       "coordinates": {
-        "latitude": null,
-        "longitude": null
+        "latitude": 10.269192499999999,
+        "longitude": 13.2531263
       }
     },
     "contact": {
@@ -2422,8 +2419,8 @@
       "state": "Niger",
       "city": "New Bussa",
       "coordinates": {
-        "latitude": null,
-        "longitude": null
+        "latitude": 6.4843874999999995,
+        "longitude": 3.3803294
       }
     },
     "contact": {
@@ -2454,8 +2451,8 @@
       "city": "Nguru",
       "address": "2 Machina Road, Nguru, Yobe State, Nigeria. +234(0)8163309374 info@fmcnguru.gov.ng",
       "coordinates": {
-        "latitude": null,
-        "longitude": null
+        "latitude": 12.881294299999999,
+        "longitude": 10.447423299999999
       }
     },
     "contact": {
@@ -2492,8 +2489,8 @@
       "city": "Onitsha",
       "address": "No 3 Awka Road , Onitsha, Anambra State, Nigeria",
       "coordinates": {
-        "latitude": null,
-        "longitude": null
+        "latitude": 6.211053799999999,
+        "longitude": 6.7122538
       }
     },
     "contact": {
@@ -2533,8 +2530,8 @@
       "city": "Owo",
       "address": "Two-way referral services and coordinated care with other specialist clinics",
       "coordinates": {
-        "latitude": null,
-        "longitude": null
+        "latitude": 7.2134065,
+        "longitude": 5.5994996
       }
     },
     "contact": {
@@ -2603,8 +2600,8 @@
       "city": "Umuahia",
       "address": ": Aba Rd, opposite Guaranty Trust Bank, Umuahia 440221, Abia",
       "coordinates": {
-        "latitude": null,
-        "longitude": null
+        "latitude": 5.5224554999999995,
+        "longitude": 7.493643400000001
       }
     },
     "contact": {
@@ -2647,8 +2644,8 @@
       "city": "Wase",
       "address": "Yola-Bashar Road, Wase, Plateau State",
       "coordinates": {
-        "latitude": null,
-        "longitude": null
+        "latitude": 6.483054,
+        "longitude": 3.3793042
       }
     },
     "contact": {
@@ -2661,8 +2658,7 @@
       "website": "https://www.fmcwase.gov.ng/",
       "social_media": {}
     },
-    "services": [
-    ],
+    "services": [],
     "info": {
       "hours": "TBD - TBD",
       "facilities": [
@@ -2687,8 +2683,8 @@
       "city": "Yenagoa",
       "address": "The staffs were attentive to me during my stay at the Gynae ward of O&G I commend them for a good service",
       "coordinates": {
-        "latitude": null,
-        "longitude": null
+        "latitude": 4.937170600000001,
+        "longitude": 6.266655399999999
       }
     },
     "contact": {
@@ -2737,8 +2733,8 @@
       "city": "Abeokuta",
       "address": "To design and monitor the hospital's security surveillance system e.g. Close Circuit Television (CCTV)",
       "coordinates": {
-        "latitude": null,
-        "longitude": null
+        "latitude": 7.1635658,
+        "longitude": 3.3606108
       }
     },
     "contact": {
@@ -2790,8 +2786,8 @@
       "state": "Kwara",
       "city": "Budo-Egba",
       "coordinates": {
-        "latitude": null,
-        "longitude": null
+        "latitude": 8.3158377,
+        "longitude": 4.4011584
       }
     },
     "contact": {
@@ -2837,8 +2833,8 @@
       "city": "Calabar",
       "address": "123 Calabar Road, Calabar South, Cross River State",
       "coordinates": {
-        "latitude": null,
-        "longitude": null
+        "latitude": 4.953657499999999,
+        "longitude": 8.3186489
       }
     },
     "contact": {
@@ -2895,8 +2891,8 @@
       "city": "Dawanau",
       "address": "Federal Neuropsychiatric Hospital DawanauP.M.B 11923, Katsina Road, Kano State, Nigeria",
       "coordinates": {
-        "latitude": null,
-        "longitude": null
+        "latitude": 12.084745499999999,
+        "longitude": 8.4412608
       }
     },
     "contact": {
@@ -2945,8 +2941,8 @@
       "city": "Enugu",
       "address": "Male Forensic Ward",
       "coordinates": {
-        "latitude": null,
-        "longitude": null
+        "latitude": 6.460047299999999,
+        "longitude": 7.5267166
       }
     },
     "contact": {
@@ -3004,8 +3000,8 @@
       "city": "Kaduna",
       "address": "Opposite Shagari Low Cost P.M.B 2181 Barnawa Kaduna",
       "coordinates": {
-        "latitude": null,
-        "longitude": null
+        "latitude": 10.464933199999999,
+        "longitude": 7.4280079
       }
     },
     "contact": {
@@ -3064,8 +3060,8 @@
       "state": "Borno",
       "city": "Maiduguri",
       "coordinates": {
-        "latitude": null,
-        "longitude": null
+        "latitude": 11.8650437,
+        "longitude": 13.118633599999999
       }
     },
     "contact": {
@@ -3095,8 +3091,8 @@
       "state": "Sokoto",
       "city": "Kware",
       "coordinates": {
-        "latitude": null,
-        "longitude": null
+        "latitude": 13.2082448,
+        "longitude": 5.2640813
       }
     },
     "contact": {
@@ -3127,8 +3123,8 @@
       "city": "Uselu-Benin",
       "address": "Federal Neuro-Psychiatric Hospital, P.M.B. 1108, Benin City,Edo State. Nigeria",
       "coordinates": {
-        "latitude": null,
-        "longitude": null
+        "latitude": 6.360930499999999,
+        "longitude": 5.6200728
       }
     },
     "contact": {
@@ -3169,8 +3165,8 @@
       "city": "Yaba",
       "address": "8 Harvey Road, Yaba Lagos",
       "coordinates": {
-        "latitude": null,
-        "longitude": null
+        "latitude": 6.510417599999999,
+        "longitude": 3.3715525
       }
     },
     "contact": {
@@ -3223,8 +3219,8 @@
       "city": "Kaduna",
       "address": "Hit enter to search or ESC to close",
       "coordinates": {
-        "latitude": null,
-        "longitude": null
+        "latitude": 10.5736694,
+        "longitude": 7.405387299999999
       }
     },
     "contact": {
@@ -3267,8 +3263,8 @@
       "city": "Kaduna",
       "address": "Funding has been a major constraint of the Centre. Unlike many other institutions, the Centre, from inception to date, has neither benefited from take-off grant nor special funding",
       "coordinates": {
-        "latitude": null,
-        "longitude": null
+        "latitude": 10.5197208,
+        "longitude": 7.440913800000001
       }
     },
     "contact": {
@@ -3326,8 +3322,8 @@
       "city": "Benin",
       "address": "Ogheghe, Sapele Road Bypass, Benin City, Edo State Nigeria",
       "coordinates": {
-        "latitude": null,
-        "longitude": null
+        "latitude": 6.2086437,
+        "longitude": 5.6365472
       }
     },
     "contact": {
@@ -3340,8 +3336,7 @@
       "website": "https://www.nohbenin.gov.ng/",
       "social_media": {}
     },
-    "services": [
-    ],
+    "services": [],
     "info": {
       "hours": "TBD - TBD",
       "facilities": [
@@ -3367,8 +3362,8 @@
       "city": "Dala",
       "address": "Kofar-Ruwa Road Dala, Kano",
       "coordinates": {
-        "latitude": null,
-        "longitude": null
+        "latitude": 12.0201633,
+        "longitude": 8.503117999999999
       }
     },
     "contact": {
@@ -3418,8 +3413,8 @@
       "city": "Enugu",
       "address": "Abakpa junction, Abakiliki Road Enugu",
       "coordinates": {
-        "latitude": null,
-        "longitude": null
+        "latitude": 6.4648179,
+        "longitude": 7.525157
       }
     },
     "contact": {
@@ -3466,8 +3461,8 @@
       "state": "Lagos",
       "city": "Igbobi",
       "coordinates": {
-        "latitude": null,
-        "longitude": null
+        "latitude": 6.530968199999999,
+        "longitude": 3.3712378999999997
       }
     },
     "contact": {
@@ -3497,8 +3492,8 @@
       "state": "Taraba",
       "city": "Jalingo",
       "coordinates": {
-        "latitude": null,
-        "longitude": null
+        "latitude": 8.8928663,
+        "longitude": 11.377094099999999
       }
     },
     "contact": {
@@ -3529,8 +3524,8 @@
       "city": "Jos",
       "address": "National Orthopaedic Hospital Muritala Mohammed Way (By Terminus) Jos. Pleateau State Nigeria",
       "coordinates": {
-        "latitude": null,
-        "longitude": null
+        "latitude": 9.9178076,
+        "longitude": 8.892145
       }
     },
     "contact": {
@@ -3570,8 +3565,8 @@
       "state": "Ebonyi",
       "city": "Abakaliki",
       "coordinates": {
-        "latitude": null,
-        "longitude": null
+        "latitude": 6.319298799999999,
+        "longitude": 8.092707899999999
       }
     },
     "contact": {
@@ -3637,8 +3632,8 @@
       "state": "Edo",
       "city": "Benin",
       "coordinates": {
-        "latitude": null,
-        "longitude": null
+        "latitude": 6.2671278,
+        "longitude": 5.607632199999999
       }
     },
     "contact": {
@@ -3669,8 +3664,8 @@
       "city": "Ningi",
       "address": "Babbar Ruga / Jino 820102, Katsina, Katsina State",
       "coordinates": {
-        "latitude": null,
-        "longitude": null
+        "latitude": 11.1002388,
+        "longitude": 9.5761883
       }
     },
     "contact": {
@@ -3704,8 +3699,8 @@
       "city": "Katsina",
       "address": "Babbar Ruga / Jino 820102, Katsina, Katsina State",
       "coordinates": {
-        "latitude": null,
-        "longitude": null
+        "latitude": 12.9567064,
+        "longitude": 7.5644231
       }
     },
     "contact": {
