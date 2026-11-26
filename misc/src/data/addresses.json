@@ -1,0 +1,110 @@
+[
+  {
+    "hospital_id": "002839e3-ed38-4de6-81c6-c48698f8246b",
+    "hospitalName": "Osusu Amukwa Health Center",
+    "state": "Abia",
+    "latitude": "5.129882812",
+    "longitude": "7.414489746",
+    "candidates": [
+      {
+        "placeId": "ChIJT5_nAVKZQhARPg3FNGPcDN4",
+        "formattedAddress": "4CJ7+2Q7, Excellence College Rd, Umuokahia, Aba 453106, Abia",
+        "displayName": "Osusu Amaukwa PHC",
+        "latitude": 5.1300362999999995,
+        "longitude": 7.4144293999999995,
+        "distance": 0.018328988932437458,
+        "match": "high"
+      },
+      {
+        "placeId": "ChIJMx95AMyZQhAR3W3wW2lulHk",
+        "formattedAddress": "49XH+WQX Ohuru Amangwu, Umu Ohia, Aba 453102, Abia",
+        "displayName": "Osusu umueme health post",
+        "latitude": 5.149856499999999,
+        "longitude": 7.3794832999999995,
+        "distance": 4.467994402743136,
+        "match": "low"
+      },
+      {
+        "placeId": "ChIJtc7UF1qZQhARjwh7o_7adPE",
+        "formattedAddress": "4975+35V, Aba, 450102, Abia",
+        "displayName": "Osusu II Health Centre",
+        "latitude": 5.1127368,
+        "longitude": 7.357916599999999,
+        "distance": 6.549186893567519,
+        "match": "low"
+      },
+      {
+        "placeId": "ChIJN7j-2-GbQhARZntc0ENRs2o",
+        "formattedAddress": "4992+8GF, Aba, 450102, Abia",
+        "displayName": "Osusu I Health Centre",
+        "latitude": 5.1183062,
+        "longitude": 7.351308700000001,
+        "distance": 7.114755224303904,
+        "match": "low"
+      },
+      {
+        "placeId": "ChIJcd2mARrrQhARTKCKzpN2PbI",
+        "formattedAddress": "99GM+6PF, Amauzu 451109, Abia",
+        "displayName": "Osusu Health Centre",
+        "latitude": 5.3755565999999995,
+        "longitude": 7.3842943,
+        "distance": 27.521526508975775,
+        "match": "unmatched"
+      }
+    ]
+  },
+  {
+    "hospital_id": "0040bf61-018d-4ef0-ada5-fb657fb103d0",
+    "hospitalName": "Uzuaku health center",
+    "state": "Abia",
+    "latitude": "4.90401",
+    "longitude": "7.18443",
+    "candidates": [
+      {
+        "placeId": "ChIJT5_nAVKZQhARPg3FNGPcDN4",
+        "formattedAddress": "4CJ7+2Q7, Excellence College Rd, Umuokahia, Aba 453106, Abia",
+        "displayName": "Osusu Amaukwa PHC",
+        "latitude": 5.1300362999999995,
+        "longitude": 7.4144293999999995,
+        "distance": 35.78731893038627,
+        "match": "unmatched"
+      },
+      {
+        "placeId": "ChIJgxa9WjbIQhARsMeivu6K0Bs",
+        "formattedAddress": "Ukwu Autonomous Community, Usaka 440110, Abia",
+        "displayName": "Usaka Ukwu Health Centre IKWUANO ABIA STATE",
+        "latitude": 5.364999999999999,
+        "longitude": 7.647399999999998,
+        "distance": 72.50174542449093,
+        "match": "unmatched"
+      },
+      {
+        "placeId": "ChIJ0V2DNZjdQhARHBWi5dha5GM",
+        "formattedAddress": "Mgbara-ukwu, Amuzukwu, Umuahia 440236, Abia",
+        "displayName": "Amuzukwu Health Center",
+        "latitude": 5.5437406,
+        "longitude": 7.5001172,
+        "distance": 79.25994807668671,
+        "match": "unmatched"
+      },
+      {
+        "placeId": "ChIJ6Tff2g7ZQhARBTuMjUPxPSI",
+        "formattedAddress": "JHG6+2PV, Ngu 441115, Abia",
+        "displayName": "Uzuakoli Primary Health Centre",
+        "latitude": 5.6251,
+        "longitude": 7.5618,
+        "distance": 90.41577154434972,
+        "match": "unmatched"
+      },
+      {
+        "placeId": "ChIJj0lFar4ARBAR6_08mmSdQnE",
+        "formattedAddress": "9FMF+P78, Ukwu-Nzu 320111, Delta",
+        "displayName": "Ukwuzu Primary Health Centre",
+        "latitude": 6.3843,
+        "longitude": 6.473199999999999,
+        "distance": 182.44729041115755,
+        "match": "unmatched"
+      }
+    ]
+  }
+]
