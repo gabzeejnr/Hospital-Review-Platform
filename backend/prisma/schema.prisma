@@ -1,0 +1,232 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+/// This model contains row level security and requires additional setup for migrations. Visit https://pris.ly/d/row-level-security for more info.
+model hospital_types {
+  id        Int         @id @default(autoincrement())
+  name      String      @unique @db.VarChar(100)
+  hospitals hospitals[]
+}
+
+/// This table contains check constraints and requires additional setup for migrations. Visit https://pris.ly/d/check-constraints for more info.
+/// This model contains row level security and requires additional setup for migrations. Visit https://pris.ly/d/row-level-security for more info.
+model hospitals {
+  id                        String          @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  hospital_name             String          @db.VarChar(255)
+  description               String?
+  hospital_type_id          Int?
+  ownership                 String          @db.VarChar(20)
+  year_established          Int?            @db.SmallInt
+  state_id                  Int
+  lga_id                    Int?
+  city                      String          @db.VarChar(150)
+  address                   String?
+  latitude                  Decimal?        @db.Decimal(10, 7)
+  longitude                 Decimal?        @db.Decimal(10, 7)
+  verification_status       String          @default("unclaimed") @db.VarChar(30)
+  accessibility_information String?
+  hospital_data             Json            @default("{}")
+  created_at                DateTime        @default(now()) @db.Timestamptz(6)
+  updated_at                DateTime        @default(now()) @db.Timestamptz(6)
+  hospital_types            hospital_types? @relation(fields: [hospital_type_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  lgas                      lgas?           @relation(fields: [lga_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  states                    states          @relation(fields: [state_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  reviews                   Review[]
+  rating_stats              HospitalRatingStats?
+
+  @@unique([state_id, hospital_name, city], map: "hospitals_state_name_city_unique")
+}
+
+/// This model contains row level security and requires additional setup for migrations. Visit https://pris.ly/d/row-level-security for more info.
+model lgas {
+  id        Int         @id @default(autoincrement())
+  state_id  Int
+  name      String      @db.VarChar(120)
+  hospitals hospitals[]
+  states    states      @relation(fields: [state_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+
+  @@unique([state_id, name])
+}
+
+/// This model contains row level security and requires additional setup for migrations. Visit https://pris.ly/d/row-level-security for more info.
+model states {
+  id        Int         @id @default(autoincrement())
+  name      String      @unique @db.VarChar(100)
+  hospitals hospitals[]
+  lgas      lgas[]
+}
+enum UserRole {
+  USER
+  HOSPITAL_REP
+  MODERATOR
+  SUPPORT
+  ADMIN
+
+  @@map("user_role")
+}
+
+enum Theme {
+  LIGHT
+  DARK
+  SYSTEM
+
+  @@map("theme")
+}
+
+model User {
+  id                 String   @id @db.Uuid
+  email              String   @unique @db.VarChar(255)
+  displayName        String?  @map("display_name") @db.VarChar(100)
+  username           String?  @unique @db.VarChar(50)
+  avatarUrl          String?  @map("avatar_url")
+  phoneNumber        String?  @map("phone_number") @db.VarChar(30)
+  emailVerifiedAt    DateTime? @map("email_verified_at") @db.Timestamptz(6)
+
+  isActive           Boolean  @default(true) @map("is_active")
+  role               UserRole @default(USER)
+
+  language           String   @default("en") @db.VarChar(10)
+  timezone           String   @default("Africa/Lagos") @db.VarChar(100)
+  theme              Theme    @default(SYSTEM)
+
+  preferences        Json?
+  privacySettings    Json?    @map("privacy_settings")
+  locationEnabled    Boolean  @default(false) @map("location_enabled")
+  preferredLatitude  Decimal? @map("preferred_latitude") @db.Decimal(10, 7)
+  preferredLongitude Decimal? @map("preferred_longitude") @db.Decimal(10, 7)
+
+  createdAt          DateTime @default(now()) @map("created_at") @db.Timestamptz(6)
+  updatedAt DateTime @default(now()) @updatedAt @map("updated_at") @db.Timestamptz(6)
+  lastLoginAt        DateTime? @map("last_login_at") @db.Timestamptz(6)
+
+  notificationSettings NotificationPreference?
+  loginActivities      LoginActivity[]
+  securityEvents       SecurityEvent[]
+  reviews              Review[]        @relation("ReviewAuthor")
+  moderatedReviews     Review[]        @relation("ReviewModerator")
+
+  @@index([role])
+  @@map("users")
+}
+
+model NotificationPreference {
+  id                    String   @id @default(uuid()) @db.Uuid
+  userId                String   @unique @map("user_id") @db.Uuid
+
+  emailNotifications    Boolean  @default(true) @map("email_notifications")
+  pushNotifications     Boolean  @default(true) @map("push_notifications")
+  inAppNotifications    Boolean  @default(true) @map("in_app_notifications")
+
+  reviewUpdates         Boolean  @default(true) @map("review_updates")
+  hospitalResponses     Boolean  @default(true) @map("hospital_responses")
+  claimUpdates          Boolean  @default(true) @map("claim_updates")
+  promotionalEmails     Boolean  @default(false) @map("promotional_emails")
+  securityAlerts        Boolean  @default(true) @map("security_alerts")
+
+  createdAt             DateTime @default(now()) @map("created_at") @db.Timestamptz(6)
+  updatedAt DateTime @default(now()) @updatedAt @map("updated_at") @db.Timestamptz(6)
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("notification_preferences")
+}
+
+
+model LoginActivity {
+  id            String   @id @default(uuid()) @db.Uuid
+  userId        String?  @map("user_id") @db.Uuid
+  successful    Boolean  @default(true)
+  failureReason String?  @map("failure_reason") @db.VarChar(255)
+  createdAt     DateTime @default(now()) @map("created_at") @db.Timestamptz(6)
+
+  user User? @relation(fields: [userId], references: [id], onDelete: SetNull)
+
+  @@index([userId, createdAt])
+  @@index([createdAt])
+  @@map("login_activities")
+}
+
+
+model SecurityEvent {
+  id          String   @id @default(uuid()) @db.Uuid
+  userId      String?  @map("user_id") @db.Uuid
+
+  eventType   String   @map("event_type") @db.VarChar(100)
+  metadata    Json?
+
+  createdAt   DateTime @default(now()) @map("created_at") @db.Timestamptz(6)
+
+  user User? @relation(fields: [userId], references: [id], onDelete: SetNull)
+
+  @@index([userId, createdAt])
+  @@index([eventType])
+  @@map("security_events")
+}
+
+
+model Review {
+  id             String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  hospitalId     String    @map("hospital_id") @db.Uuid
+  // null once the author has deleted their account (the review stays, anonymised)
+  userId         String?   @map("user_id") @db.Uuid
+  title          String    @db.VarChar(150)
+  comment        String
+  overallRating  Int       @map("overall_rating") @db.SmallInt
+  visitedOn      DateTime? @map("visited_on") @db.Date
+  department     String?   @db.VarChar(100)
+  isAnonymous    Boolean   @default(false) @map("is_anonymous")
+  // pending_moderation | published | rejected | removed
+  status         String    @default("pending_moderation") @db.VarChar(30)
+  publishedAt    DateTime? @map("published_at") @db.Timestamptz(6)
+  moderatedById  String?   @map("moderated_by") @db.Uuid
+  moderatedAt    DateTime? @map("moderated_at") @db.Timestamptz(6)
+  moderationNote String?   @map("moderation_note") @db.VarChar(500)
+  createdAt      DateTime  @default(now()) @map("created_at") @db.Timestamptz(6)
+  updatedAt      DateTime  @default(now()) @updatedAt @map("updated_at") @db.Timestamptz(6)
+
+  hospital  hospitals @relation(fields: [hospitalId], references: [id], onDelete: Restrict)
+  author    User?     @relation("ReviewAuthor", fields: [userId], references: [id], onDelete: SetNull)
+  moderator User?     @relation("ReviewModerator", fields: [moderatedById], references: [id], onDelete: SetNull)
+  ratings   ReviewRating[]
+
+  @@unique([userId, hospitalId], map: "reviews_user_hospital_unique")
+  @@index([hospitalId, status, publishedAt(sort: Desc)], map: "reviews_hospital_status_published_idx")
+  @@index([userId], map: "reviews_user_idx")
+  @@index([status, createdAt], map: "reviews_status_created_idx")
+  @@map("reviews")
+}
+
+model ReviewRating {
+  id       String @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  reviewId String @map("review_id") @db.Uuid
+  // one of: staff_professionalism, waiting_time, cleanliness, communication,
+  // service_experience, facility_quality, billing_transparency, accessibility
+  category String @db.VarChar(40)
+  rating   Int    @db.SmallInt
+
+  review Review @relation(fields: [reviewId], references: [id], onDelete: Cascade)
+
+  @@unique([reviewId, category], map: "review_ratings_review_category_unique")
+  @@index([category, rating], map: "review_ratings_category_idx")
+  @@map("review_ratings")
+}
+
+// One row per hospital, kept up to date by database triggers (see the
+// 20261122_add_reviews migration). Never written by the application.
+model HospitalRatingStats {
+  hospitalId    String   @id @map("hospital_id") @db.Uuid
+  reviewCount   Int      @default(0) @map("review_count")
+  averageRating Decimal  @default(0) @map("average_rating") @db.Decimal(3, 2)
+  rankingScore  Decimal  @default(0) @map("ranking_score") @db.Decimal(4, 3)
+  updatedAt     DateTime @default(now()) @map("updated_at") @db.Timestamptz(6)
+
+  hospital hospitals @relation(fields: [hospitalId], references: [id], onDelete: Cascade)
+
+  @@index([rankingScore(sort: Desc), reviewCount(sort: Desc)], map: "hospital_rating_stats_ranking_idx")
+  @@map("hospital_rating_stats")
+}
