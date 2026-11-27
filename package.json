@@ -1,0 +1,16 @@
+{
+    "name": "hospital-review-platform",
+    "version": "1.0.0",
+    "private": true,
+    "workspaces": [
+        "server/*",
+        "client/*",
+        "tools/*"
+    ],
+    "scripts": {
+        "dev:server": "npm run dev --workspace=hospital-review-platform-server",
+        "start:server": "npm run start --workspace=hospital-review-platform-server",
+        "postinstall": "npm run postinstall --workspace=hospital-review-platform-server",
+        "address:check": "npm run address:check --workspace=hospital-address-tools"
+    }
+}
