@@ -1,12 +1,12 @@
 import "dotenv/config";
-import pg from "pg";
+import {Pool} from "pg";
 import { PrismaClient } from "@prisma/client";
 import { PrismaPg } from "@prisma/adapter-pg";
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const MAX_ATTEMPTS = 6;
 
-export const pool = new pg.Pool({
+export const pool = new Pool({
   connectionString: process.env.DATABASE_URL,
   ssl: { rejectUnauthorized: false }, // dev only
   max: 5,

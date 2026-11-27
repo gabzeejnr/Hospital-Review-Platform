@@ -1,6 +1,7 @@
 {
-  "name": "backend",
+  "name": "hospital-review-platform-server",
   "version": "1.0.0",
+  "private": true,
   "description": "Hospital Review Platform API",
   "main": "server.js",
   "scripts": {
