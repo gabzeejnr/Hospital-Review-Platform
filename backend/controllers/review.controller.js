@@ -1,6 +1,7 @@
 import prisma from "../src/config/prisma.js";
 import { ApiError } from "../src/utils/ApiError.js";
 import { recordSecurityEvent } from "../src/services/audit.service.js";
+import { assertNoConflictOfInterest } from "../src/services/hospitalAccess.js";
 import { RATING_CATEGORIES } from "../src/validation/review.schemas.js";
 
 // Reviews of hospitals. Request bodies and queries are already validated and
@@ -30,7 +31,7 @@ const presentRatings = (ratings) =>
 
 const day = (date) => (date ? date.toISOString().slice(0, 10) : null);
 
-const publicSelect = {
+export const publicSelect = {
   id: true,
   title: true,
   comment: true,
@@ -41,6 +42,7 @@ const publicSelect = {
   publishedAt: true,
   ratings: { select: { category: true, rating: true } },
   author: { select: { displayName: true, avatarUrl: true } },
+  response: { select: { body: true, status: true, publishedAt: true } },
 };
 
 // Anonymous reviews (and reviews whose author deleted their account) never
@@ -54,7 +56,13 @@ const presentAuthor = (review) => {
   };
 };
 
-const presentPublicReview = (review) => ({
+// A hospital response is shown only once a moderator has published it.
+const presentPublicResponse = (response) =>
+  response && response.status === "published"
+    ? { body: response.body, respondedAt: response.publishedAt }
+    : null;
+
+export const presentPublicReview = (review) => ({
   id: review.id,
   title: review.title,
   comment: review.comment,
@@ -64,6 +72,7 @@ const presentPublicReview = (review) => ({
   department: review.department,
   author: presentAuthor(review),
   publishedAt: review.publishedAt,
+  response: presentPublicResponse(review.response),
 });
 
 const ownSelect = {
@@ -81,6 +90,7 @@ const ownSelect = {
   updatedAt: true,
   ratings: { select: { category: true, rating: true } },
   hospital: { select: { id: true, hospital_name: true } },
+  response: { select: { body: true, status: true, publishedAt: true } },
 };
 
 const presentOwnReview = (review) => ({
@@ -99,6 +109,7 @@ const presentOwnReview = (review) => ({
   publishedAt: review.publishedAt,
   createdAt: review.createdAt,
   updatedAt: review.updatedAt,
+  response: presentPublicResponse(review.response),
 });
 
 const assertHospitalExists = async (hospitalId) => {
@@ -224,6 +235,7 @@ export const createReview = async (req, res) => {
   }
 
   await assertHospitalExists(hospitalId);
+  await assertNoConflictOfInterest(hospitalId, req.user.id);
 
   const { ratings, ...fields } = req.body;
   const moderated = requiresModeration();
@@ -273,7 +285,7 @@ export const createReview = async (req, res) => {
 export const updateReview = async (req, res) => {
   const existing = await prisma.review.findUnique({
     where: { id: req.params.id },
-    select: { id: true, userId: true, status: true, publishedAt: true },
+    select: { id: true, userId: true, hospitalId: true, status: true, publishedAt: true },
   });
 
   // Somebody else's review looks exactly like one that does not exist.
@@ -286,6 +298,8 @@ export const updateReview = async (req, res) => {
       code: "REVIEW_REMOVED",
     });
   }
+
+  await assertNoConflictOfInterest(existing.hospitalId, req.user.id);
 
   const { ratings, ...fields } = req.body;
   const data = { ...fields };

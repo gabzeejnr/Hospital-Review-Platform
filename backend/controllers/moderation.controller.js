@@ -1,6 +1,8 @@
 import prisma from "../src/config/prisma.js";
 import { ApiError } from "../src/utils/ApiError.js";
 import { recordSecurityEvent } from "../src/services/audit.service.js";
+import { notify } from "../src/services/notification.service.js";
+import { recordModerationAction } from "../src/services/moderationHistory.service.js";
 
 // Review moderation for MODERATOR and ADMIN accounts (enforced in
 // src/routes/moderationRoutes.js). Reports from users, hospital responses and a
@@ -8,7 +10,7 @@ import { recordSecurityEvent } from "../src/services/audit.service.js";
 
 const day = (date) => (date ? date.toISOString().slice(0, 10) : null);
 
-const queueSelect = {
+export const queueSelect = {
   id: true,
   title: true,
   comment: true,
@@ -30,7 +32,7 @@ const queueSelect = {
   moderator: { select: { id: true, displayName: true } },
 };
 
-const presentForModeration = (review) => ({
+export const presentForModeration = (review) => ({
   id: review.id,
   hospital: { id: review.hospital.id, name: review.hospital.hospital_name },
   author: review.author
@@ -82,7 +84,7 @@ export const listReviewQueue = async (req, res) => {
 const loadForModeration = async (req) => {
   const review = await prisma.review.findUnique({
     where: { id: req.params.id },
-    select: { id: true, userId: true, hospitalId: true },
+    select: { id: true, userId: true, hospitalId: true, hospital: { select: { hospital_name: true } } },
   });
 
   if (!review) {
@@ -114,24 +116,42 @@ export const approveReview = async (req, res) => {
   const review = await loadForModeration(req);
   const now = new Date();
 
-  // One atomic step: if two moderators act at once, exactly one succeeds.
-  const result = await prisma.review.updateMany({
-    where: { id: review.id, status: { in: ["pending_moderation", "rejected"] } },
-    data: {
-      status: "published",
-      publishedAt: now,
-      moderatedById: req.user.id,
-      moderatedAt: now,
-      moderationNote: null,
-    },
-  });
+  // One atomic step, with its history record: if two moderators act at once,
+  // exactly one succeeds, and there is never a decision without a record.
+  await prisma.$transaction(async (tx) => {
+    const result = await tx.review.updateMany({
+      where: { id: review.id, status: { in: ["pending_moderation", "rejected"] } },
+      data: {
+        status: "published",
+        publishedAt: now,
+        moderatedById: req.user.id,
+        moderatedAt: now,
+        moderationNote: null,
+      },
+    });
 
-  if (result.count === 0) throw alreadyModerated();
+    if (result.count === 0) throw alreadyModerated();
+
+    await recordModerationAction(tx, req.user, {
+      action: "review.approve",
+      targetType: "review",
+      targetId: review.id,
+      hospitalId: review.hospitalId,
+    });
+  });
 
   void recordSecurityEvent(req.user.id, "REVIEW_APPROVED", {
     reviewId: review.id,
     hospitalId: review.hospitalId,
   });
+
+  // The author is told in private, even if the review is shown as anonymous.
+  void notify(
+    review.userId,
+    "review.published",
+    { hospitalName: review.hospital.hospital_name },
+    { reviewId: review.id, hospitalId: review.hospitalId }
+  );
 
   return res.status(200).json({
     success: true,
@@ -146,23 +166,40 @@ export const rejectReview = async (req, res) => {
   const review = await loadForModeration(req);
   const now = new Date();
 
-  const result = await prisma.review.updateMany({
-    where: { id: review.id, status: { in: ["pending_moderation", "published"] } },
-    data: {
-      status: "rejected",
-      publishedAt: null,
-      moderatedById: req.user.id,
-      moderatedAt: now,
-      moderationNote: req.body.reason,
-    },
-  });
+  await prisma.$transaction(async (tx) => {
+    const result = await tx.review.updateMany({
+      where: { id: review.id, status: { in: ["pending_moderation", "published"] } },
+      data: {
+        status: "rejected",
+        publishedAt: null,
+        moderatedById: req.user.id,
+        moderatedAt: now,
+        moderationNote: req.body.reason,
+      },
+    });
 
-  if (result.count === 0) throw alreadyModerated();
+    if (result.count === 0) throw alreadyModerated();
+
+    await recordModerationAction(tx, req.user, {
+      action: "review.reject",
+      targetType: "review",
+      targetId: review.id,
+      hospitalId: review.hospitalId,
+      note: req.body.reason,
+    });
+  });
 
   void recordSecurityEvent(req.user.id, "REVIEW_REJECTED", {
     reviewId: review.id,
     hospitalId: review.hospitalId,
   });
+
+  void notify(
+    review.userId,
+    "review.rejected",
+    { hospitalName: review.hospital.hospital_name, reason: req.body.reason },
+    { reviewId: review.id, hospitalId: review.hospitalId }
+  );
 
   return res.status(200).json({
     success: true,

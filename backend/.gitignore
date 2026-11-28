@@ -1,4 +1,11 @@
 node_modules/
 .env
+/generated
 
-/generated/prisma
+# AI tool folders created by the old postinstall script
+.agents/
+.claude/
+.cursor/
+.devin/
+.windsurf/
+skills-lock.json

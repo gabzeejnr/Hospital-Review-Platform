@@ -44,3 +44,15 @@ export const recordLogin = async (userId, successful, failureReason = null) => {
     console.error("Could not record login activity:", error.message);
   }
 };
+
+// Like recordSecurityEvent, but a failure is NOT swallowed: use it where an action
+// must not happen without a record (for example, opening a private document).
+export const recordSecurityEventOrFail = async (userId, eventType, metadata = {}) => {
+  await prisma.securityEvent.create({
+    data: {
+      userId: userId ?? null,
+      eventType,
+      metadata: { ...getRequestContext(), ...metadata },
+    },
+  });
+};
