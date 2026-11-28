@@ -6,6 +6,7 @@ import {
   updateNotificationPreferences,
 } from "../../controllers/user.controller.js";
 import { getMyReviews } from "../../controllers/review.controller.js";
+import { getMyClaims, getMyHospitals } from "../../controllers/claim.controller.js";
 import { authenticate } from "../middleware/auth.middleware.js";
 import { sensitiveLimiter } from "../middleware/rateLimiter.js";
 import { validate } from "../middleware/validate.js";
@@ -14,6 +15,7 @@ import {
   updateNotificationPreferencesBody,
 } from "../validation/user.schemas.js";
 import { myReviewsQuery } from "../validation/review.schemas.js";
+import { myClaimsQuery } from "../validation/claim.schemas.js";
 
 const router = express.Router();
 
@@ -197,5 +199,33 @@ router.patch(
   validate({ body: updateNotificationPreferencesBody }),
   updateNotificationPreferences
 );
+
+/**
+ * @swagger
+ * /api/users/me/claims:
+ *   get:
+ *     summary: Your hospital claims and their status
+ *     tags: [Users]
+ *     security:
+ *       - bearerAuth: []
+ *     responses:
+ *       200:
+ *         description: A page of your claims
+ */
+router.get("/me/claims", validate({ query: myClaimsQuery }), getMyClaims);
+
+/**
+ * @swagger
+ * /api/users/me/hospitals:
+ *   get:
+ *     summary: The hospitals you represent
+ *     tags: [Users]
+ *     security:
+ *       - bearerAuth: []
+ *     responses:
+ *       200:
+ *         description: Your hospitals, with their real status
+ */
+router.get("/me/hospitals", getMyHospitals);
 
 export default router;

@@ -14,6 +14,8 @@ const LIMITS = {
   sensitive:           { windowMs: 15 * MINUTE, limit: 30 },  // per signed-in user
   search:              { windowMs: MINUTE,      limit: 60 },  // per IP, hospital search
   reviewCreate:        { windowMs: 24 * HOUR,   limit: 5 },   // new reviews per signed-in user per day
+  claimCreate:         { windowMs: 24 * HOUR,   limit: 5 },   // new hospital claims per signed-in user per day
+  reportCreate:        { windowMs: 24 * HOUR,   limit: 10 },  // review reports per signed-in user per day
   moderation:          { windowMs: 15 * MINUTE, limit: 300 }, // per moderator
 };
 
@@ -121,6 +123,20 @@ export const reviewCreateLimiter = createLimiter({
   ...LIMITS.reviewCreate,
   keyGenerator: (req) => req.user?.id ?? ipKey(req),
   message: "You have reached the daily limit for new reviews. Please try again tomorrow.",
+});
+
+// New hospital claims: 5 per user per day. Must come after the authenticate middleware.
+export const claimCreateLimiter = createLimiter({
+  ...LIMITS.claimCreate,
+  keyGenerator: (req) => req.user?.id ?? ipKey(req),
+  message: "You have reached the daily limit for new claims. Please try again tomorrow.",
+});
+
+// Review reports: 10 per user per day. Must come after the authenticate middleware.
+export const reportCreateLimiter = createLimiter({
+  ...LIMITS.reportCreate,
+  keyGenerator: (req) => req.user?.id ?? ipKey(req),
+  message: "You have reached the daily limit for reports. Please try again tomorrow.",
 });
 
 // Generous, because moderators work through long queues. Must come after authenticate.

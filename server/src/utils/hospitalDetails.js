@@ -5,10 +5,11 @@ import { normalizePhone, E164 } from "./phone.js";
 // spam image links on hijacked domains, social-media links belonging to an
 // unrelated company, and placeholder text such as "TBD - TBD" and "unknown".
 //
-// This module is the ONLY route from that column to the public API. It builds a
-// small, strictly checked `details` object and ignores everything else.
-// Images and social-media links are deliberately never read: they can be added
-// back once hospitals supply their own, verified ones (task 6c).
+// This module is the ONLY route from that column to the public API. It builds
+// the strictly checked `contact`, `services` and `info` parts of a hospital and
+// ignores everything else. Images and social-media links are deliberately never
+// read: social media comes back only for claimed hospitals, typed in by the
+// hospital itself (task 6c).
 
 const MAX_ITEMS = 30;
 const MAX_TEXT = 100;
@@ -75,9 +76,11 @@ const cleanWebsite = (value) => {
   }
 };
 
+const byLetters = (a, b) => a.localeCompare(b, "en", { sensitivity: "base" });
+
 // Accepts an array (or a single value), cleans each item, removes duplicates
-// regardless of letter case, and caps the length.
-const cleanList = (value, clean = cleanText) => {
+// regardless of letter case, optionally sorts A-Z, and caps the length.
+const cleanList = (value, clean = cleanText, { sort = false } = {}) => {
   const items = Array.isArray(value) ? value : value == null ? [] : [value];
   const seen = new Set();
   const result = [];
@@ -91,36 +94,34 @@ const cleanList = (value, clean = cleanText) => {
 
     seen.add(key);
     result.push(cleaned);
-
-    if (result.length >= MAX_ITEMS) break;
   }
 
-  return result;
+  if (sort) result.sort(byLetters);
+
+  return result.slice(0, MAX_ITEMS);
 };
 
-// Returns the public `details` object, or undefined when nothing usable exists.
+// Always returns the same three keys, so the frontend never has to check
+// whether a part exists. Missing text is null and missing lists are [].
+// The lists keep the names used in the approved shape (phoneNumber, email,
+// insurance, accreditation) but are arrays, because a hospital can have several.
 export const publicHospitalDetails = (data) => {
-  if (!isObject(data)) return undefined;
+  const source = isObject(data) ? data : {};
+  const contact = isObject(source.contact) ? source.contact : {};
+  const info = isObject(source.info) ? source.info : {};
 
-  const contact = isObject(data.contact) ? data.contact : {};
-  const info = isObject(data.info) ? data.info : {};
-
-  const details = {
-    website: cleanWebsite(contact.website),
-    phoneNumbers: cleanList(contact.phone_number, cleanPhone),
-    emails: cleanList(contact.email, cleanEmail),
-    openingHours: cleanText(info.hours, 200),
-    services: cleanList(data.services),
-    facilities: cleanList(info.facilities),
-    insurance: cleanList(info.insurance),
-    accreditation: cleanList(info.accreditation),
+  return {
+    contact: {
+      phoneNumber: cleanList(contact.phone_number, cleanPhone),
+      email: cleanList(contact.email, cleanEmail),
+      website: cleanWebsite(contact.website),
+    },
+    services: cleanList(source.services),
+    info: {
+      hours: cleanText(info.hours, 200),
+      facilities: cleanList(info.facilities, cleanText, { sort: true }),
+      insurance: cleanList(info.insurance),
+      accreditation: cleanList(info.accreditation),
+    },
   };
-
-  const result = Object.fromEntries(
-    Object.entries(details).filter(([, value]) =>
-      Array.isArray(value) ? value.length > 0 : value !== null
-    )
-  );
-
-  return Object.keys(result).length > 0 ? result : undefined;
 };

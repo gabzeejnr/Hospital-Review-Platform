@@ -3,3 +3,9 @@ node_modules/
 *.zip
 
 /generated/prisma
+# Local AI coding-agent configuration and skills
+**/.agents/
+**/.claude/
+**/.cursor/
+**/.devin/
+**/.windsurf/

@@ -3,6 +3,11 @@ import express from "express";
 import swaggerUi from "swagger-ui-express";
 import authRoutes from "./src/routes/authRoutes.js";
 import userRoutes from "./src/routes/userRoutes.js";
+import claimRoutes from "./src/routes/claimRoutes.js";
+import notificationRoutes from "./src/routes/notificationRoutes.js";
+import responseRoutes from "./src/routes/responseRoutes.js";
+import adminRoutes from "./src/routes/adminRoutes.js";
+import { startMailWorker } from "./src/services/mailWorker.js";
 import hospitalRoutes from "./src/routes/hospitalRoutes.js";
 import locationRoutes from "./src/routes/locationRoutes.js";
 import reviewRoutes from "./src/routes/reviewRoutes.js";
@@ -79,11 +84,24 @@ app.use("/api/auth", noStore, authRoutes);
 // Profile and preferences (personal data: never cached)
 app.use("/api/users", noStore, userRoutes);
 
+// In-app notifications (signed-in users)
+app.use("/api/notifications", noStore, notificationRoutes);
+
+// Claims, verification requests and social links (signed-in users)
+app.use("/api", noStore, claimRoutes);
+
+// Account management (administrators only)
+app.use("/api/admin", noStore, adminRoutes);
+
+// Review reports and hospital responses (signed-in users)
+app.use("/api", noStore, responseRoutes);
+
 // Unknown routes -> 404, then the central error handler (must stay last)
 app.use(notFoundHandler);
 app.use(errorHandler);
 
 app.listen(PORT, () => {
+  startMailWorker();
   console.log(`Server running at http://localhost:${PORT}`);
   console.log(`Swagger docs at http://localhost:${PORT}/api-docs`);
 });

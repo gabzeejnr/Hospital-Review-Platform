@@ -27,11 +27,11 @@ const MAX_VISIT_AGE_YEARS = 10;
 const INVISIBLE = /[\u200B\u2060\uFEFF\u202A-\u202E\u2066-\u2069]/gu;
 
 // One line: control and invisible characters removed, spaces collapsed.
-const oneLine = (value) =>
+export const oneLine = (value) =>
   value.replace(/[\p{Cc}]/gu, " ").replace(INVISIBLE, "").replace(/\s+/g, " ").trim();
 
 // Several lines: keeps line breaks, but no more than one blank line in a row.
-const multiLine = (value) =>
+export const multiLine = (value) =>
   value
     .replace(/\r\n?/g, "\n")
     .replace(/[^\P{Cc}\n]/gu, "")
@@ -41,7 +41,7 @@ const multiLine = (value) =>
     .replace(/\n{3,}/g, "\n\n")
     .trim();
 
-const NO_LINKS = /\b(?:https?:\/\/|www\.)\S+/i;
+export const NO_LINKS = /\b(?:https?:\/\/|www\.)\S+/i;
 
 // ---------------------------------------------------------------------------
 // Fields

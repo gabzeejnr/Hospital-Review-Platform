@@ -47,8 +47,8 @@ export const listHospitalsQuery = z
     lng: coordinateSchema("Longitude", 180).optional(),
     radiusKm: queryIntSchema("Radius", { min: 1, max: 100 }),
     sort: z
-      .enum(["name", "newest", "rating", "distance"], {
-        error: "Sort must be name, newest, rating or distance",
+      .enum(["name", "newest", "rating", "distance", "relevance"], {
+        error: "Sort must be name, newest, rating, distance or relevance",
       })
       .optional(),
     page: queryIntSchema("Page", { min: 1, max: 100000, fallback: 1 }),
