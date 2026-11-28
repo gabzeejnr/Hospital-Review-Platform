@@ -1,0 +1,494 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+/// This model contains row level security and requires additional setup for migrations. Visit https://pris.ly/d/row-level-security for more info.
+model hospital_types {
+  id        Int         @id @default(autoincrement())
+  name      String      @unique @db.VarChar(100)
+  hospitals hospitals[]
+}
+
+/// This table contains check constraints and requires additional setup for migrations. Visit https://pris.ly/d/check-constraints for more info.
+/// This model contains row level security and requires additional setup for migrations. Visit https://pris.ly/d/row-level-security for more info.
+model hospitals {
+  id                        String                        @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  hospital_name             String                        @db.VarChar(255)
+  description               String?
+  hospital_type_id          Int?
+  ownership                 String                        @db.VarChar(20)
+  year_established          Int?                          @db.SmallInt
+  state_id                  Int
+  lga_id                    Int?
+  city                      String                        @db.VarChar(150)
+  address                   String?
+  latitude                  Decimal?                      @db.Decimal(10, 7)
+  longitude                 Decimal?                      @db.Decimal(10, 7)
+  verification_status       String                        @default("unclaimed") @db.VarChar(30)
+  accessibility_information String?
+  hospital_data             Json                          @default("{}")
+  // Typed in by the hospital's own representatives (task 6c); never from hospital_data.
+  social_media              Json                          @default("{}")
+  created_at                DateTime                      @default(now()) @db.Timestamptz(6)
+  updated_at                DateTime                      @default(now()) @db.Timestamptz(6)
+  hospital_types            hospital_types?               @relation(fields: [hospital_type_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  lgas                      lgas?                         @relation(fields: [lga_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  states                    states                        @relation(fields: [state_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  reviews                   Review[]
+  rating_stats              HospitalRatingStats?
+  claims                    HospitalClaim[]
+  documents                 HospitalDocument[]
+  review_responses          ReviewResponse[]
+  staff                     HospitalStaff[]
+  verification_requests     HospitalVerificationRequest[]
+
+  @@unique([state_id, hospital_name, city], map: "hospitals_state_name_city_unique")
+}
+
+/// This model contains row level security and requires additional setup for migrations. Visit https://pris.ly/d/row-level-security for more info.
+model lgas {
+  id        Int         @id @default(autoincrement())
+  state_id  Int
+  name      String      @db.VarChar(120)
+  hospitals hospitals[]
+  states    states      @relation(fields: [state_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+
+  @@unique([state_id, name])
+}
+
+/// This model contains row level security and requires additional setup for migrations. Visit https://pris.ly/d/row-level-security for more info.
+model states {
+  id        Int         @id @default(autoincrement())
+  name      String      @unique @db.VarChar(100)
+  hospitals hospitals[]
+  lgas      lgas[]
+}
+
+enum UserRole {
+  USER
+  HOSPITAL_REP
+  MODERATOR
+  SUPPORT
+  ADMIN
+
+  @@map("user_role")
+}
+
+enum Theme {
+  LIGHT
+  DARK
+  SYSTEM
+
+  @@map("theme")
+}
+
+model User {
+  id              String    @id @db.Uuid
+  email           String    @unique @db.VarChar(255)
+  displayName     String?   @map("display_name") @db.VarChar(100)
+  username        String?   @unique @db.VarChar(50)
+  avatarUrl       String?   @map("avatar_url")
+  phoneNumber     String?   @map("phone_number") @db.VarChar(30)
+  emailVerifiedAt DateTime? @map("email_verified_at") @db.Timestamptz(6)
+
+  isActive Boolean  @default(true) @map("is_active")
+  role     UserRole @default(USER)
+
+  language String @default("en") @db.VarChar(10)
+  timezone String @default("Africa/Lagos") @db.VarChar(100)
+  theme    Theme  @default(SYSTEM)
+
+  preferences        Json?
+  privacySettings    Json?    @map("privacy_settings")
+  locationEnabled    Boolean  @default(false) @map("location_enabled")
+  preferredLatitude  Decimal? @map("preferred_latitude") @db.Decimal(10, 7)
+  preferredLongitude Decimal? @map("preferred_longitude") @db.Decimal(10, 7)
+
+  createdAt   DateTime  @default(now()) @map("created_at") @db.Timestamptz(6)
+  updatedAt   DateTime  @default(now()) @updatedAt @map("updated_at") @db.Timestamptz(6)
+  lastLoginAt DateTime? @map("last_login_at") @db.Timestamptz(6)
+
+  // Set when an administrator suspends the account (isActive is what blocks it).
+  suspendedAt      DateTime? @map("suspended_at") @db.Timestamptz(6)
+  suspensionReason String?   @map("suspension_reason") @db.VarChar(500)
+
+  notificationSettings  NotificationPreference?
+  loginActivities       LoginActivity[]
+  securityEvents        SecurityEvent[]
+  reviews               Review[]                      @relation("ReviewAuthor")
+  moderatedReviews      Review[]                      @relation("ReviewModerator")
+  claims                HospitalClaim[]               @relation("ClaimClaimant")
+  reviewedClaims        HospitalClaim[]               @relation("ClaimReviewer")
+  staffRoles            HospitalStaff[]
+  verificationRequests  HospitalVerificationRequest[] @relation("VerificationRequester")
+  reviewedVerifications HospitalVerificationRequest[] @relation("VerificationReviewer")
+  HospitalDocument      HospitalDocument[]
+  Notification          Notification[]
+  EmailOutbox           EmailOutbox[]
+  reportsMade           ReviewReport[]                @relation("ReportReporter")
+  reportsHandled        ReviewReport[]                @relation("ReportHandler")
+  responsesWritten      ReviewResponse[]              @relation("ResponseAuthor")
+  responsesModerated    ReviewResponse[]              @relation("ResponseModerator")
+
+  @@index([role])
+  @@map("users")
+}
+
+model NotificationPreference {
+  id     String @id @default(uuid()) @db.Uuid
+  userId String @unique @map("user_id") @db.Uuid
+
+  emailNotifications Boolean @default(true) @map("email_notifications")
+  pushNotifications  Boolean @default(true) @map("push_notifications")
+  inAppNotifications Boolean @default(true) @map("in_app_notifications")
+
+  reviewUpdates     Boolean @default(true) @map("review_updates")
+  hospitalResponses Boolean @default(true) @map("hospital_responses")
+  claimUpdates      Boolean @default(true) @map("claim_updates")
+  promotionalEmails Boolean @default(false) @map("promotional_emails")
+  securityAlerts    Boolean @default(true) @map("security_alerts")
+
+  createdAt DateTime @default(now()) @map("created_at") @db.Timestamptz(6)
+  updatedAt DateTime @default(now()) @updatedAt @map("updated_at") @db.Timestamptz(6)
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("notification_preferences")
+}
+
+model LoginActivity {
+  id            String   @id @default(uuid()) @db.Uuid
+  userId        String?  @map("user_id") @db.Uuid
+  successful    Boolean  @default(true)
+  failureReason String?  @map("failure_reason") @db.VarChar(255)
+  createdAt     DateTime @default(now()) @map("created_at") @db.Timestamptz(6)
+
+  user User? @relation(fields: [userId], references: [id], onDelete: SetNull)
+
+  @@index([userId, createdAt])
+  @@index([createdAt])
+  @@map("login_activities")
+}
+
+model SecurityEvent {
+  id     String  @id @default(uuid()) @db.Uuid
+  userId String? @map("user_id") @db.Uuid
+
+  eventType String @map("event_type") @db.VarChar(100)
+  metadata  Json?
+
+  createdAt DateTime @default(now()) @map("created_at") @db.Timestamptz(6)
+
+  user User? @relation(fields: [userId], references: [id], onDelete: SetNull)
+
+  @@index([userId, createdAt])
+  @@index([eventType])
+  @@map("security_events")
+}
+
+model Review {
+  id             String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  hospitalId     String    @map("hospital_id") @db.Uuid
+  // null once the author has deleted their account (the review stays, anonymised)
+  userId         String?   @map("user_id") @db.Uuid
+  title          String    @db.VarChar(150)
+  comment        String
+  overallRating  Int       @map("overall_rating") @db.SmallInt
+  visitedOn      DateTime? @map("visited_on") @db.Date
+  department     String?   @db.VarChar(100)
+  isAnonymous    Boolean   @default(false) @map("is_anonymous")
+  // pending_moderation | published | rejected | removed
+  status         String    @default("pending_moderation") @db.VarChar(30)
+  publishedAt    DateTime? @map("published_at") @db.Timestamptz(6)
+  moderatedById  String?   @map("moderated_by") @db.Uuid
+  moderatedAt    DateTime? @map("moderated_at") @db.Timestamptz(6)
+  moderationNote String?   @map("moderation_note") @db.VarChar(500)
+  createdAt      DateTime  @default(now()) @map("created_at") @db.Timestamptz(6)
+  updatedAt      DateTime  @default(now()) @updatedAt @map("updated_at") @db.Timestamptz(6)
+
+  hospital  hospitals       @relation(fields: [hospitalId], references: [id], onDelete: Restrict)
+  author    User?           @relation("ReviewAuthor", fields: [userId], references: [id], onDelete: SetNull)
+  moderator User?           @relation("ReviewModerator", fields: [moderatedById], references: [id], onDelete: SetNull)
+  ratings   ReviewRating[]
+  reports   ReviewReport[]
+  response  ReviewResponse?
+
+  @@unique([userId, hospitalId], map: "reviews_user_hospital_unique")
+  @@index([hospitalId, status, publishedAt(sort: Desc)], map: "reviews_hospital_status_published_idx")
+  @@index([userId], map: "reviews_user_idx")
+  @@index([status, createdAt], map: "reviews_status_created_idx")
+  @@map("reviews")
+}
+
+model ReviewRating {
+  id       String @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  reviewId String @map("review_id") @db.Uuid
+  // one of: staff_professionalism, waiting_time, cleanliness, communication,
+  // service_experience, facility_quality, billing_transparency, accessibility
+  category String @db.VarChar(40)
+  rating   Int    @db.SmallInt
+
+  review Review @relation(fields: [reviewId], references: [id], onDelete: Cascade)
+
+  @@unique([reviewId, category], map: "review_ratings_review_category_unique")
+  @@index([category, rating], map: "review_ratings_category_idx")
+  @@map("review_ratings")
+}
+
+// One row per hospital, kept up to date by database triggers (see the
+// 20261122_add_reviews migration). Never written by the application.
+model HospitalRatingStats {
+  hospitalId    String   @id @map("hospital_id") @db.Uuid
+  reviewCount   Int      @default(0) @map("review_count")
+  averageRating Decimal  @default(0) @map("average_rating") @db.Decimal(3, 2)
+  rankingScore  Decimal  @default(0) @map("ranking_score") @db.Decimal(4, 3)
+  updatedAt     DateTime @default(now()) @map("updated_at") @db.Timestamptz(6)
+
+  hospital hospitals @relation(fields: [hospitalId], references: [id], onDelete: Cascade)
+
+  @@index([rankingScore(sort: Desc), reviewCount(sort: Desc)], map: "hospital_rating_stats_ranking_idx")
+  @@map("hospital_rating_stats")
+}
+
+// "I work for this hospital" (task 6c). One open claim per person per hospital:
+// a partial unique index in the migration enforces it.
+model HospitalClaim {
+  id            String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  hospitalId    String    @map("hospital_id") @db.Uuid
+  userId        String    @map("user_id") @db.Uuid
+  jobTitle      String    @map("job_title") @db.VarChar(100)
+  officialEmail String?   @map("official_email") @db.VarChar(254)
+  officialPhone String?   @map("official_phone") @db.VarChar(20)
+  message       String?   @db.VarChar(1000)
+  // pending | approved | rejected | withdrawn
+  status        String    @default("pending") @db.VarChar(20)
+  reviewedById  String?   @map("reviewed_by") @db.Uuid
+  reviewedAt    DateTime? @map("reviewed_at") @db.Timestamptz(6)
+  reviewNote    String?   @map("review_note") @db.VarChar(500)
+  createdAt     DateTime  @default(now()) @map("created_at") @db.Timestamptz(6)
+  updatedAt     DateTime  @default(now()) @updatedAt @map("updated_at") @db.Timestamptz(6)
+
+  hospital  hospitals          @relation(fields: [hospitalId], references: [id], onDelete: Cascade)
+  claimant  User               @relation("ClaimClaimant", fields: [userId], references: [id], onDelete: Cascade)
+  reviewer  User?              @relation("ClaimReviewer", fields: [reviewedById], references: [id], onDelete: SetNull)
+  staff     HospitalStaff[]
+  documents HospitalDocument[]
+
+  @@index([status, createdAt], map: "hospital_claims_queue_idx")
+  @@index([userId], map: "hospital_claims_user_idx")
+  @@index([hospitalId, status], map: "hospital_claims_hospital_idx")
+  @@map("hospital_claims")
+}
+
+// People whose claim was approved: they may act for the hospital.
+model HospitalStaff {
+  id         String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  hospitalId String   @map("hospital_id") @db.Uuid
+  userId     String   @map("user_id") @db.Uuid
+  jobTitle   String?  @map("job_title") @db.VarChar(100)
+  isActive   Boolean  @default(true) @map("is_active")
+  claimId    String?  @map("claim_id") @db.Uuid
+  createdAt  DateTime @default(now()) @map("created_at") @db.Timestamptz(6)
+  updatedAt  DateTime @default(now()) @updatedAt @map("updated_at") @db.Timestamptz(6)
+
+  hospital hospitals      @relation(fields: [hospitalId], references: [id], onDelete: Cascade)
+  user     User           @relation(fields: [userId], references: [id], onDelete: Cascade)
+  claim    HospitalClaim? @relation(fields: [claimId], references: [id], onDelete: SetNull)
+
+  @@unique([hospitalId, userId], map: "hospital_staff_unique")
+  @@index([userId, isActive], map: "hospital_staff_user_idx")
+  @@map("hospital_staff")
+}
+
+// A representative's request for the "verified" badge. One open request per
+// hospital: a partial unique index in the migration enforces it.
+model HospitalVerificationRequest {
+  id                 String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  hospitalId         String    @map("hospital_id") @db.Uuid
+  requestedById      String?   @map("requested_by") @db.Uuid
+  // cac | mdcn | state_ministry | other
+  registrationBody   String    @map("registration_body") @db.VarChar(30)
+  registrationNumber String    @map("registration_number") @db.VarChar(50)
+  officialEmail      String?   @map("official_email") @db.VarChar(254)
+  message            String?   @db.VarChar(1000)
+  // pending | approved | rejected
+  status             String    @default("pending") @db.VarChar(20)
+  reviewedById       String?   @map("reviewed_by") @db.Uuid
+  reviewedAt         DateTime? @map("reviewed_at") @db.Timestamptz(6)
+  reviewNote         String?   @map("review_note") @db.VarChar(500)
+  createdAt          DateTime  @default(now()) @map("created_at") @db.Timestamptz(6)
+  updatedAt          DateTime  @default(now()) @updatedAt @map("updated_at") @db.Timestamptz(6)
+
+  hospital  hospitals          @relation(fields: [hospitalId], references: [id], onDelete: Cascade)
+  requester User?              @relation("VerificationRequester", fields: [requestedById], references: [id], onDelete: SetNull)
+  reviewer  User?              @relation("VerificationReviewer", fields: [reviewedById], references: [id], onDelete: SetNull)
+  documents HospitalDocument[]
+
+  @@index([status, createdAt], map: "hospital_verification_queue_idx")
+  @@map("hospital_verification_requests")
+}
+
+// A file uploaded as proof for a claim or a verification request (task 6c).
+// The file itself lives in a private Supabase Storage bucket; this row records
+// what it is and where. Exactly one of claimId / verificationRequestId is set
+// (a CHECK constraint in the migration enforces it).
+model HospitalDocument {
+  id                    String    @id @db.Uuid
+  hospitalId            String    @map("hospital_id") @db.Uuid
+  uploadedById          String?   @map("uploaded_by") @db.Uuid
+  claimId               String?   @map("claim_id") @db.Uuid
+  verificationRequestId String?   @map("verification_request_id") @db.Uuid
+  // registration_certificate | operating_licence | letter_of_authority | staff_id | other
+  documentType          String    @map("document_type") @db.VarChar(40)
+  originalName          String    @map("original_name") @db.VarChar(150)
+  // application/pdf | image/jpeg | image/png
+  mimeType              String    @map("mime_type") @db.VarChar(50)
+  sizeBytes             Int       @map("size_bytes")
+  // Never sent to the client: it is the file's address inside the private bucket.
+  storagePath           String    @unique @map("storage_path") @db.VarChar(300)
+  // awaiting_upload | uploaded | purged
+  status                String    @default("awaiting_upload") @db.VarChar(20)
+  uploadedAt            DateTime? @map("uploaded_at") @db.Timestamptz(6)
+  deleteAfter           DateTime? @map("delete_after") @db.Timestamptz(6)
+  purgedAt              DateTime? @map("purged_at") @db.Timestamptz(6)
+  createdAt             DateTime  @default(now()) @map("created_at") @db.Timestamptz(6)
+  updatedAt             DateTime  @default(now()) @updatedAt @map("updated_at") @db.Timestamptz(6)
+
+  hospital            hospitals                    @relation(fields: [hospitalId], references: [id], onDelete: Cascade)
+  uploader            User?                        @relation(fields: [uploadedById], references: [id], onDelete: SetNull)
+  claim               HospitalClaim?               @relation(fields: [claimId], references: [id], onDelete: Cascade)
+  verificationRequest HospitalVerificationRequest? @relation(fields: [verificationRequestId], references: [id], onDelete: Cascade)
+
+  @@index([claimId], map: "hospital_documents_claim_idx")
+  @@index([verificationRequestId], map: "hospital_documents_verification_idx")
+  @@map("hospital_documents")
+}
+
+// What a person sees in the app's notification list (task: notifications).
+// Created together with an email_outbox row, subject to the person's settings in
+// notification_preferences.
+model Notification {
+  id        String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  userId    String    @map("user_id") @db.Uuid
+  type      String    @db.VarChar(50)
+  title     String    @db.VarChar(150)
+  body      String    @db.VarChar(1000)
+  data      Json      @default("{}")
+  readAt    DateTime? @map("read_at") @db.Timestamptz(6)
+  createdAt DateTime  @default(now()) @map("created_at") @db.Timestamptz(6)
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, createdAt(sort: Desc)], map: "notifications_user_created_idx")
+  @@map("notifications")
+}
+
+// The email queue. A background worker (src/services/mailWorker.js) sends these
+// through SMTP and retries failures. A partial index in the migration covers the
+// worker's "what is due?" query.
+model EmailOutbox {
+  id            String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  userId        String?   @map("user_id") @db.Uuid
+  toEmail       String    @map("to_email") @db.VarChar(254)
+  type          String    @db.VarChar(50)
+  subject       String    @db.VarChar(200)
+  textBody      String    @map("text_body")
+  htmlBody      String    @map("html_body")
+  // pending | sending | sent | failed | expired
+  status        String    @default("pending") @db.VarChar(20)
+  attempts      Int       @default(0)
+  nextAttemptAt DateTime  @default(now()) @map("next_attempt_at") @db.Timestamptz(6)
+  lastError     String?   @map("last_error") @db.VarChar(300)
+  sentAt        DateTime? @map("sent_at") @db.Timestamptz(6)
+  createdAt     DateTime  @default(now()) @map("created_at") @db.Timestamptz(6)
+  updatedAt     DateTime  @default(now()) @updatedAt @map("updated_at") @db.Timestamptz(6)
+
+  user User? @relation(fields: [userId], references: [id], onDelete: SetNull)
+
+  @@index([status, createdAt], map: "email_outbox_status_idx")
+  @@map("email_outbox")
+}
+
+// "This review breaks the rules" (task 6d). Many people can report one review;
+// moderators decide once per review. A report alone never hides a review.
+model ReviewReport {
+  id                       String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  reviewId                 String    @map("review_id") @db.Uuid
+  reporterId               String?   @map("reporter_id") @db.Uuid
+  // spam | abusive_language | fake_review | conflict_of_interest | privacy_violation | irrelevant | other
+  reason                   String    @db.VarChar(30)
+  details                  String?   @db.VarChar(1000)
+  reporterIsRepresentative Boolean   @default(false) @map("reporter_is_representative")
+  // open | investigating | upheld | dismissed
+  status                   String    @default("open") @db.VarChar(20)
+  escalatedAt              DateTime? @map("escalated_at") @db.Timestamptz(6)
+  handledById              String?   @map("handled_by") @db.Uuid
+  handledAt                DateTime? @map("handled_at") @db.Timestamptz(6)
+  resolutionNote           String?   @map("resolution_note") @db.VarChar(500)
+  createdAt                DateTime  @default(now()) @map("created_at") @db.Timestamptz(6)
+  updatedAt                DateTime  @default(now()) @updatedAt @map("updated_at") @db.Timestamptz(6)
+
+  review   Review @relation(fields: [reviewId], references: [id], onDelete: Cascade)
+  reporter User?  @relation("ReportReporter", fields: [reporterId], references: [id], onDelete: SetNull)
+  handler  User?  @relation("ReportHandler", fields: [handledById], references: [id], onDelete: SetNull)
+
+  @@unique([reviewId, reporterId], map: "review_reports_unique")
+  @@index([status, createdAt], map: "review_reports_queue_idx")
+  @@index([reviewId, status], map: "review_reports_review_idx")
+  @@map("review_reports")
+}
+
+// A hospital representative's public reply to a review. One per review.
+model ReviewResponse {
+  id             String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  reviewId       String    @unique @map("review_id") @db.Uuid
+  hospitalId     String    @map("hospital_id") @db.Uuid
+  authorId       String?   @map("author_id") @db.Uuid
+  body           String    @db.VarChar(1500)
+  // pending_moderation | published | rejected
+  status         String    @default("pending_moderation") @db.VarChar(30)
+  publishedAt    DateTime? @map("published_at") @db.Timestamptz(6)
+  moderatedById  String?   @map("moderated_by") @db.Uuid
+  moderatedAt    DateTime? @map("moderated_at") @db.Timestamptz(6)
+  moderationNote String?   @map("moderation_note") @db.VarChar(500)
+  createdAt      DateTime  @default(now()) @map("created_at") @db.Timestamptz(6)
+  updatedAt      DateTime  @default(now()) @updatedAt @map("updated_at") @db.Timestamptz(6)
+
+  review    Review    @relation(fields: [reviewId], references: [id], onDelete: Cascade)
+  hospital  hospitals @relation(fields: [hospitalId], references: [id], onDelete: Cascade)
+  author    User?     @relation("ResponseAuthor", fields: [authorId], references: [id], onDelete: SetNull)
+  moderator User?     @relation("ResponseModerator", fields: [moderatedById], references: [id], onDelete: SetNull)
+
+  @@index([status, createdAt], map: "review_responses_queue_idx")
+  @@index([hospitalId, status], map: "review_responses_hospital_idx")
+  @@map("review_responses")
+}
+
+// One row for every action a moderator or admin takes. Append-only: a database
+// trigger refuses changes and deletes. No foreign keys on purpose, so the record
+// outlives the people and reviews it mentions.
+model ModerationAction {
+  id         String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  actorId    String?  @map("actor_id") @db.Uuid
+  actorName  String?  @map("actor_name") @db.VarChar(100)
+  actorRole  String?  @map("actor_role") @db.VarChar(20)
+  // e.g. review.approve, report.uphold, claim.reject, hospital.suspend
+  action     String   @db.VarChar(50)
+  // review | response | claim | verification | hospital
+  targetType String   @map("target_type") @db.VarChar(30)
+  targetId   String   @map("target_id") @db.Uuid
+  hospitalId String?  @map("hospital_id") @db.Uuid
+  note       String?  @db.VarChar(500)
+  createdAt  DateTime @default(now()) @map("created_at") @db.Timestamptz(6)
+
+  @@index([targetType, targetId, createdAt(sort: Desc)], map: "moderation_actions_target_idx")
+  @@index([actorId, createdAt(sort: Desc)], map: "moderation_actions_actor_idx")
+  @@index([createdAt(sort: Desc)], map: "moderation_actions_created_idx")
+  @@map("moderation_actions")
+}

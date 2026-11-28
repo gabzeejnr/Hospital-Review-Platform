@@ -1,0 +1,56 @@
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model hospital_types {
+  id        Int         @id @default(autoincrement())
+  name      String      @unique @db.VarChar(100)
+  hospitals hospitals[]
+}
+
+model hospitals {
+  id                         String         @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  hospital_name              String         @db.VarChar(255)
+  description                String?
+  hospital_type_id           Int?
+  ownership                  String         @db.VarChar(20)
+  year_established           Int?           @db.SmallInt
+  state_id                   Int
+  lga_id                     Int?
+  city                       String         @db.VarChar(150)
+  address                    String?
+  latitude                   Decimal?       @db.Decimal(10, 7)
+  longitude                  Decimal?       @db.Decimal(10, 7)
+  verification_status        String         @default("unclaimed") @db.VarChar(30)
+  accessibility_information String?
+  hospital_data              Json           @default("{}")
+  created_at                 DateTime       @default(now()) @db.Timestamptz(6)
+  updated_at                 DateTime       @default(now()) @db.Timestamptz(6)
+  hospital_types             hospital_types? @relation(fields: [hospital_type_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  lgas                       lgas?           @relation(fields: [lga_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  states                     states          @relation(fields: [state_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+
+  @@unique([state_id, hospital_name, city], map: "hospitals_state_name_city_unique")
+}
+
+model lgas {
+  id        Int         @id @default(autoincrement())
+  state_id  Int
+  name      String      @db.VarChar(120)
+  hospitals hospitals[]
+  states    states      @relation(fields: [state_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+
+  @@unique([state_id, name])
+}
+
+model states {
+  id        Int         @id @default(autoincrement())
+  name      String      @unique @db.VarChar(100)
+  hospitals hospitals[]
+  lgas      lgas[]
+}
